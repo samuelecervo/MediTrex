@@ -128,3 +128,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# DB: data folder 
+./containers/postgres/data/*.*
+**containers/postgres/data/*
+containers/postgres/data

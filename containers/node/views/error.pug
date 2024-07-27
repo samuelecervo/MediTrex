@@ -1,5 +1,6 @@
-head  
-    link(rel="stylesheet", href="/stylesheets/style.css")
-content
-  // ERROR PAGE
-  h1 ERRORE
+extends layout
+
+block content
+  h1= message
+  h2 Impossibile accedere alla pagina 
+  a(href='/') Clicca qui per tornare alla homepage

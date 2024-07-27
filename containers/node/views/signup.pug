@@ -1,0 +1,116 @@
+extends layout
+
+block head
+    title SignUp
+    link(rel="stylesheet" href="/stylesheets/form.css")
+    script(rel="javascript" src="/javascripts/signUpScripts.js")
+
+block content
+    .container-fluid.px-4
+        .divForm
+            .logoForm
+                img(src='/assets/img/logoMedi.png')
+            h4 Register now!
+            .chooseUser
+                button#patientBTN.btn.btn-primary.mb-2.butt(type='button') I'm a patient
+                button#doctorBTN.btn.btn-primary.mb-2.butt(type='button') I'm a doctor
+            
+            //PATIENT FORM
+            form#patientSignUp(action="/user/signup" method='POST')
+                .form-row
+                    input#PisDoctor(type='int' name='isDoctor' value='0' hidden)
+                    .form-col
+                        .form-group
+                            label(for='formSignUpName') Name
+                            input#formSignUpName.form-control(type='text' name='name' placeholder='Insert your name' required)
+                        .form-group
+                            label(for='formSignUpSurname') Surname
+                            input#formSignUpSurname.form-control(type='text' name='surname' placeholder='Insert your surname' required)
+                        .form-group
+                            label(for='formSignUpBirth') Date of birth
+                            input#formSignUpBirth.form-control(type='date' name='dateofbirth' required)
+                        .form-group
+                            label(for='formSignUpGender' style='margin-right:30px;') Gender
+                            br
+                            #formSignUpGender.form-check.form-check-inline
+                                input#genderRadioMale.form-check-input(name='gender' type='radio' value='M' required)
+                                label.form-check-label(for='genderMale') Male
+                            .form-check.form-check-inline
+                                input#genderRadioFemale.form-check-input(name='gender' type='radio' value='F' required)
+                                label.form-check-label(for='genderFemale') Female
+                            .form-check.form-check-inline
+                                input#genderRadioOther.form-check-input(name='gender' type='radio' value='O' required)
+                                label.form-check-label(for='genderOther') Other
+                    .form-col
+                        .form-group
+                            label(for='formSignUpTaxID') Tax ID code
+                            input#formSignUpTaxID.form-control(type='text' name='taxidcode' placeholder='Insert your Tax ID code' required pattern="^[a-zA-Z0-9]{16}$")
+                        .form-group
+                            label(for='formSignUpEmail') E-mail
+                            input#formSignUpEmail.form-control(type='email' name='email' placeholder='Insert your e-mail' required)
+                        .form-group
+                            label(for='formSignUpPassword') Password
+                            input#formSignUpPassword.form-control(type='password' name='password' placeholder='Choose a password' required)
+                        .form-group
+                            label(for='formSignUpConfPassword') Confirm password
+                            input#formSignUpConfPassword.form-control(type='password' name='confpassword' placeholder='Confirm your password' required)
+                .col-auto
+                    button.btn.btn-primary.mb-2.butt.signButton(type='submit') Sign Up
+
+            // DOCTOR FORM
+            form#doctorSignUp(action="/user/signup" method='POST')
+                .form-body
+                    input#DisDoctor(type='int' name='disabledBTN' value='1' hidden)
+                    .form-col
+                        .form-group
+                            label(for='formSignUpName') Name
+                            input#formSignUpName.form-control(type='text' name='name' placeholder='Insert your name' required)
+                        .form-group
+                            label(for='formSignUpSurname') Surname
+                            input#formSignUpSurname.form-control(type='text' name='surname' placeholder='Insert your surname' required)
+                        .form-group
+                            label(for='formSignUpBirth') Date of birth
+                            input#formSignUpBirth.form-control(type='date' name='dateofbirth' required)
+                        .form-group
+                            label(for='formSignUpTaxID') Tax ID code
+                            input#formSignUpTaxID.form-control(type='text' name='taxidcode' placeholder='Insert your Tax ID code' required pattern="^[a-zA-Z0-9]{16}$")
+                        .form-group
+                            label(for='formSignUpGender') Gender
+                            br
+                            #formSignUpGender.form-check.form-check-inline
+                                input#genderRadioMale.form-check-input(name='gender' type='radio' value='M' required)
+                                label.form-check-label(for='genderMale') Male
+                            .form-check.form-check-inline
+                                input#genderRadioFemale.form-check-input(name='gender' type='radio' value='F' required)
+                                label.form-check-label(for='genderFemale') Female
+                            .form-check.form-check-inline
+                                input#genderRadioOther.form-check-input(name='gender' type='radio' value='O' required)
+                                label.form-check-label(for='genderOther') Other
+                    .form-col
+                        .form-group
+                            label(for='formSignUpLicense') Medical License ID
+                            input#formSignUpLicense.form-control(type='text' name='medicallicenseid' placeholder='Insert your medical license' required)
+                        .form-group
+                            label(for='formSignUpSpecialty') Specialty
+                            select#formSignUpSpecialty.form-select(name="specialty" aria-label='Areas')
+                                option(value='' selected) Choose a specialty...
+                                each val in specialtyList
+                                    option(value=val.specialtyid label=val.specialtyname)
+                        .form-group
+                            label(for='formSignUpEmail') E-mail
+                            input#formSignUpEmail.form-control(type='email' name='email' placeholder='Insert your e-mail' required)
+                        .form-group
+                            label(for='formSignUpPassword') Password
+                            input#formSignUpPassword.form-control(type='password' name='password' placeholder='Choose a password' required)
+                        .form-group
+                            label(for='formSignUpConfPassword') Confirm password
+                            input#formSignUpConfPassword.form-control(type='password' name='confpassword' placeholder='Confirm your password' required)
+                .col-auto
+                    button.btn.btn-primary.mb-2.butt.signButton(type='submit') Sign Up
+
+            .col-auto.changeText
+                br
+                h6 Already registered?&nbsp;   
+                a(href='/user/signin') SignIn
+
+

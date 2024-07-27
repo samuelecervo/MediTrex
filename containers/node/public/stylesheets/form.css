@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import "style.css";
+
+#form {
+  background-color: green;
+}
+
+.divForm {
+  margin: auto;
+  margin-top:100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 70px;
+  justify-content: center;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.divForm.doubleCol:after{
+  width: 100%;
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-col{
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.form-body{
+  width: 100%;
+}
+
+.chooseUser{
+  width: 110%;
+  position: static;
+  margin-top: 20px;
+}
+
+.chooseUser button{
+  width: 50%;
+  margin: 0;
+  border-radius: 0;
+}
+
+.form-control:focus{
+  outline-color: var(--primary-blue);
+  border-color: var(--primary-blue);
+}
+
+input.form-control {
+  background-color: var(--background-color);
+  width: 100%;
+}
+
+.divForm > .logoForm{
+  border-radius: 50%;
+  background-color: var(--primary-blue);
+}
+
+.divForm > .logoForm:hover{
+  background-color: var(--secondary-blue);
+  transform: rotate(360deg);
+}
+
+.logoForm > img{
+  height: 100px;
+  margin:20px;
+}
+
+form{
+  width: 100%;
+}
+
+.form-check-input:checked{
+  background: var(--primary-blue);
+}
+
+.form-group.checkboxGroup{
+  font-size: 14px;
+  text-align: left;
+  padding: 5px;
+  color: var(--primary-blue);
+}
+
+.form-check-input{
+  width: 20px;
+  height: 20px;
+}
+
+.form-check-label{
+  margin-left:5px;
+  padding-top:3px;
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.form-check-input:checked +.form-check-label{
+  color: var(--primary-blue);
+  font-weight: bold;
+
+}
+
+.divForm > h4{
+  margin: 20px;
+}
+
+.form-group{
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+}
+
+.checkboxGroup {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.signButton {
+  text-align: center;
+  width: 80%;
+  margin: 40px;
+}
+
+.otherButton {
+  padding: 20px;
+}
+
+.changeText {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.footer {
+  margin: 0;
+}

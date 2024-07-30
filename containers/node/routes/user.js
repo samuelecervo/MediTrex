@@ -18,10 +18,9 @@ router.get('/signin', function (req, res, next) {
     db.getUtente(req.cookies.email, req.cookies.password)   // GET USER INFO
       .then(function (data) {
         if (data.rowCount == 1) {
-          // console.log(data.rows);
+          console.log(data.rows);
           req.session.isLogged = true;    //  SAVE THE SESSION
-          req.session.user = data.rows[0];
-          req.session.user.dateofbirth = req.session.user.dateofbirth.toISOString().split('T')[0];
+          req.session.user = data.rows;
           req.session.cookie.expires = false;
           req.session.save((err) => {
             if (err) {
@@ -55,8 +54,7 @@ router.post("/signin", function (req, res, next) {
         res.cookie('password', md5(req.body.password));
       }
       req.session.isLogged = true;  // SAVE THE SESSION
-      req.session.user = data.rows[0];
-      req.session.user.dateofbirth = req.session.user.dateofbirth.toISOString().split('T')[0];
+      req.session.user = data.rows;
       req.session.cookie.expires = false;
       req.session.save((err) => {
         if (err) {
@@ -107,8 +105,8 @@ router.post('/signup', async (req, res) => {
       md5(req.body.password),
       req.body.dateofbirth,
       req.body.gender,
-      req.body.medicallicenseid,
-      req.body.specialty
+      req.body.medicalicenseid,
+      req.body.specification
     );
 
 
@@ -136,7 +134,7 @@ router.post('/signup', async (req, res) => {
       return;
     }
 
-    const acceptedRequest = await runPaxosConsensus();
+    const acceptedRequest = await runPaxosConsensus(user);
 
     if (acceptedRequest) {
 
@@ -169,7 +167,7 @@ global.highestProposalNumber = 0;
 
 
 // PAXOS PROTOCOL
-async function runPaxosConsensus() {
+async function runPaxosConsensus(user) {
   let proposalNumber = global.highestProposalNumber + 1;
   let promisesReceived = 0;
   let acceptedReceived = 0;

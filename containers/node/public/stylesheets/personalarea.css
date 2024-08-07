@@ -1,0 +1,32 @@
+.sideBarElem {
+    color: white;
+}
+
+.sideBarElem:hover {
+    color: #1c4966;
+}
+
+.userIcon {
+    position: fixed;
+    bottom: 0;
+}
+
+.sideBar {
+    position: fixed;
+}
+
+.sideBarTot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    overflow-y: auto;
+    width: 250px;
+    padding: 10px;
+    color: white;
+}
+
+.contentPage {
+    margin-left: 250px;
+    padding: 20px;
+}

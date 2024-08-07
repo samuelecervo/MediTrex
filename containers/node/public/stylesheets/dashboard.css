@@ -1,0 +1,295 @@
+.upSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datepicker {
+    padding: 10px;
+}
+
+.shortdivider {
+    height: 15px;
+}
+
+.divider {
+    height: 40px;
+}
+
+.fullBoard {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    margin: 0;
+}
+
+.medTable {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.medTable th {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.medTable thead {
+    height: 60px;
+}
+
+.medTable td {
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.medTable tbody {
+    display: block;
+    height: 300px;
+    overflow: auto;
+}
+
+.medTable tbody::-webkit-scrollbar {
+    display: none;
+}
+  
+.medTable tbody {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.medTable thead, .medTable tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.col-textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: 1px black solid;
+    padding: 5px;
+}
+
+.col-textarea:focus {
+    border: 1px black solid;
+    outline: none;
+}
+
+.table-header, .table-cell {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.table-header {
+    font-weight: bold;
+}
+
+.medications-list-group {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-position: inside;
+    padding: 0;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin: auto;
+}
+
+.medications-list-group li {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.medications-list-group li:nth-child(even) {
+    justify-content: flex-end;
+}
+
+.medText {
+    max-width: 80%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.calendar {
+    width: 100%;
+}
+
+.calendarBar {
+    width: 100%;
+    height: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showMonthYear {
+    width: 200px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.trueCalendar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.day {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.day-header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+
+.day-cell {
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    padding: 0;
+}
+
+.day-number {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.day-desc {
+    width: 80%;
+    height: 100%;
+    padding: 0;
+}
+
+.list-group {
+}
+
+.list-group-item {
+    font-size: 10px;
+    outline: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.list-group-item::before {
+    content: "\2022"; /* Unicode for bullet */
+    color: black; /* Bullet color */
+    display: inline-block; 
+    width: 1em; /* Space between bullet and text */
+    margin-left: -1em; /* Position bullet to the left */
+}
+
+.newPrescriptionModal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.formDates {
+    display: flex;
+}
+
+.formMedication, .formDate, .formIntake {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+}
+
+.formMedication input, .formIntake input select {
+    width: 200px;
+}
+
+.formIntake {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formPatient {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formPatient label, .formPatient select{
+    width: 40%;
+}
+
+.appTable {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.appTable th {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.appTable thead {
+    height: 60px;
+}
+
+.appTable td {
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.appTable tbody {
+    display: block;
+    height: 300px;
+    overflow: auto;
+}
+
+.appTable tbody::-webkit-scrollbar {
+    display: none;
+}
+  
+.appTable tbody {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.appTable thead, .appTable tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}

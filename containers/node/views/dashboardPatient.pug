@@ -1,0 +1,48 @@
+extends personalarea
+
+block head 
+  link(rel="stylesheet" href="/stylesheets/dashboard.css")
+  script(rel="javascript" src="/javascripts/dashboardPatientScripts.js")  
+
+block content
+
+  h1.title DASHBOARD
+
+  script. 
+    //console.log(${notifications});
+
+  // PRESCRIPTION AND SYMTOMPS  
+  .dashboard
+    .upSection
+      input#datePicker.datepicker(type="date")
+      .shortdivider
+      .fullBoard
+        table#medicationsTable.container.table.medTable
+          thead
+            tr
+              th.col-6(scope="col") Medication
+              th.col-4(scope="col") Time
+              th.col-2(scope="col") Taken
+          tbody
+        textarea#symptompsTextarea.col-textarea
+    
+    .divider
+    
+    // CALENDAR
+    .calendar
+      .calendarBar
+        i#leftArrow.bi.bi-arrow-left-circle-fill.fa-lg(type='button')
+        #showMonthYear.showMonthYear
+        i#rightArrow.bi.bi-arrow-right-circle-fill.fa-lg(type='button')
+      .trueCalendar
+        .day.day-header Sunday
+        .day.day-header Monday
+        .day.day-header Tuesday
+        .day.day-header Wednesday
+        .day.day-header Thursday
+        .day.day-header Friday
+        .day.day-header Saturday
+
+        - for (var i = 8; i <= 49; i++)
+            .day.day-cell
+

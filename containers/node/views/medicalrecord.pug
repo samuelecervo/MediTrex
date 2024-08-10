@@ -1,0 +1,80 @@
+extends personalarea
+
+block head 
+  link(rel="stylesheet" href="/stylesheets/medicalrecord.css")
+  script(rel="javascript" src="/javascripts/medicalRecordScripts.js")  
+
+block content
+
+  h1.title MEDICAL RECORD 
+
+  .medicalRecord
+    .leftMR
+      .groupBox
+        p.groupHeader Name:
+        p#mrName
+      .groupBox
+        p.groupHeader Gender:
+        p#mrGender=user.gender
+      .groupBox
+        p.groupHeader GP Name:
+        p#mrGP=gpName
+      .groupBox
+        p.groupHeader Email:
+        p#mrEmail=user.email
+      .radioDiv
+        p.groupHeader Smoke:
+        .radioRow#mrSmoke
+          each val, index in ['Never', 'Occasionally', '≤ 3 times a day', '> 3 times a day']
+            .check-group
+              input(type="radio", name="smokeFrequency", id=`smoke${index}`, value=index)
+              label(for=`smoke${index}`) #{val}
+      .radioDiv
+        p.groupHeader Drugs:
+        .radioRow#mrDrug
+          each val, index in ['Never', 'Occasionally', '≤ 3 times a day', '> 3 times a day']
+            .check-group
+              input(type="radio", name="drugFrequency", id=`drugs${index}`, value=index)
+              label(for=`drugs${index}`) #{val}
+      .radioDiv
+        p.groupHeader Alcohol:
+        .radioRow#mrAlcohol
+          each val, index in ['Never', 'Occasionally', '≤ 3 times a day', '> 3 times a day']
+            .check-group
+              input(type="radio", name="alcoholFrequency", id=`alcohol${index}`, value=index)
+              label(for=`alcohol${index}`) #{val}
+    .rightMR
+      .groupBox
+        p.groupHeader Medical History:
+        textarea#mrMH
+      .groupBox
+        p.groupHeader Current Symptoms:
+        textarea#mrCS
+      .groupBox
+        p.groupHeader Allergies:
+        textarea#mrALL
+
+  button#saveButton.btn.btn-primary.saveButton(type='button') Save
+
+  h1.title PRESCRIPTIONS
+
+  .prescriptions
+    each pr in prescriptions
+      .prescription
+        p
+          b From: #{pr.fromdate}<br>
+          b To: #{pr.todate}
+        ul  
+          li
+            b Medicine: 
+            a #{pr.medication} 
+          li
+            if pr.frequence == 0
+              b Frequence: 
+              a As needed
+            else
+              b Frequence: 
+              a #{pr.frequency}/d
+          li
+            b Doctor: 
+            a #{pr.name} #{pr.surname}

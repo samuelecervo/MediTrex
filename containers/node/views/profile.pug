@@ -1,0 +1,113 @@
+extends personalarea
+
+block head 
+  script(rel="javascript" src="/javascripts/profile.js")
+  link(rel="stylesheet" href="/stylesheets/profile.css")
+
+block content
+  // PROFILE
+  h1.title PROFILE 
+
+  section(style='background-color: #eee;')
+    div(style='margin:50px; padding:50px;')
+        container.py-5
+          .row
+            .col-lg-4
+              .card.mb-4
+                .card-body.text-center
+                  form(action='/personalarea/profile/updateAvatar' method='post' enctype='multipart/form-data')
+                    label(for='imgFile' class='image-upload' title='Change avatar')
+                      img.rounded-circle.img-fluid#profileImage(src=user.img alt='' style='width: 150px;height:150px;')
+                      input#imgFile(type='file' name='imgFile' accept='image/*' class='input-file' alt='Change avatar' onchange="this.form.submit()")
+                  p #{avatarMsg}
+                  h5.my-3 #{user.name} #{user.surname}
+                  p.text-muted.mb-1 #{user.taxid}
+                  p.text-muted.mb-4 #{user.email}
+            .col-lg-8
+              .card.mb-4
+                .card-body
+                  .row
+                    .col-sm-3
+                      p.mb-0 Full Name
+                    .col-sm-9
+                      p.text-muted.mb-0 #{user.name} #{user.surname}
+                  hr
+                  .row
+                    .col-sm-3
+                      p.mb-0 Email
+                    .col-sm-9
+                      p.text-muted.mb-0 #{user.email}
+                  hr
+                  .row
+                    .col-sm-3
+                      p.mb-0 Date of Birth
+                    .col-sm-9
+                      p.text-muted.mb-0 #{user.dateofbirth}
+                  hr
+                  .row
+                    .col-sm-3
+                      p.mb-0 Gender
+                    .col-sm-9
+                      p.text-muted.mb-0 #{user.gender}
+                  if user.isdoctor
+                    hr
+                    .row
+                      .col-sm-3
+                        p.mb-0 Medical Licence ID
+                      .col-sm-9
+                        p.text-muted.mb-0 #{user.medicallicenseid}
+                    hr
+                    .row
+                      .col-sm-3
+                        p.mb-0 Specialty
+                      .col-sm-9
+                        p.text-muted.mb-0 #{user.specialtyname}
+          
+          if user.isdoctor
+            .row 
+              h5.title #{bioMsg}
+            form(action='/personalarea/profile/updateBio' method='post')    
+              .row
+                h5 BIO
+                .card.mb-4
+                  .card-body.text-center
+                    .form-group
+                      textarea#bio.form-control(name='bio' rows='3' placeholder="You don't have a bio yet... Write something") #{user.bio}
+              .buttonForm
+                button.btn.btn-outline-primary#discardBio(type='button' onclick="restoreBio('" + user.bio + "');"  data-mdb-button-init='' data-mdb-ripple-init='') Discard changes
+                button.btn.btn-primary#updateBio(type='submit' data-mdb-button-init='' data-mdb-ripple-init='') Update BIO
+
+        .row 
+          h5.title #{passMsg}
+        form(action='/personalarea/profile/updatePassword' method='post')    
+          .row
+            .input-group.mb-3
+              .input-group-prepend
+                span#basic-addon1.input-group-text 
+                  i.fa-solid.fa-key
+              input.form-control#oldPass(type='password' name='oldPass' placeholder='**********************' aria-label='password' aria-describedby='basic-addon1' disabled)
+        
+        
+          div#pass(style='display:none;')
+            .row
+              .input-group.mb-3
+                .input-group-prepend
+                  span#basic-addon1.input-group-text 
+                    i.fa-solid.fa-key
+                input.form-control#newPass(type='password' name='newPass' placeholder="Insert new password" aria-label='password' aria-describedby='basic-addon1' )
+            .row
+              .input-group.mb-3
+                .input-group-prepend
+                  span#basic-addon1.input-group-text 
+                    i.fa.fa-repeat
+                input.form-control#repeatPass(type='password' name='repeatPass' placeholder="Confirm new password" aria-label='password' aria-describedby='basic-addon1')
+
+        
+          .row
+            button.btn.btn-primary#editButton(type='button' onclick="enableEditProfile()" data-mdb-button-init='' data-mdb-ripple-init='' ) Change password
+          .row
+              button.btn.btn-outline-primary#discardButton(type='button' onclick="disableEditProfile()"  data-mdb-button-init='' data-mdb-ripple-init='' hidden) Discard changes
+          .row 
+            br
+          .row
+            button.btn.btn-primary#updateButton(type='submit' data-mdb-button-init='' data-mdb-ripple-init='' hidden) Update password

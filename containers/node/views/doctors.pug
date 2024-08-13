@@ -1,0 +1,28 @@
+extends personalarea
+
+block head  
+  link(rel="stylesheet", href="/stylesheets/doctors.css")
+  script(rel="javascript" src="/javascripts/doctors.js")
+  script(src="/socket.io/socket.io.js")
+  script. 
+    var userId = "#{user.userid}";
+    var userName = "#{user.name}";
+    var userSurname = "#{user.surname}";
+
+block content
+
+  // DOCTORS
+  h1.title DOCTORS 
+  .solution_cards_box
+    each doc in doctors
+      .solution_card(id=`card${doc.userid}`)
+        .solu_gp(hidden)
+          p GP
+        .solu_title
+          img.rounded-circle.img-fluid#profileImage(src=doc.img alt='' style='width: 80px;height:80px;')
+          h3 Dr. #{doc.surname} #{doc.name}
+        .solu_description
+          p.text-muted.mb-1 #{doc.specialtyname}
+          p= doc.bio
+          .buttons
+            button.read_more_btn.contactBtn(data-id=doc.userid) Contact

@@ -1,0 +1,69 @@
+extends personalarea
+
+block head 
+  link(rel="stylesheet" href="/stylesheets/medicalrecord.css")
+
+
+block content
+
+  h1.title MEDICAL RECORD
+
+  script.
+    //console.log(JSON.stringify(patient));
+
+  .medicalRecord
+    .leftMR
+      .groupBox
+        p.groupHeader Name:
+        p#mrName=patient.surname + ' ' + patient.name
+      .groupBox
+        p.groupHeader Gender:
+        p#mrGender=patient.gender
+      .groupBox
+        p.groupHeader GP Name:
+        p#mrGP=gpName
+      .groupBox
+        p.groupHeader Email:
+        p#mrEmail=patient.email
+      .radioDiv
+        p.groupHeader Smoke:
+        .radioRow#mrSmoke=['Never', 'Occasionally', '≤ 3 times a day', '> 3 times a day'][patient.smoke]
+      .radioDiv
+        p.groupHeader Drugs:
+        .radioRow#mrDrug=['Never', 'Occasionally', '≤ 3 times a day', '> 3 times a day'][patient.drugs]
+      .radioDiv
+        p.groupHeader Alcohol:
+        .radioRow#mrAlcohol=['Never', 'Occasionally', '≤ 3 times a day', '> 3 times a day'][patient.alcohol]
+    .rightMR
+      .groupBox
+        p.groupHeader Medical History:
+        textarea#mrMH(readonly)=patient.medicalhistory
+      .groupBox
+        p.groupHeader Current Symptoms:
+        textarea#mrCS(readonly)=patient.symptoms
+      .groupBox
+        p.groupHeader Allergies:
+        textarea#mrALL(readonly)=patient.allergies
+
+  h1.title PRESCRIPTIONS
+
+  .prescriptions
+    each pr in prescriptions
+      .prescription
+        p
+          b From: #{pr.fromdate}<br>
+          b To: #{pr.todate}
+        ul  
+          li
+            b Medicine: 
+            a #{pr.medication} 
+          li
+            if pr.frequence == 0
+              b Frequence: 
+              a As needed
+            else
+              b Frequence: 
+              a #{pr.frequency}/d
+          li
+            b Doctor: 
+            a #{pr.name} #{pr.surname}

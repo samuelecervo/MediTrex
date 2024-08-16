@@ -1,0 +1,147 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    height: 85dvh;
+}
+
+.chat {
+    width: 80%;
+    color: #1c4966;
+    border: 1px solid #ccc;
+    background-color: #f7fbfc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.listaChat {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    background-color: #e2f4f3;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    margin-right: 10px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.listaChat::-webkit-scrollbar {
+    display: none;
+}
+
+
+.chatHeader {
+    width: 100%;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    color: #003366;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatHeader span {
+    width: 80%;
+}
+
+.chatHeader:not(.currentChat):hover {
+    background-color: #cce7e7;
+}
+
+.pendingHeader {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pendingclock {
+    width: 20%;
+    display: inline-flex;
+}
+
+.currentChat {
+    background-color: #1c4966;
+    color: white;
+}
+
+.chatGroup {
+    color: #003366;
+}
+
+.display {
+    height: 92% !important;
+    width: 100%;
+    resize: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #1c4966;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+}
+
+.messageForm {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #ddd;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.messageForm input {
+    width: 80%;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.messageForm button {
+    width: 20%;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #1c4966;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.messageForm button:hover {
+    background-color: #143a50;
+}
+
+.upButtons {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 20px;
+    width: 350px;
+    height: 50px;
+}
+
+.acceptDeclineBtn {
+    width: 160px;
+    color: #fff;
+    background-color: #143a50;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}

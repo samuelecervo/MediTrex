@@ -1,0 +1,358 @@
+extends personalarea
+
+block head
+  title Chat
+  script(src="/socket.io/socket.io.js")
+  script(rel="javascript" src="/javascripts/indexScripts.js")
+  link(rel="stylesheet" href="/stylesheets/messages.css")
+  if user.isdoctor
+    script(rel="javascript" src="/javascripts/docMessages.js")
+
+  script.
+    document.addEventListener('DOMContentLoaded', () => {
+      
+      // VARIABLES
+      var headers = [#{user.userid}];
+      var chatHistory = [];
+      var listaChat = document.getElementById('listaChat');
+      var chats = document.getElementById('chats');
+      chats.classList.add("chat");
+      var currentChat = -1;
+
+      // TCP SOCKET
+      const socket = io({
+        query: {
+          userid: #{user.userid}
+        }
+      });
+      
+      // FUNCTION TO SHOW THE RIGHT CHAT WHEN USER CLICK ON CHAT HEADER
+      function showChat(event) {
+        const chatId = event.currentTarget.getAttribute('data-chatid');
+        //console.log("MOSTRA CHAT " + chatId);
+        if (chatId) {
+          const wants = document.getElementById('chat' + chatId);
+          const current = document.getElementById('chat' + currentChat);
+          
+          if (wants) {
+            if (current) current.style.display = 'none';
+            wants.style.display = 'block';
+        
+            const currentHeader = document.getElementById('chatHeader' + currentChat);
+            const wantsHeader = document.getElementById('chatHeader' + chatId);
+        
+            if (currentHeader) currentHeader.classList.remove('currentChat');
+            if (wantsHeader) wantsHeader.classList.add('currentChat');
+        
+            currentChat = chatId;
+          } else {
+            console.log("Error: chat not found:", chatId);
+          }
+        } else {
+          console.log("Error: showchat");
+        }
+      }
+
+      // CREATE BROADCAST CHAT FOR DOCTOR USER
+      if (#{user.isdoctor}){
+        const item = document.createElement('button');
+        item.classList.add('chatHeader');
+        item.setAttribute("id", "chatHeaderALL");
+        item.setAttribute("data-chatid", `ALL`);
+        $(item).append("<span>All my patients</span>");    
+        item.addEventListener('click', showChat);
+        listaChat.appendChild(item);
+
+        const chat = document.createElement('div');
+        const upButtons = document.createElement('div');
+        const form = document.createElement('form');
+        const message = document.createElement('input');
+        const button = document.createElement('button');
+        const display = document.createElement('textarea');
+
+        display.setAttribute('id', `displayALL`);
+        display.readOnly = true;
+        button.setAttribute('id', `buttonALL`);  
+        button.setAttribute("data-chatid", 'ALL');
+        message.setAttribute('id', `messageALL`);
+        
+        form.classList.add('messageForm');
+        chat.setAttribute('id', `chatALL`);
+        upButtons.classList.add('upButtons');
+        display.classList.add('display');
+        chat.classList.add('chatGroup');
+        button.textContent = 'SEND';
+        button.classList.add("btn", "btn-primary");
+        button.setAttribute('data-chatid', 'ALL');
+        chat.setAttribute('value', 'ALL')
+        button.addEventListener('click', sendMsg);
+
+        display.value = '';
+        display.scrollTop = display.scrollHeight;
+        chat.style.display = 'none';
+
+        chat.append(upButtons);
+        chat.append(display);
+        chat.append(form);
+        form.append(message);
+        form.append(button);
+        chats.append(chat);
+
+        chatHistory.push('ALL');
+      }
+
+      
+      ///////////////////////////////////////////
+
+
+      socket.on('connect', function() { 
+        //console.log('Connesso al server');
+      });
+
+      // BROADCAST EVENT
+      socket.on('broadcast', function(msg) {
+        const message = msg;
+        //console.log('BROADCAST:', message);
+        if(message.isdoctor){
+          const timestamp = new Date(message.timestamp);
+          const date = formatTimestamp(timestamp);
+          formattedText = `\n[${date}]\t(TO ALL)\t${message.msg}`;
+          updateChat('ALL', formattedText, false);
+        }
+      });
+
+      // CHAT MESSAGE EVENT
+      socket.on('chat message', function(msg) {
+        var message = msg;
+
+       //console.log("CHAT MESSAGE", message);
+
+
+        // FILTER THE MESSAGE ON THE RIGHT CHAT
+        if (message.recipient == #{user.userid}){   // I'M THE RECIPIENT OF THE MESSAGE
+          handleChat(message, `${message.sender}`);    
+          if (!headers.includes(`${message.sender}`)) {
+            addChatHeader(message, message.sender);  
+          }
+          else {
+            if(document.getElementById(`button${message.sender}`).disabled)
+              document.getElementById(`chatHeader${message.sender}`).textContent = document.getElementById(`chatHeader${message.sender}`).textContent + " (pending) ";
+          }
+        }      
+        else {                                    // I'M THE SENDER OF THE MESSAGE
+          handleChat(message, `${message.recipient}`);     
+          if (!headers.includes(`${message.recipient}`)) 
+            addChatHeader(message, message.recipient);  
+          else {
+            if(document.getElementById(`button${message.recipient}`).disabled)
+              document.getElementById(`chatHeader${message.recipient}`).textContent = document.getElementById(`chatHeader${message.recipient}`).textContent + " (pending) ";
+          }
+        }
+
+      });
+
+
+      // SEND MESSAGE WHEN USER CLICK ON BUTTON 'SEND' OF A SPECIFIC CHAT
+      function sendMsg(event) {
+        event.preventDefault();
+        const toSend = document.getElementById('message' + event.currentTarget.getAttribute('data-chatid'));
+        // BROADCAST CHAT 
+        if(event.currentTarget.getAttribute('data-chatid') === 'ALL'){
+          const message = {
+            sender: #{user.userid},
+            name: `#{user.name}`,
+            surname : `#{user.surname}`,
+            isdoctor: `#{user.isdoctor}`,
+            msg: toSend.value
+          };
+          socket.emit('broadcast', message);
+          toSend.value = '';
+        }else{  //NORMAL CHAT MESSAGE
+          toSend.placeholder = '';
+          const message = {
+            sender: #{user.userid},
+            recipient: event.currentTarget.getAttribute('data-chatid'),
+            msg: toSend.value
+          };
+          fetch('/api/checkInTreatment?other=' + event.currentTarget.getAttribute('data-chatid'))
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(data => {
+              if (data) {
+                socket.emit('chat message', message);
+              } else {
+                alert("You are not allowed to send this message");
+                location.reload();
+              }
+              toSend.value = '';
+            })
+            .catch(error => {
+              console.error('There was a problem with the fetch operation:', error);
+            });
+        }
+      }
+
+      // FUNCTION THAT ADD A NEW CHAT HEADER IN THE CHAT LISTS
+      function addChatHeader(msg, chatId) {
+        var prefix = 'Dr. ';
+        if (#{user.isdoctor})
+          prefix = '';
+        const item = document.createElement('button');
+        item.classList.add('chatHeader');
+        if (msg.pending)
+          item.classList.add('pendingHeader');
+        item.setAttribute("id", `chatHeader${chatId}`);
+        item.setAttribute("data-chatid", `${chatId}`);
+        
+        $(item).append("<span>" + prefix + ` ${msg.surname} ${msg.name}` + "</span>");
+        if (msg.pending) {
+          item.classList.add('pendingHeader');
+          $(item).append('<i class="bi bi-clock-fill pendingclock"></i>');
+        }
+        item.addEventListener('click', showChat);
+        listaChat.appendChild(item);
+        headers.push(`${chatId}`);
+      }
+
+      // HANDLER OF A CHAT, INSERT THE MESSAGE WITH THE RIGHT PREFIX AND TIMESTAMP IN THE RIGHT CHAT
+      function handleChat(msg, chatId) {
+        const timestamp = new Date(msg.timestamp);
+        const date = formatTimestamp(timestamp);
+
+        var prefix = 'Dr. ';
+        if (#{user.isdoctor})
+          prefix = 'Pat.';
+
+        let formattedText = '';
+        if (msg.sender == #{user.userid})
+          formattedText = `\n[${date}]\t(You)\t${msg.msg}`;
+        else
+          formattedText = `\n[${date}]\t(${prefix})\t${msg.msg}`;
+
+        if (chatHistory.includes(chatId)) {     //THE CHAT EXISTS
+          if (document.getElementById('button' + chatId).disabled) {
+            if (#{user.isdoctor}) {
+              document.getElementById(`button${chatId}`).disabled = true;
+              document.getElementById(`message${chatId}`).disabled = true;
+              document.getElementById(`message${chatId}`).placeholder = "You need to accept the request before send a message to this user!";
+              try {
+                if (!document.getElementById(`accept${chatId}`))
+                  createAccept(chatId);
+              } catch (e) {
+                // Nothing
+              }
+            } else {
+              document.getElementById(`button${chatId}`).disabled = false;
+              document.getElementById(`message${chatId}`).disabled = false;
+              document.getElementById(`message${chatId}`).placeholder = "Doctor accepted your request!";
+            }
+          }
+          updateChat(chatId, formattedText, msg.pending);
+        } else {    // CHAT DOESN'T EXISTS
+          createNewChat(chatId, formattedText, msg.pending, msg.gp);
+        }
+      }
+
+      function formatTimestamp(timestamp) {
+        const date = new Date(timestamp);
+        const day = String(date.getDate()).padStart(2, '0');
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const hours = String(date.getHours()).padStart(2, '0');
+        const minutes = String(date.getMinutes()).padStart(2, '0');
+        return `${day}/${month} ${hours}:${minutes}`;
+      }
+
+      // UPDATE EXISTING CHAT
+      function updateChat(chatId, text, pending) {
+        const display = document.getElementById(`display${chatId}`);
+        display.value += text;
+        display.scrollTop = display.scrollHeight;
+      }
+
+      // CREATE NEW CHAT AND ADD MESSAGE
+      function createNewChat(chatId, text, pending, gp) {
+        console.log("CHAT ID: " + chatId);
+        if(chatId !== 'ALL'){
+          const chat = document.createElement('div');
+          const upButtons = document.createElement('div');
+          const form = document.createElement('form');
+          const message = document.createElement('input');
+          const button = document.createElement('button');
+          const display = document.createElement('textarea');
+
+          display.setAttribute('id', `display${chatId}`);
+          display.readOnly = true;
+          button.setAttribute('id', `button${chatId}`);
+          button.setAttribute("data-chatid", chatId);
+          message.setAttribute('id', `message${chatId}`);
+          form.classList.add('messageForm');
+          chat.setAttribute('id', `chat${chatId}`);
+          upButtons.setAttribute('id', `upButtons${chatId}`);
+          upButtons.classList.add('upButtons');
+          display.classList.add('display');
+          chat.classList.add('chatGroup');
+          chat.setAttribute('value', `${chatId}`);
+          button.textContent = 'SEND';
+          button.classList.add("btn", "btn-primary");
+          button.addEventListener('click', sendMsg);
+
+          display.value += text;
+          display.scrollTop = display.scrollHeight;
+          chat.style.display = 'none';
+
+          fetch('/api/checkInTreatment?other=' + chatId)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(data => {
+              if (data) {
+                if (pending) {
+                  button.disabled = true;
+                  message.disabled = true;
+                  if (#{user.isdoctor}) {
+                    message.placeholder = "Accept request before chat with this user!";
+                    createAccept(chatId);
+                  } else {
+                    message.placeholder = "Doctor has not accepted your request yet!";
+                  }
+                } else {
+                  createDelete(chatId);
+                  if (gp == 1) {
+                    createAcceptGP(chatId);
+                  }
+                }
+              } else {
+                button.disabled = true;
+                message.disabled = true;
+                message.placeholder = "You can't send message to this user!";
+              }
+            }).catch(error => {
+              console.error('There was a problem with the fetch operation:', error);
+            });
+
+          chat.append(upButtons);
+          chat.append(display);
+          chat.append(form);
+          form.append(message);
+          form.append(button);
+          chats.append(chat);
+
+          chatHistory.push(chatId);
+        }
+      }
+    });
+  
+
+block content
+  h1 Chat
+
+  .box
+    .listaChat#listaChat
+    #chats

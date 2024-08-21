@@ -1,0 +1,28 @@
+extends personalarea
+
+block head  
+  link(rel="stylesheet", href="/stylesheets/mypatients.css")
+  script(rel="javascript" src="/javascripts/mypatients.js")
+  script(src="/socket.io/socket.io.js")
+
+block content
+  // MYPATIENTS
+  h1.title MY PATIENTS 
+  .solution_cards_box
+    each pat in patients
+      .solution_card(id=`card${pat.userid}` class= pat.pending ? 'pending' : '')
+        .solu_title
+          img.rounded-circle.img-fluid#profileImage(src=pat.img alt='' style='width: 80px;height:80px;')
+          h3 #{pat.surname} #{pat.name}
+        .solu_description
+          .buttons
+            if pat.pending
+                button#accept(type='button' data-id=pat.userid) Accept 
+                button#reject(type='button' data-id=pat.userid) Reject
+            else
+              a.read_more_btn.contactBtn(type="button" href='/personalarea/medicalrecordview?id='+pat.userid) Medical Record
+              br
+              button.read_more_btn(type='button' onclick=`window.location.href = "messages?c=${pat.userid}";`) Contact
+              button#reject(type='button' data-id=pat.userid) Remove
+            
+              

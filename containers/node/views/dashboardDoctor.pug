@@ -1,0 +1,120 @@
+extends personalarea
+
+block head 
+  link(rel="stylesheet" href="/stylesheets/dashboard.css")
+  script(rel="javascript" src="/javascripts/dashboardDoctorScripts.js")  
+
+block content
+
+  h1.title DASHBOARD
+
+  // PATIENTS TABLE
+  .dashboard
+    .upSection
+      input#datePicker.datepicker(type="date")
+      .shortdivider
+      table#patientsTable.container.table.medTable
+          thead
+            tr
+              th.col-3(scope="col") Patient
+              th.col-4(scope="col") Medications
+              th.col-4(scope="col") Symptoms
+              th.col-1(scope="col") Prescribe
+          tbody
+    
+    // CALENDAR
+    .divider
+    .calendar
+      .calendarBar
+        i#leftArrow.bi.bi-arrow-left-circle-fill.fa-lg(type='button')
+        #showMonthYear.showMonthYear
+        i#rightArrow.bi.bi-arrow-right-circle-fill.fa-lg(type='button')
+      .trueCalendar
+        .day.day-header Sunday
+        .day.day-header Monday
+        .day.day-header Tuesday
+        .day.day-header Wednesday
+        .day.day-header Thursday
+        .day.day-header Friday
+        .day.day-header Saturday
+
+        - for (var i = 8; i <= 49; i++)
+            .day.day-cell
+
+      // MODAL FOR NEW PRESCRIPTION
+      #newPrescriptionModal.modal.modal-md(role='dialog')
+        .modal-dialog
+            .modal-content
+                .modal-header
+                  h2 New Prescription
+                  button.btn-close(type='button' data-bs-dismiss='modal' aria-label="Close")
+
+                .modal-body.newPrescriptionModal-body
+                  p#newPrescriptionModalError.error
+                  label#formPatientName
+                  .formMedication
+                    label Medication:
+                    input#formMedication(type='text')
+                  .formDates
+                    .formDate
+                      label Starting date:
+                      input#formStartingDate(type='date')
+                    .formDate
+                      label Ending date:
+                      input#formEndingDate(type='date')
+                  .formIntake
+                    label Intake:
+                    select#formFrequency(name="frequency")
+                      option(value="0") As needed
+                      option(value="1") Once a day
+                      option(value="2") Twice a day
+                      option(value="3") Three times a day
+                    input#formTime(type='time')
+
+                .modal-footer
+                  button#addPrescriptionButton.btn.btn-primary(type='button') Save prescription
+      
+
+      // MODAL FOR APPOINTMENTS
+      #appointmentsModal.modal.modal-lg(role='dialog')
+        .modal-dialog
+            .modal-content
+                .modal-header
+                    h2 Appointments
+                    button.btn-close(type='button' data-bs-dismiss='modal' aria-label="Close")
+                .modal-body
+                  table#appointmentsTable.container.table.appTable
+                    thead
+                      tr
+                        th.col-6(scope="col") Patient
+                        th.col-3(scope="col") Time
+                        th.col-3(scope="col") Visited
+                    tbody
+                .modal-footer
+                    button.btn.btn-primary.addAppBTN(type='button') Add an appointment
+                    button.btn.btn-primary(type='button' data-bs-dismiss='modal') Close
+      
+      // MODAL FOR NEW APPOINTMENT
+      #newAppointmentModal.modal(role='dialog')
+        .modal-dialog
+            .modal-content
+                .modal-header
+                    h2 Schedule a new appointment
+                    button.closeNewApp.btn-close(type='button' data-bs-dismiss='modal' aria-label="Close")
+                .modal-body.newPrescriptionModal-body
+                  p#newAppointmentModalError.error
+                  .formPatient
+                    label Patient:
+                    select(name="patientListApp" id="patientListApp")
+                  .formDates
+                    .formDate
+                      label Date:
+                      input#formAppDate(type='date')
+                    .formDate
+                      label Time:
+                      input#formAppTime(type='time')
+                .modal-footer
+                    button#addNewAppBTN.btn.btn-primary(type='button') Schedule
+                    button.closeNewApp.btn.btn-primary(type='button') Close
+                    
+

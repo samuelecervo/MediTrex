@@ -91,9 +91,9 @@ block content
                             label(for='formSignUpLicense') Medical License ID
                             input#formSignUpLicense.form-control(type='text' name='medicallicenseid' placeholder='Insert your medical license' required)
                         .form-group
-                            label(for='formSignUpSpecialization') Specialization
-                            select#formSignUpSpecialization.form-select(aria-label='Areas')
-                                option(selected='') Choose a specialty...
+                            label(for='formSignUpSpecialty') Specialty
+                            select#formSignUpSpecialty.form-select(name="specialty" aria-label='Areas')
+                                option(value='' selected) Choose a specialty...
                                 each val in specialtyList
                                     option(value=val.specialtyid label=val.specialtyname)
                         .form-group

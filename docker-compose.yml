@@ -12,7 +12,7 @@ services:
     depends_on:
       - postgres
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost/ || exit 1"]
+      test: ["CMD-SHELL", "curl -f http://localhost/healthcheck || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -29,18 +29,83 @@ services:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - POSTGRES_DATABASE=${POSTGRES_DATABASE}
+      - SESSION_SECRET_KEY=${SESSION_SECRET_KEY}
+      - ARTICLE_API_KEY=${ARTICLE_API_KEY}
       - POSTGRES_PORT=${POSTGRES_PORT}
       - POSTGRES_HOST=${POSTGRES_HOST}
-      - INSTANCE=node
+      - FD_DELTA=${FD_DELTA}
+      - INSTANCE=MASTER
+      - FAILURE_DETECTOR=${FAILURE_DETECTOR}
     depends_on:
       - postgres
-    ports:
-      - "3000:3000"
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:3000/ || exit 1"]
+      test: ["CMD-SHELL", "curl -f http://localhost:3000/healthcheck || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 3
+
+  node1:
+    extends:
+      service: node
+    container_name: "node1"
+    ports:
+      - "3001:3000"
+    environment:
+      - INSTANCE=node1
+
+  node2:
+    extends:
+      service: node
+    container_name: "node2"
+    ports:
+      - "3002:3000"
+    environment:
+      - INSTANCE=node2
+
+  node3:
+    extends:
+      service: node
+    container_name: "node3"
+    ports:
+      - "3003:3000"
+    environment:
+      - INSTANCE=node3
+
+  node4:
+    extends:
+      service: node
+    container_name: "node4"
+    ports:
+      - "3004:3000"
+    environment:
+      - INSTANCE=node4
+
+  node5:
+    extends:
+      service: node
+    container_name: "node5"
+    ports:
+      - "3005:3000"
+    environment:
+      - INSTANCE=node5
+
+  node6:
+    extends:
+      service: node
+    container_name: "node6"
+    ports:
+      - "3006:3000"
+    environment:
+      - INSTANCE=node6
+
+  node7:
+    extends:
+      service: node
+    container_name: "node7"
+    ports:
+      - "3007:3000"
+    environment:
+      - INSTANCE=node7
 
   postgres:
     build: "./containers/postgres"
@@ -62,6 +127,14 @@ services:
       interval: 10s
       timeout: 10s
       retries: 5
+
+  redis:
+    image: redis
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - db
 
 networks:
   app:

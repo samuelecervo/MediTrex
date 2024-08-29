@@ -1,28 +1,38 @@
 {
-  "name": "meditrex",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "node",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samuelecervo/MediTrex.git"
-  },
-  "author": "Samuele Cervo, Agnese Capparelli, Rosapia Laudati, Andrea Orlandi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/samuelecervo/MediTrex/issues"
-  },
-  "homepage": "https://github.com/samuelecervo/MediTrex#readme",
   "dependencies": {
+    "amqplib": "^0.10.4",
+    "axios": "^1.7.2",
+    "better-queue": "^3.8.12",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dgram": "^1.0.1",
     "dotenv": "^16.4.5",
+    "dotenv-extended": "^2.9.0",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "http": "^0.0.1-security",
-    "http-errors": "^2.0.0",
-    "morgan": "^1.10.0",
-    "pg": "^8.12.0",
-    "pug": "^3.0.3"
+    "express-fileupload": "^1.5.0",
+    "express-prometheus-middleware": "^1.2.0",
+    "express-session": "^1.18.0",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "md5": "^2.3.0",
+    "morgan": "~1.9.1",
+    "newapi": "^0.0.1",
+    "newsapi": "^2.4.1",
+    "paxos": "^17.0.0",
+    "pg": "^8.11.5",
+    "prom-client": "^13.2.0",
+    "pug": "^3.0.2",
+    "redis": "^4.6.14",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.5",
+    "socket.io-redis": "^6.1.1"
   }
 }

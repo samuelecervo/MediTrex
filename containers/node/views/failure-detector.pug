@@ -1,0 +1,118 @@
+head
+  title DASHBOARD
+  link(rel="stylesheet", href="/stylesheets/fd.css")
+  link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css", integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh")
+  link(rel="stylesheet",href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css",integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh",crossorigin="anonymous")
+  script(src="/socket.io/socket.io.js")
+  script. 
+    document.addEventListener('DOMContentLoaded', () => {
+      
+      // LIST OF DETECTED NODES
+      containers=[];
+      
+      // TCP SOCKET
+      const socket = io({
+        query: {
+          id: 1
+        }
+      });
+
+      socket.on('connect', function() {
+        //console.log('Connesso al server');
+      });
+
+      // GENERAL INFO RECEIVED BY MIDDLEWARE
+      socket.on('fd-info', function(msg) {
+        log(msg);
+      });
+
+      // ALERT MSG RECEIVED BY MIDDLEWARE
+      socket.on('fd-alert', function(msg) {
+        //console.log(msg);
+        if(!containers.includes(msg.id)){   // MESSAGE FROM NEW NODE
+          createContainerCard(msg);
+          containers.push(msg.id);
+          log(msg.id + " is added to the list");
+        }
+        var container = document.getElementById(`card${msg.id}`);
+        var status = document.getElementById(`status${msg.id}`);
+        status.textContent = msg.status;
+        switch(msg.status){     //UPDATE THE STATUS OF THE NODE
+          case 'alive':
+            //console.log("E' alive");
+            log(msg.id + " was detected alive");
+            container.style.backgroundColor = '#699D4C';
+            break;
+          case 'restored':
+            //console.log("E' restored");
+            log(msg.id + " was restored");
+            container.style.backgroundColor = '#699D4C';
+            break;
+          case 'suspected':
+            //console.log("E' suspected");
+            log(msg.id + " was detected suspect");
+            container.style.backgroundColor = '#FAB244';
+            break;
+        }
+
+      });
+
+      function log(message) {   //STAMP IN CONSOLE
+            const console = document.getElementById('console');
+            console.value += `[${getCurrentFormattedTime()}] ` + message + '\n';
+            console.scrollTop = console.scrollHeight; 
+        }
+
+      function getCurrentFormattedTime() {    
+            const now = new Date();
+            const options = {
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            };
+            return now.toLocaleTimeString('it-IT', options);
+        }
+
+      function createContainerCard(container){  // CREATE NEW CONTAINER TO DISPLAY
+        var card = document.createElement('div');
+        var content = document.createElement('div');
+        var badge = document.createElement('div');
+        var badge_text = document.createElement('p');
+        var text = document.createElement('div');
+        var title = document.createElement('h3');
+        var status = document.createElement('p');
+        var bar = document.createElement('div');
+
+        card.setAttribute("id", `card${container.host}`);
+        status.setAttribute("id", `status${container.host}`);
+
+        card.classList.add("card");
+        card.classList.add("mb-2");
+        content.classList.add('content');
+        badge.classList.add('badge');
+        badge_text.textContent = container.host + ":" + container.port;
+        text.classList.add('mt-5');
+        title.textContent = container.host;
+        status.textContent = container.status;
+
+        badge.append(badge_text);
+        content.append(badge);
+
+        text.append(title);
+        text.append(status);
+        text.append(bar);
+        content.append(text);
+
+        card.append(content);
+
+        document.getElementById('display').append(card);
+
+      }
+    });
+
+body
+  h1 NODE STATUS DASHBOARD
+
+  .display#display
+
+  textarea#console(readOnly)

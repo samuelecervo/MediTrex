@@ -1,21 +1,21 @@
 let User = require("./User");
 
 class Doctor extends User {
-    constructor(taxId, name, surname, email, password, dateofbirth, gender, medicallicenseid, specialty) {
+    constructor(taxId, name, surname, email, password, dateofbirth, gender, medicalLicenseId, specification) {
         super(taxId, name, surname, email, password, dateofbirth, gender);
-        this.medicallicenseid = medicallicenseid;
-        this.specialty = specialty;
+        this.medicalLicenseId = medicalLicenseId;
+        this.specification = specification;
     }
 
     toString() {
         return super.toString() + (
-            "medicalLicenseId = " + this.medicallicenseid + "\n" +
-            "specialty = " + this.specialty
+            "medicalLicenseId = " + this.medicalLicenseId + "\n" +
+            "specification = " + this.specification
         );
     }
 
     toQuery() {
-        return super.toQuery()+", true,'" + this.medicallicenseid + "','" + this.specialty + "'";
+        return super.toQuery()+", true,'" + this.medicalLicenseId + "','" + this.specification + "'";
     }
 }
 

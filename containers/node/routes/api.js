@@ -52,7 +52,7 @@ router.get('/getMedicationById', async function (req, res, next) {
         //Check if my prescription:
         if (await db.checkIfMyDoctorPrescription(req.session.user.userid, req.query.prescriptionId)) {
             var medicationDetails = await db.getMedicationById(req.query.prescriptionId);
-            res.send(medicationDetails.rows[0]);
+            res.send(medicationDetails.rows);
         } else res.send(false);
     }
 });
@@ -213,6 +213,13 @@ router.get('/getInTreatment', async function (req, res, next) {
 router.get('/declineInTreatment', async function (req, res, next) {
     if (req.session.user && req.session.user.isdoctor) {
         await db.declineInTreatment(req.query.patientid, req.session.user.userid);
+        res.send(true);
+    }
+});
+
+router.get('/removeInTreatment', async function (req, res, next) {
+    if (req.session.user && req.session.user.isdoctor) {
+        await db.removeInTreatment(req.query.patientid, req.session.user.userid);
         res.send(true);
     }
 });

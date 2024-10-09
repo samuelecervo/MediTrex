@@ -610,8 +610,18 @@ class functions {
         resolve(res);
       });
     });
+  }
 
-
+  static removeInTreatment(patient, doctor) {
+    return new Promise((resolve, reject) => {
+      client.query("DELETE FROM InTreatment WHERE doctor = $2 and patient = $1", [patient, doctor], (err, res) => {
+        if (err) {
+          console.log("DB: Error in declineInTreatment: " + err);
+          return reject(err);
+        }
+        resolve(res);
+      });
+    });
   }
 
   static deleteConversation(user1, user2) {

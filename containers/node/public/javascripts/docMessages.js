@@ -14,8 +14,8 @@ function createAccept(chatId){
 function createDelete(chatId){
     const decline = document.createElement('button');
     const where = document.getElementById(`upButtons${chatId}`);
-    decline.textContent = "DELETE CHAT";
-    accept.setAttribute("id", "decline" + chatId);
+    decline.textContent = "REMOVE PATIENT";
+    decline.setAttribute("id", "decline" + chatId);
     decline.classList.add("acceptDeclineBtn");
     decline.setAttribute("data-userid", chatId);
     decline.addEventListener('click', declineRequest);
@@ -28,7 +28,7 @@ function createAcceptGP(chatId){
     const acceptGP = document.createElement('button');
     const where = document.getElementById(`upButtons${chatId}`);
     acceptGP.textContent = "ACCEPT GP REQUEST";
-    accept.setAttribute("id", "acceptGP" + chatId);
+    acceptGP.setAttribute("id", "acceptGP" + chatId);
     acceptGP.classList.add("acceptDeclineBtn");
     acceptGP.setAttribute("data-userid", chatId);
     acceptGP.addEventListener('click', acceptGPRequest);

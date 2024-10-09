@@ -72,7 +72,7 @@ block content
                 .card.mb-4
                   .card-body.text-center
                     .form-group
-                      textarea#bio.form-control(name='bio' rows='3' placeholder="You don't have a bio yet... Write something") #{user.bio}
+                      textarea#bio.form-control(name='bio' rows='3' placeholder="You don't have a bio yet... insert one") #{user.bio}
               .buttonForm
                 button.btn.btn-outline-primary#discardBio(type='button' onclick="restoreBio('" + user.bio + "');"  data-mdb-button-init='' data-mdb-ripple-init='') Discard changes
                 button.btn.btn-primary#updateBio(type='submit' data-mdb-button-init='' data-mdb-ripple-init='') Update BIO

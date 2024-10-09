@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
   console.log('The client is routed on: ', node);
   var user = null;
   if (req.session.user != null) {
-    user = req.session.user;
+    user = req.session.user[0];
   }
   api.getArticles(3)
     .then(function (data) {
@@ -32,7 +32,7 @@ router.get('/healthcheck', function (req, res, next) {
 router.get('/articles', function (req, res, next) {
   var user = null;
   if (req.session.user != null) {
-    user = req.session.user;
+    user = req.session.user[0];
   }
   api.getArticles(10)
     .then(function (data) {

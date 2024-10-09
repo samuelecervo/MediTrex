@@ -26,6 +26,22 @@ document.addEventListener('DOMContentLoaded', () => {
                         throw new Error('Network response was not ok');
                     }
                     location.reload();
+                    alert("The patient was rejected!");
+                    return response.json();
+                }).catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+        
+        });
+
+        // REMOVE REQUEST BUTTON 
+        $('#reject').click(function() {
+            fetch('/api/removeinTreatment?patientid=' + $(this).data("id"))
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    location.reload();
                     alert("The patient was removed!");
                     return response.json();
                 }).catch(error => {

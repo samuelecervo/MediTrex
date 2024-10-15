@@ -1,0 +1,5004 @@
+Start request: 1720088171.382708
+Response type: <Response [200]>
+Response time: 1720088171.458194
+Service time:  0.075486
+------------------------------------------
+Start request: 1720088171.458279
+Response type: <Response [200]>
+Response time: 1720088171.517869
+Service time:  0.059590
+------------------------------------------
+Start request: 1720088171.517992
+Response type: <Response [200]>
+Response time: 1720088171.581739
+Service time:  0.063747
+------------------------------------------
+Start request: 1720088171.581911
+Response type: <Response [200]>
+Response time: 1720088171.630263
+Service time:  0.048352
+------------------------------------------
+Start request: 1720088171.6303282
+Response type: <Response [200]>
+Response time: 1720088171.688695
+Service time:  0.0583668
+------------------------------------------
+Start request: 1720088171.688816
+Response type: <Response [200]>
+Response time: 1720088171.7574131
+Service time:  0.0685971
+------------------------------------------
+Start request: 1720088171.757493
+Response type: <Response [200]>
+Response time: 1720088171.809658
+Service time:  0.052165
+------------------------------------------
+Start request: 1720088171.809783
+Response type: <Response [200]>
+Response time: 1720088171.857642
+Service time:  0.047859
+------------------------------------------
+Start request: 1720088171.857758
+Response type: <Response [200]>
+Response time: 1720088171.912257
+Service time:  0.054499
+------------------------------------------
+Start request: 1720088171.912344
+Response type: <Response [200]>
+Response time: 1720088171.9682949
+Service time:  0.0559509
+------------------------------------------
+Start request: 1720088171.968468
+Response type: <Response [200]>
+Response time: 1720088172.0359411
+Service time:  0.0674731
+------------------------------------------
+Start request: 1720088172.036129
+Response type: <Response [200]>
+Response time: 1720088172.1024158
+Service time:  0.0662868
+------------------------------------------
+Start request: 1720088172.102519
+Response type: <Response [200]>
+Response time: 1720088172.1623108
+Service time:  0.0597918
+------------------------------------------
+Start request: 1720088172.162456
+Response type: <Response [200]>
+Response time: 1720088172.230751
+Service time:  0.068295
+------------------------------------------
+Start request: 1720088172.2308302
+Response type: <Response [200]>
+Response time: 1720088172.290881
+Service time:  0.0600508
+------------------------------------------
+Start request: 1720088172.290962
+Response type: <Response [200]>
+Response time: 1720088172.3419452
+Service time:  0.0509832
+------------------------------------------
+Start request: 1720088172.342083
+Response type: <Response [200]>
+Response time: 1720088172.386592
+Service time:  0.044509
+------------------------------------------
+Start request: 1720088172.386682
+Response type: <Response [200]>
+Response time: 1720088172.43479
+Service time:  0.048108
+------------------------------------------
+Start request: 1720088172.435055
+Response type: <Response [200]>
+Response time: 1720088172.480022
+Service time:  0.044967
+------------------------------------------
+Start request: 1720088172.480084
+Response type: <Response [200]>
+Response time: 1720088172.524658
+Service time:  0.044574
+------------------------------------------
+Start request: 1720088172.524719
+Response type: <Response [200]>
+Response time: 1720088172.570914
+Service time:  0.046195
+------------------------------------------
+Start request: 1720088172.571146
+Response type: <Response [200]>
+Response time: 1720088172.624629
+Service time:  0.053483
+------------------------------------------
+Start request: 1720088172.6247392
+Response type: <Response [200]>
+Response time: 1720088172.672648
+Service time:  0.0479088
+------------------------------------------
+Start request: 1720088172.672742
+Response type: <Response [200]>
+Response time: 1720088172.744683
+Service time:  0.071941
+------------------------------------------
+Start request: 1720088172.7447731
+Response type: <Response [200]>
+Response time: 1720088172.8514109
+Service time:  0.1066378
+------------------------------------------
+Start request: 1720088172.851501
+Response type: <Response [200]>
+Response time: 1720088172.8979788
+Service time:  0.0464778
+------------------------------------------
+Start request: 1720088172.898069
+Response type: <Response [200]>
+Response time: 1720088172.944735
+Service time:  0.046666
+------------------------------------------
+Start request: 1720088172.944814
+Response type: <Response [200]>
+Response time: 1720088172.988837
+Service time:  0.044023
+------------------------------------------
+Start request: 1720088172.988909
+Response type: <Response [200]>
+Response time: 1720088173.0310478
+Service time:  0.0421388
+------------------------------------------
+Start request: 1720088173.0311239
+Response type: <Response [200]>
+Response time: 1720088173.074408
+Service time:  0.0432841
+------------------------------------------
+Start request: 1720088173.074678
+Response type: <Response [200]>
+Response time: 1720088173.114858
+Service time:  0.040180
+------------------------------------------
+Start request: 1720088173.114954
+Response type: <Response [200]>
+Response time: 1720088173.159061
+Service time:  0.044107
+------------------------------------------
+Start request: 1720088173.1591392
+Response type: <Response [200]>
+Response time: 1720088173.197535
+Service time:  0.0383958
+------------------------------------------
+Start request: 1720088173.197623
+Response type: <Response [200]>
+Response time: 1720088173.243841
+Service time:  0.046218
+------------------------------------------
+Start request: 1720088173.243932
+Response type: <Response [200]>
+Response time: 1720088173.287866
+Service time:  0.043934
+------------------------------------------
+Start request: 1720088173.288209
+Response type: <Response [200]>
+Response time: 1720088173.331197
+Service time:  0.042988
+------------------------------------------
+Start request: 1720088173.331291
+Response type: <Response [200]>
+Response time: 1720088173.3755908
+Service time:  0.0442998
+------------------------------------------
+Start request: 1720088173.375711
+Response type: <Response [200]>
+Response time: 1720088173.416202
+Service time:  0.040491
+------------------------------------------
+Start request: 1720088173.4164128
+Response type: <Response [200]>
+Response time: 1720088173.4571772
+Service time:  0.0407644
+------------------------------------------
+Start request: 1720088173.457255
+Response type: <Response [200]>
+Response time: 1720088173.515797
+Service time:  0.058542
+------------------------------------------
+Start request: 1720088173.515959
+Response type: <Response [200]>
+Response time: 1720088173.559527
+Service time:  0.043568
+------------------------------------------
+Start request: 1720088173.559673
+Response type: <Response [200]>
+Response time: 1720088173.616627
+Service time:  0.056954
+------------------------------------------
+Start request: 1720088173.6168058
+Response type: <Response [200]>
+Response time: 1720088173.68824
+Service time:  0.0714342
+------------------------------------------
+Start request: 1720088173.68833
+Response type: <Response [200]>
+Response time: 1720088173.870682
+Service time:  0.182352
+------------------------------------------
+Start request: 1720088173.870804
+Response type: <Response [200]>
+Response time: 1720088173.9293509
+Service time:  0.0585469
+------------------------------------------
+Start request: 1720088173.929479
+Response type: <Response [200]>
+Response time: 1720088173.981285
+Service time:  0.051806
+------------------------------------------
+Start request: 1720088173.981367
+Response type: <Response [200]>
+Response time: 1720088174.0229602
+Service time:  0.0415932
+------------------------------------------
+Start request: 1720088174.0230951
+Response type: <Response [200]>
+Response time: 1720088174.0641541
+Service time:  0.0410590
+------------------------------------------
+Start request: 1720088174.0642529
+Response type: <Response [200]>
+Response time: 1720088174.1062028
+Service time:  0.0419499
+------------------------------------------
+Start request: 1720088174.106276
+Response type: <Response [200]>
+Response time: 1720088174.155801
+Service time:  0.049525
+------------------------------------------
+Start request: 1720088174.1558669
+Response type: <Response [200]>
+Response time: 1720088174.1968021
+Service time:  0.0409352
+------------------------------------------
+Start request: 1720088174.196933
+Response type: <Response [200]>
+Response time: 1720088174.242832
+Service time:  0.045899
+------------------------------------------
+Start request: 1720088174.242922
+Response type: <Response [200]>
+Response time: 1720088174.324085
+Service time:  0.081163
+------------------------------------------
+Start request: 1720088174.324179
+Response type: <Response [200]>
+Response time: 1720088174.3661618
+Service time:  0.0419828
+------------------------------------------
+Start request: 1720088174.3662632
+Response type: <Response [200]>
+Response time: 1720088174.414361
+Service time:  0.0480978
+------------------------------------------
+Start request: 1720088174.4144268
+Response type: <Response [200]>
+Response time: 1720088174.455543
+Service time:  0.0411162
+------------------------------------------
+Start request: 1720088174.455628
+Response type: <Response [200]>
+Response time: 1720088174.504768
+Service time:  0.049140
+------------------------------------------
+Start request: 1720088174.504856
+Response type: <Response [200]>
+Response time: 1720088174.54755
+Service time:  0.042694
+------------------------------------------
+Start request: 1720088174.5476952
+Response type: <Response [200]>
+Response time: 1720088174.5906692
+Service time:  0.0429740
+------------------------------------------
+Start request: 1720088174.590764
+Response type: <Response [200]>
+Response time: 1720088174.638161
+Service time:  0.047397
+------------------------------------------
+Start request: 1720088174.638249
+Response type: <Response [200]>
+Response time: 1720088174.681947
+Service time:  0.043698
+------------------------------------------
+Start request: 1720088174.682026
+Response type: <Response [200]>
+Response time: 1720088174.7275672
+Service time:  0.0455412
+------------------------------------------
+Start request: 1720088174.727658
+Response type: <Response [200]>
+Response time: 1720088174.773632
+Service time:  0.045974
+------------------------------------------
+Start request: 1720088174.773736
+Response type: <Response [200]>
+Response time: 1720088174.817848
+Service time:  0.044112
+------------------------------------------
+Start request: 1720088174.81795
+Response type: <Response [200]>
+Response time: 1720088174.856085
+Service time:  0.038135
+------------------------------------------
+Start request: 1720088174.85616
+Response type: <Response [200]>
+Response time: 1720088174.898921
+Service time:  0.042761
+------------------------------------------
+Start request: 1720088174.899095
+Response type: <Response [200]>
+Response time: 1720088174.942682
+Service time:  0.043587
+------------------------------------------
+Start request: 1720088174.94282
+Response type: <Response [200]>
+Response time: 1720088174.986948
+Service time:  0.044128
+------------------------------------------
+Start request: 1720088174.987056
+Response type: <Response [200]>
+Response time: 1720088175.028137
+Service time:  0.041081
+------------------------------------------
+Start request: 1720088175.028248
+Response type: <Response [200]>
+Response time: 1720088175.079308
+Service time:  0.051060
+------------------------------------------
+Start request: 1720088175.079376
+Response type: <Response [200]>
+Response time: 1720088175.121114
+Service time:  0.041738
+------------------------------------------
+Start request: 1720088175.121284
+Response type: <Response [200]>
+Response time: 1720088175.163635
+Service time:  0.042351
+------------------------------------------
+Start request: 1720088175.1637309
+Response type: <Response [200]>
+Response time: 1720088175.217916
+Service time:  0.0541851
+------------------------------------------
+Start request: 1720088175.218092
+Response type: <Response [200]>
+Response time: 1720088175.257069
+Service time:  0.038977
+------------------------------------------
+Start request: 1720088175.257143
+Response type: <Response [200]>
+Response time: 1720088175.299574
+Service time:  0.042431
+------------------------------------------
+Start request: 1720088175.2997298
+Response type: <Response [200]>
+Response time: 1720088175.345248
+Service time:  0.0455182
+------------------------------------------
+Start request: 1720088175.345357
+Response type: <Response [200]>
+Response time: 1720088175.391798
+Service time:  0.046441
+------------------------------------------
+Start request: 1720088175.391927
+Response type: <Response [200]>
+Response time: 1720088175.431421
+Service time:  0.039494
+------------------------------------------
+Start request: 1720088175.431514
+Response type: <Response [200]>
+Response time: 1720088175.479421
+Service time:  0.047907
+------------------------------------------
+Start request: 1720088175.479603
+Response type: <Response [200]>
+Response time: 1720088175.520701
+Service time:  0.041098
+------------------------------------------
+Start request: 1720088175.520778
+Response type: <Response [200]>
+Response time: 1720088175.560262
+Service time:  0.039484
+------------------------------------------
+Start request: 1720088175.560351
+Response type: <Response [200]>
+Response time: 1720088175.6112661
+Service time:  0.0509151
+------------------------------------------
+Start request: 1720088175.611396
+Response type: <Response [200]>
+Response time: 1720088175.6480992
+Service time:  0.0367032
+------------------------------------------
+Start request: 1720088175.64833
+Response type: <Response [200]>
+Response time: 1720088175.720294
+Service time:  0.071964
+------------------------------------------
+Start request: 1720088175.7204611
+Response type: <Response [200]>
+Response time: 1720088175.77612
+Service time:  0.0556589
+------------------------------------------
+Start request: 1720088175.77635
+Response type: <Response [200]>
+Response time: 1720088175.8237078
+Service time:  0.0473578
+------------------------------------------
+Start request: 1720088175.823838
+Response type: <Response [200]>
+Response time: 1720088175.8791108
+Service time:  0.0552728
+------------------------------------------
+Start request: 1720088175.879217
+Response type: <Response [200]>
+Response time: 1720088175.922692
+Service time:  0.043475
+------------------------------------------
+Start request: 1720088175.922784
+Response type: <Response [200]>
+Response time: 1720088175.9617898
+Service time:  0.0390058
+------------------------------------------
+Start request: 1720088175.9619288
+Response type: <Response [200]>
+Response time: 1720088176.021803
+Service time:  0.0598742
+------------------------------------------
+Start request: 1720088176.0219111
+Response type: <Response [200]>
+Response time: 1720088176.062637
+Service time:  0.0407259
+------------------------------------------
+Start request: 1720088176.0628202
+Response type: <Response [200]>
+Response time: 1720088176.103689
+Service time:  0.0408688
+------------------------------------------
+Start request: 1720088176.1037922
+Response type: <Response [200]>
+Response time: 1720088176.149666
+Service time:  0.0458738
+------------------------------------------
+Start request: 1720088176.149794
+Response type: <Response [200]>
+Response time: 1720088176.19694
+Service time:  0.047146
+------------------------------------------
+Start request: 1720088176.197011
+Response type: <Response [200]>
+Response time: 1720088176.280261
+Service time:  0.083250
+------------------------------------------
+Start request: 1720088176.280342
+Response type: <Response [200]>
+Response time: 1720088176.34653
+Service time:  0.066188
+------------------------------------------
+Start request: 1720088176.346664
+Response type: <Response [200]>
+Response time: 1720088176.4207911
+Service time:  0.0741271
+------------------------------------------
+Start request: 1720088176.420971
+Response type: <Response [200]>
+Response time: 1720088176.4901602
+Service time:  0.0691892
+------------------------------------------
+Start request: 1720088176.490249
+Response type: <Response [200]>
+Response time: 1720088176.550613
+Service time:  0.060364
+------------------------------------------
+Start request: 1720088176.5507278
+Response type: <Response [200]>
+Response time: 1720088176.596019
+Service time:  0.0452912
+------------------------------------------
+Start request: 1720088176.596079
+Response type: <Response [200]>
+Response time: 1720088176.6413682
+Service time:  0.0452892
+------------------------------------------
+Start request: 1720088176.641463
+Response type: <Response [200]>
+Response time: 1720088176.6831439
+Service time:  0.0416809
+------------------------------------------
+Start request: 1720088176.683288
+Response type: <Response [200]>
+Response time: 1720088176.7268
+Service time:  0.043512
+------------------------------------------
+Start request: 1720088176.726892
+Response type: <Response [200]>
+Response time: 1720088176.768777
+Service time:  0.041885
+------------------------------------------
+Start request: 1720088176.769349
+Response type: <Response [200]>
+Response time: 1720088176.81411
+Service time:  0.044761
+------------------------------------------
+Start request: 1720088176.814322
+Response type: <Response [200]>
+Response time: 1720088176.853769
+Service time:  0.039447
+------------------------------------------
+Start request: 1720088176.8539362
+Response type: <Response [200]>
+Response time: 1720088176.890486
+Service time:  0.0365498
+------------------------------------------
+Start request: 1720088176.890569
+Response type: <Response [200]>
+Response time: 1720088176.9408379
+Service time:  0.0502689
+------------------------------------------
+Start request: 1720088176.940973
+Response type: <Response [200]>
+Response time: 1720088176.977985
+Service time:  0.037012
+------------------------------------------
+Start request: 1720088176.978121
+Response type: <Response [200]>
+Response time: 1720088177.0148091
+Service time:  0.0366881
+------------------------------------------
+Start request: 1720088177.014935
+Response type: <Response [200]>
+Response time: 1720088177.0652611
+Service time:  0.0503261
+------------------------------------------
+Start request: 1720088177.065384
+Response type: <Response [200]>
+Response time: 1720088177.153694
+Service time:  0.088310
+------------------------------------------
+Start request: 1720088177.153815
+Response type: <Response [200]>
+Response time: 1720088177.21542
+Service time:  0.061605
+------------------------------------------
+Start request: 1720088177.215518
+Response type: <Response [200]>
+Response time: 1720088177.261142
+Service time:  0.045624
+------------------------------------------
+Start request: 1720088177.2612832
+Response type: <Response [200]>
+Response time: 1720088177.3142989
+Service time:  0.0530157
+------------------------------------------
+Start request: 1720088177.3143659
+Response type: <Response [200]>
+Response time: 1720088177.344791
+Service time:  0.0304251
+------------------------------------------
+Start request: 1720088177.3448498
+Response type: <Response [200]>
+Response time: 1720088177.3779619
+Service time:  0.0331121
+------------------------------------------
+Start request: 1720088177.378033
+Response type: <Response [200]>
+Response time: 1720088177.410623
+Service time:  0.032590
+------------------------------------------
+Start request: 1720088177.410698
+Response type: <Response [200]>
+Response time: 1720088177.445046
+Service time:  0.034348
+------------------------------------------
+Start request: 1720088177.445112
+Response type: <Response [200]>
+Response time: 1720088177.479241
+Service time:  0.034129
+------------------------------------------
+Start request: 1720088177.4793038
+Response type: <Response [200]>
+Response time: 1720088177.526557
+Service time:  0.0472532
+------------------------------------------
+Start request: 1720088177.5266392
+Response type: <Response [200]>
+Response time: 1720088177.568348
+Service time:  0.0417088
+------------------------------------------
+Start request: 1720088177.5685089
+Response type: <Response [200]>
+Response time: 1720088177.620223
+Service time:  0.0517141
+------------------------------------------
+Start request: 1720088177.620362
+Response type: <Response [200]>
+Response time: 1720088177.656492
+Service time:  0.036130
+------------------------------------------
+Start request: 1720088177.656561
+Response type: <Response [200]>
+Response time: 1720088177.6879401
+Service time:  0.0313791
+------------------------------------------
+Start request: 1720088177.688025
+Response type: <Response [200]>
+Response time: 1720088177.727068
+Service time:  0.039043
+------------------------------------------
+Start request: 1720088177.727169
+Response type: <Response [200]>
+Response time: 1720088177.7615092
+Service time:  0.0343402
+------------------------------------------
+Start request: 1720088177.761577
+Response type: <Response [200]>
+Response time: 1720088177.7993119
+Service time:  0.0377349
+------------------------------------------
+Start request: 1720088177.7995
+Response type: <Response [200]>
+Response time: 1720088177.8425012
+Service time:  0.0430012
+------------------------------------------
+Start request: 1720088177.84264
+Response type: <Response [200]>
+Response time: 1720088177.8785129
+Service time:  0.0358729
+------------------------------------------
+Start request: 1720088177.878679
+Response type: <Response [200]>
+Response time: 1720088177.916054
+Service time:  0.037375
+------------------------------------------
+Start request: 1720088177.9161348
+Response type: <Response [200]>
+Response time: 1720088177.955748
+Service time:  0.0396132
+------------------------------------------
+Start request: 1720088177.9558048
+Response type: <Response [200]>
+Response time: 1720088177.987333
+Service time:  0.0315282
+------------------------------------------
+Start request: 1720088177.987457
+Response type: <Response [200]>
+Response time: 1720088178.023808
+Service time:  0.036351
+------------------------------------------
+Start request: 1720088178.023894
+Response type: <Response [200]>
+Response time: 1720088178.059361
+Service time:  0.035467
+------------------------------------------
+Start request: 1720088178.059443
+Response type: <Response [200]>
+Response time: 1720088178.0956318
+Service time:  0.0361888
+------------------------------------------
+Start request: 1720088178.0957508
+Response type: <Response [200]>
+Response time: 1720088178.1341078
+Service time:  0.0383570
+------------------------------------------
+Start request: 1720088178.13423
+Response type: <Response [200]>
+Response time: 1720088178.168038
+Service time:  0.033808
+------------------------------------------
+Start request: 1720088178.1683252
+Response type: <Response [200]>
+Response time: 1720088178.256546
+Service time:  0.0882208
+------------------------------------------
+Start request: 1720088178.2567239
+Response type: <Response [200]>
+Response time: 1720088178.296024
+Service time:  0.0393001
+------------------------------------------
+Start request: 1720088178.296108
+Response type: <Response [200]>
+Response time: 1720088178.340737
+Service time:  0.044629
+------------------------------------------
+Start request: 1720088178.3409548
+Response type: <Response [200]>
+Response time: 1720088178.394515
+Service time:  0.0535602
+------------------------------------------
+Start request: 1720088178.394662
+Response type: <Response [200]>
+Response time: 1720088178.4773939
+Service time:  0.0827319
+------------------------------------------
+Start request: 1720088178.4775171
+Response type: <Response [200]>
+Response time: 1720088178.543411
+Service time:  0.0658939
+------------------------------------------
+Start request: 1720088178.5435982
+Response type: <Response [200]>
+Response time: 1720088178.596555
+Service time:  0.0529568
+------------------------------------------
+Start request: 1720088178.596661
+Response type: <Response [200]>
+Response time: 1720088178.652771
+Service time:  0.056110
+------------------------------------------
+Start request: 1720088178.652875
+Response type: <Response [200]>
+Response time: 1720088178.692308
+Service time:  0.039433
+------------------------------------------
+Start request: 1720088178.6924741
+Response type: <Response [200]>
+Response time: 1720088178.7408798
+Service time:  0.0484057
+------------------------------------------
+Start request: 1720088178.741009
+Response type: <Response [200]>
+Response time: 1720088178.7858438
+Service time:  0.0448348
+------------------------------------------
+Start request: 1720088178.7860749
+Response type: <Response [200]>
+Response time: 1720088178.844241
+Service time:  0.0581661
+------------------------------------------
+Start request: 1720088178.844358
+Response type: <Response [200]>
+Response time: 1720088178.884525
+Service time:  0.040167
+------------------------------------------
+Start request: 1720088178.884682
+Response type: <Response [200]>
+Response time: 1720088178.924559
+Service time:  0.039877
+------------------------------------------
+Start request: 1720088178.92464
+Response type: <Response [200]>
+Response time: 1720088178.962763
+Service time:  0.038123
+------------------------------------------
+Start request: 1720088178.9628239
+Response type: <Response [200]>
+Response time: 1720088179.010164
+Service time:  0.0473401
+------------------------------------------
+Start request: 1720088179.0102441
+Response type: <Response [200]>
+Response time: 1720088179.05921
+Service time:  0.0489659
+------------------------------------------
+Start request: 1720088179.059295
+Response type: <Response [200]>
+Response time: 1720088179.121854
+Service time:  0.062559
+------------------------------------------
+Start request: 1720088179.1219468
+Response type: <Response [200]>
+Response time: 1720088179.1768188
+Service time:  0.0548720
+------------------------------------------
+Start request: 1720088179.1769228
+Response type: <Response [200]>
+Response time: 1720088179.226773
+Service time:  0.0498502
+------------------------------------------
+Start request: 1720088179.226866
+Response type: <Response [200]>
+Response time: 1720088179.274428
+Service time:  0.047562
+------------------------------------------
+Start request: 1720088179.2745469
+Response type: <Response [200]>
+Response time: 1720088179.3221838
+Service time:  0.0476369
+------------------------------------------
+Start request: 1720088179.3222651
+Response type: <Response [200]>
+Response time: 1720088179.360628
+Service time:  0.0383629
+------------------------------------------
+Start request: 1720088179.3607402
+Response type: <Response [200]>
+Response time: 1720088179.3918872
+Service time:  0.0311470
+------------------------------------------
+Start request: 1720088179.39202
+Response type: <Response [200]>
+Response time: 1720088179.431425
+Service time:  0.039405
+------------------------------------------
+Start request: 1720088179.431684
+Response type: <Response [200]>
+Response time: 1720088179.462776
+Service time:  0.031092
+------------------------------------------
+Start request: 1720088179.462846
+Response type: <Response [200]>
+Response time: 1720088179.499956
+Service time:  0.037110
+------------------------------------------
+Start request: 1720088179.500094
+Response type: <Response [200]>
+Response time: 1720088179.533521
+Service time:  0.033427
+------------------------------------------
+Start request: 1720088179.533611
+Response type: <Response [200]>
+Response time: 1720088179.5709262
+Service time:  0.0373152
+------------------------------------------
+Start request: 1720088179.571002
+Response type: <Response [200]>
+Response time: 1720088179.605351
+Service time:  0.034349
+------------------------------------------
+Start request: 1720088179.605439
+Response type: <Response [200]>
+Response time: 1720088179.6524239
+Service time:  0.0469849
+------------------------------------------
+Start request: 1720088179.652554
+Response type: <Response [200]>
+Response time: 1720088179.692279
+Service time:  0.039725
+------------------------------------------
+Start request: 1720088179.6924028
+Response type: <Response [200]>
+Response time: 1720088179.729967
+Service time:  0.0375642
+------------------------------------------
+Start request: 1720088179.730068
+Response type: <Response [200]>
+Response time: 1720088179.76443
+Service time:  0.034362
+------------------------------------------
+Start request: 1720088179.7647638
+Response type: <Response [200]>
+Response time: 1720088179.805467
+Service time:  0.0407032
+------------------------------------------
+Start request: 1720088179.805959
+Response type: <Response [200]>
+Response time: 1720088179.844394
+Service time:  0.038435
+------------------------------------------
+Start request: 1720088179.8445399
+Response type: <Response [200]>
+Response time: 1720088179.877942
+Service time:  0.0334021
+------------------------------------------
+Start request: 1720088179.878007
+Response type: <Response [200]>
+Response time: 1720088179.917213
+Service time:  0.039206
+------------------------------------------
+Start request: 1720088179.917301
+Response type: <Response [200]>
+Response time: 1720088179.955553
+Service time:  0.038252
+------------------------------------------
+Start request: 1720088179.955628
+Response type: <Response [200]>
+Response time: 1720088179.991589
+Service time:  0.035961
+------------------------------------------
+Start request: 1720088179.991714
+Response type: <Response [200]>
+Response time: 1720088180.034104
+Service time:  0.042390
+------------------------------------------
+Start request: 1720088180.034257
+Response type: <Response [200]>
+Response time: 1720088180.146461
+Service time:  0.112204
+------------------------------------------
+Start request: 1720088180.14661
+Response type: <Response [200]>
+Response time: 1720088180.1900318
+Service time:  0.0434218
+------------------------------------------
+Start request: 1720088180.1901052
+Response type: <Response [200]>
+Response time: 1720088180.246754
+Service time:  0.0566488
+------------------------------------------
+Start request: 1720088180.2468328
+Response type: <Response [200]>
+Response time: 1720088180.28296
+Service time:  0.0361272
+------------------------------------------
+Start request: 1720088180.2830799
+Response type: <Response [200]>
+Response time: 1720088180.339068
+Service time:  0.0559881
+------------------------------------------
+Start request: 1720088180.339721
+Response type: <Response [200]>
+Response time: 1720088180.4305458
+Service time:  0.0908248
+------------------------------------------
+Start request: 1720088180.430799
+Response type: <Response [200]>
+Response time: 1720088180.481195
+Service time:  0.050396
+------------------------------------------
+Start request: 1720088180.4812632
+Response type: <Response [200]>
+Response time: 1720088180.535691
+Service time:  0.0544278
+------------------------------------------
+Start request: 1720088180.535891
+Response type: <Response [200]>
+Response time: 1720088180.5842218
+Service time:  0.0483308
+------------------------------------------
+Start request: 1720088180.584312
+Response type: <Response [200]>
+Response time: 1720088180.652034
+Service time:  0.067722
+------------------------------------------
+Start request: 1720088180.6522949
+Response type: <Response [200]>
+Response time: 1720088180.723567
+Service time:  0.0712721
+------------------------------------------
+Start request: 1720088180.723843
+Response type: <Response [200]>
+Response time: 1720088180.791449
+Service time:  0.067606
+------------------------------------------
+Start request: 1720088180.791596
+Response type: <Response [200]>
+Response time: 1720088180.858422
+Service time:  0.066826
+------------------------------------------
+Start request: 1720088180.85861
+Response type: <Response [200]>
+Response time: 1720088180.910443
+Service time:  0.051833
+------------------------------------------
+Start request: 1720088180.910671
+Response type: <Response [200]>
+Response time: 1720088180.9516108
+Service time:  0.0409398
+------------------------------------------
+Start request: 1720088180.9517288
+Response type: <Response [200]>
+Response time: 1720088180.9912362
+Service time:  0.0395074
+------------------------------------------
+Start request: 1720088180.9914749
+Response type: <Response [200]>
+Response time: 1720088181.037144
+Service time:  0.0456691
+------------------------------------------
+Start request: 1720088181.0374138
+Response type: <Response [200]>
+Response time: 1720088181.086674
+Service time:  0.0492602
+------------------------------------------
+Start request: 1720088181.086774
+Response type: <Response [200]>
+Response time: 1720088181.127257
+Service time:  0.040483
+------------------------------------------
+Start request: 1720088181.127347
+Response type: <Response [200]>
+Response time: 1720088181.164927
+Service time:  0.037580
+------------------------------------------
+Start request: 1720088181.1650019
+Response type: <Response [200]>
+Response time: 1720088181.212092
+Service time:  0.0470901
+------------------------------------------
+Start request: 1720088181.212236
+Response type: <Response [200]>
+Response time: 1720088181.248916
+Service time:  0.036680
+------------------------------------------
+Start request: 1720088181.2490182
+Response type: <Response [200]>
+Response time: 1720088181.2858398
+Service time:  0.0368216
+------------------------------------------
+Start request: 1720088181.285986
+Response type: <Response [200]>
+Response time: 1720088181.32864
+Service time:  0.042654
+------------------------------------------
+Start request: 1720088181.328773
+Response type: <Response [200]>
+Response time: 1720088181.3721778
+Service time:  0.0434048
+------------------------------------------
+Start request: 1720088181.372373
+Response type: <Response [200]>
+Response time: 1720088181.412402
+Service time:  0.040029
+------------------------------------------
+Start request: 1720088181.4125051
+Response type: <Response [200]>
+Response time: 1720088181.459326
+Service time:  0.0468209
+------------------------------------------
+Start request: 1720088181.45952
+Response type: <Response [200]>
+Response time: 1720088181.4985
+Service time:  0.03898
+------------------------------------------
+Start request: 1720088181.498711
+Response type: <Response [200]>
+Response time: 1720088181.548368
+Service time:  0.049657
+------------------------------------------
+Start request: 1720088181.548598
+Response type: <Response [200]>
+Response time: 1720088181.592621
+Service time:  0.044023
+------------------------------------------
+Start request: 1720088181.592724
+Response type: <Response [200]>
+Response time: 1720088181.632847
+Service time:  0.040123
+------------------------------------------
+Start request: 1720088181.632968
+Response type: <Response [200]>
+Response time: 1720088181.673315
+Service time:  0.040347
+------------------------------------------
+Start request: 1720088181.673418
+Response type: <Response [200]>
+Response time: 1720088181.715733
+Service time:  0.042315
+------------------------------------------
+Start request: 1720088181.715889
+Response type: <Response [200]>
+Response time: 1720088181.75234
+Service time:  0.036451
+------------------------------------------
+Start request: 1720088181.7524679
+Response type: <Response [200]>
+Response time: 1720088181.792918
+Service time:  0.0404501
+------------------------------------------
+Start request: 1720088181.7930298
+Response type: <Response [200]>
+Response time: 1720088181.8505769
+Service time:  0.0575471
+------------------------------------------
+Start request: 1720088181.8507369
+Response type: <Response [200]>
+Response time: 1720088181.893854
+Service time:  0.0431171
+------------------------------------------
+Start request: 1720088181.893953
+Response type: <Response [200]>
+Response time: 1720088181.936417
+Service time:  0.042464
+------------------------------------------
+Start request: 1720088181.9365299
+Response type: <Response [200]>
+Response time: 1720088181.981792
+Service time:  0.0452621
+------------------------------------------
+Start request: 1720088181.9818811
+Response type: <Response [200]>
+Response time: 1720088182.0202172
+Service time:  0.0383361
+------------------------------------------
+Start request: 1720088182.0203578
+Response type: <Response [200]>
+Response time: 1720088182.058918
+Service time:  0.0385602
+------------------------------------------
+Start request: 1720088182.05908
+Response type: <Response [200]>
+Response time: 1720088182.103866
+Service time:  0.044786
+------------------------------------------
+Start request: 1720088182.104176
+Response type: <Response [200]>
+Response time: 1720088182.153517
+Service time:  0.049341
+------------------------------------------
+Start request: 1720088182.1537158
+Response type: <Response [200]>
+Response time: 1720088182.196882
+Service time:  0.0431662
+------------------------------------------
+Start request: 1720088182.197203
+Response type: <Response [200]>
+Response time: 1720088182.2444549
+Service time:  0.0472519
+------------------------------------------
+Start request: 1720088182.244562
+Response type: <Response [200]>
+Response time: 1720088182.2822459
+Service time:  0.0376839
+------------------------------------------
+Start request: 1720088182.282521
+Response type: <Response [200]>
+Response time: 1720088182.32114
+Service time:  0.038619
+------------------------------------------
+Start request: 1720088182.321216
+Response type: <Response [200]>
+Response time: 1720088182.361187
+Service time:  0.039971
+------------------------------------------
+Start request: 1720088182.361335
+Response type: <Response [200]>
+Response time: 1720088182.396363
+Service time:  0.035028
+------------------------------------------
+Start request: 1720088182.396458
+Response type: <Response [200]>
+Response time: 1720088182.442647
+Service time:  0.046189
+------------------------------------------
+Start request: 1720088182.442822
+Response type: <Response [200]>
+Response time: 1720088182.484442
+Service time:  0.041620
+------------------------------------------
+Start request: 1720088182.48464
+Response type: <Response [200]>
+Response time: 1720088182.525944
+Service time:  0.041304
+------------------------------------------
+Start request: 1720088182.526091
+Response type: <Response [200]>
+Response time: 1720088182.5625632
+Service time:  0.0364722
+------------------------------------------
+Start request: 1720088182.56269
+Response type: <Response [200]>
+Response time: 1720088182.601661
+Service time:  0.038971
+------------------------------------------
+Start request: 1720088182.6019042
+Response type: <Response [200]>
+Response time: 1720088182.6482072
+Service time:  0.0463030
+------------------------------------------
+Start request: 1720088182.648509
+Response type: <Response [200]>
+Response time: 1720088182.687809
+Service time:  0.039300
+------------------------------------------
+Start request: 1720088182.6881201
+Response type: <Response [200]>
+Response time: 1720088182.7574348
+Service time:  0.0693147
+------------------------------------------
+Start request: 1720088182.757523
+Response type: <Response [200]>
+Response time: 1720088182.798472
+Service time:  0.040949
+------------------------------------------
+Start request: 1720088182.79857
+Response type: <Response [200]>
+Response time: 1720088182.8441222
+Service time:  0.0455522
+------------------------------------------
+Start request: 1720088182.8442628
+Response type: <Response [200]>
+Response time: 1720088182.888951
+Service time:  0.0446882
+------------------------------------------
+Start request: 1720088182.8891149
+Response type: <Response [200]>
+Response time: 1720088182.9323268
+Service time:  0.0432119
+------------------------------------------
+Start request: 1720088182.932406
+Response type: <Response [200]>
+Response time: 1720088182.975061
+Service time:  0.042655
+------------------------------------------
+Start request: 1720088182.975206
+Response type: <Response [200]>
+Response time: 1720088183.046124
+Service time:  0.070918
+------------------------------------------
+Start request: 1720088183.0462499
+Response type: <Response [200]>
+Response time: 1720088183.113587
+Service time:  0.0673371
+------------------------------------------
+Start request: 1720088183.113726
+Response type: <Response [200]>
+Response time: 1720088183.161441
+Service time:  0.047715
+------------------------------------------
+Start request: 1720088183.161603
+Response type: <Response [200]>
+Response time: 1720088183.212545
+Service time:  0.050942
+------------------------------------------
+Start request: 1720088183.212717
+Response type: <Response [200]>
+Response time: 1720088183.259718
+Service time:  0.047001
+------------------------------------------
+Start request: 1720088183.259804
+Response type: <Response [200]>
+Response time: 1720088183.298024
+Service time:  0.038220
+------------------------------------------
+Start request: 1720088183.2981172
+Response type: <Response [200]>
+Response time: 1720088183.3384252
+Service time:  0.0403080
+------------------------------------------
+Start request: 1720088183.3386502
+Response type: <Response [200]>
+Response time: 1720088183.380897
+Service time:  0.0422468
+------------------------------------------
+Start request: 1720088183.380987
+Response type: <Response [200]>
+Response time: 1720088183.419756
+Service time:  0.038769
+------------------------------------------
+Start request: 1720088183.420017
+Response type: <Response [200]>
+Response time: 1720088183.457841
+Service time:  0.037824
+------------------------------------------
+Start request: 1720088183.457959
+Response type: <Response [200]>
+Response time: 1720088183.496049
+Service time:  0.038090
+------------------------------------------
+Start request: 1720088183.4962199
+Response type: <Response [200]>
+Response time: 1720088183.5547562
+Service time:  0.0585363
+------------------------------------------
+Start request: 1720088183.554873
+Response type: <Response [200]>
+Response time: 1720088183.596797
+Service time:  0.041924
+------------------------------------------
+Start request: 1720088183.596906
+Response type: <Response [200]>
+Response time: 1720088183.643266
+Service time:  0.046360
+------------------------------------------
+Start request: 1720088183.643391
+Response type: <Response [200]>
+Response time: 1720088183.6806479
+Service time:  0.0372569
+------------------------------------------
+Start request: 1720088183.680741
+Response type: <Response [200]>
+Response time: 1720088183.719216
+Service time:  0.038475
+------------------------------------------
+Start request: 1720088183.7193239
+Response type: <Response [200]>
+Response time: 1720088183.763436
+Service time:  0.0441121
+------------------------------------------
+Start request: 1720088183.7635388
+Response type: <Response [200]>
+Response time: 1720088183.802625
+Service time:  0.0390862
+------------------------------------------
+Start request: 1720088183.8027341
+Response type: <Response [200]>
+Response time: 1720088183.846706
+Service time:  0.0439719
+------------------------------------------
+Start request: 1720088183.846813
+Response type: <Response [200]>
+Response time: 1720088183.911078
+Service time:  0.064265
+------------------------------------------
+Start request: 1720088183.9112809
+Response type: <Response [200]>
+Response time: 1720088183.961215
+Service time:  0.0499341
+------------------------------------------
+Start request: 1720088183.961422
+Response type: <Response [200]>
+Response time: 1720088184.003326
+Service time:  0.041904
+------------------------------------------
+Start request: 1720088184.003519
+Response type: <Response [200]>
+Response time: 1720088184.053748
+Service time:  0.050229
+------------------------------------------
+Start request: 1720088184.053897
+Response type: <Response [200]>
+Response time: 1720088184.1036851
+Service time:  0.0497881
+------------------------------------------
+Start request: 1720088184.1038852
+Response type: <Response [200]>
+Response time: 1720088184.157231
+Service time:  0.0533458
+------------------------------------------
+Start request: 1720088184.15732
+Response type: <Response [200]>
+Response time: 1720088184.220822
+Service time:  0.063502
+------------------------------------------
+Start request: 1720088184.220923
+Response type: <Response [200]>
+Response time: 1720088184.2626078
+Service time:  0.0416848
+------------------------------------------
+Start request: 1720088184.262743
+Response type: <Response [200]>
+Response time: 1720088184.313088
+Service time:  0.050345
+------------------------------------------
+Start request: 1720088184.313247
+Response type: <Response [200]>
+Response time: 1720088184.361654
+Service time:  0.048407
+------------------------------------------
+Start request: 1720088184.361778
+Response type: <Response [200]>
+Response time: 1720088184.428362
+Service time:  0.066584
+------------------------------------------
+Start request: 1720088184.428443
+Response type: <Response [200]>
+Response time: 1720088184.485204
+Service time:  0.056761
+------------------------------------------
+Start request: 1720088184.4853399
+Response type: <Response [200]>
+Response time: 1720088184.526061
+Service time:  0.0407211
+------------------------------------------
+Start request: 1720088184.5261881
+Response type: <Response [200]>
+Response time: 1720088184.565216
+Service time:  0.0390279
+------------------------------------------
+Start request: 1720088184.5655549
+Response type: <Response [200]>
+Response time: 1720088184.605075
+Service time:  0.0395201
+------------------------------------------
+Start request: 1720088184.605224
+Response type: <Response [200]>
+Response time: 1720088184.6436229
+Service time:  0.0383989
+------------------------------------------
+Start request: 1720088184.643939
+Response type: <Response [200]>
+Response time: 1720088184.682391
+Service time:  0.038452
+------------------------------------------
+Start request: 1720088184.68261
+Response type: <Response [200]>
+Response time: 1720088184.7221508
+Service time:  0.0395408
+------------------------------------------
+Start request: 1720088184.722254
+Response type: <Response [200]>
+Response time: 1720088184.759706
+Service time:  0.037452
+------------------------------------------
+Start request: 1720088184.759813
+Response type: <Response [200]>
+Response time: 1720088184.7970219
+Service time:  0.0372089
+------------------------------------------
+Start request: 1720088184.7972019
+Response type: <Response [200]>
+Response time: 1720088184.836662
+Service time:  0.0394601
+------------------------------------------
+Start request: 1720088184.836847
+Response type: <Response [200]>
+Response time: 1720088184.879034
+Service time:  0.042187
+------------------------------------------
+Start request: 1720088184.8792078
+Response type: <Response [200]>
+Response time: 1720088185.065713
+Service time:  0.1865052
+------------------------------------------
+Start request: 1720088185.0659058
+Response type: <Response [200]>
+Response time: 1720088185.1126258
+Service time:  0.0467200
+------------------------------------------
+Start request: 1720088185.11279
+Response type: <Response [200]>
+Response time: 1720088185.1528618
+Service time:  0.0400718
+------------------------------------------
+Start request: 1720088185.153147
+Response type: <Response [200]>
+Response time: 1720088185.1921558
+Service time:  0.0390088
+------------------------------------------
+Start request: 1720088185.1923578
+Response type: <Response [200]>
+Response time: 1720088185.2335649
+Service time:  0.0412071
+------------------------------------------
+Start request: 1720088185.234047
+Response type: <Response [200]>
+Response time: 1720088185.281059
+Service time:  0.047012
+------------------------------------------
+Start request: 1720088185.281211
+Response type: <Response [200]>
+Response time: 1720088185.330237
+Service time:  0.049026
+------------------------------------------
+Start request: 1720088185.3304472
+Response type: <Response [200]>
+Response time: 1720088185.380942
+Service time:  0.0504948
+------------------------------------------
+Start request: 1720088185.381063
+Response type: <Response [200]>
+Response time: 1720088185.424309
+Service time:  0.043246
+------------------------------------------
+Start request: 1720088185.4244149
+Response type: <Response [200]>
+Response time: 1720088185.474106
+Service time:  0.0496911
+------------------------------------------
+Start request: 1720088185.4743161
+Response type: <Response [200]>
+Response time: 1720088185.547067
+Service time:  0.0727509
+------------------------------------------
+Start request: 1720088185.5472121
+Response type: <Response [200]>
+Response time: 1720088185.628597
+Service time:  0.0813849
+------------------------------------------
+Start request: 1720088185.628693
+Response type: <Response [200]>
+Response time: 1720088185.6860101
+Service time:  0.0573171
+------------------------------------------
+Start request: 1720088185.686222
+Response type: <Response [200]>
+Response time: 1720088185.732818
+Service time:  0.046596
+------------------------------------------
+Start request: 1720088185.732928
+Response type: <Response [200]>
+Response time: 1720088185.7715452
+Service time:  0.0386172
+------------------------------------------
+Start request: 1720088185.771704
+Response type: <Response [200]>
+Response time: 1720088185.81019
+Service time:  0.038486
+------------------------------------------
+Start request: 1720088185.810293
+Response type: <Response [200]>
+Response time: 1720088185.845003
+Service time:  0.034710
+------------------------------------------
+Start request: 1720088185.8451881
+Response type: <Response [200]>
+Response time: 1720088185.89858
+Service time:  0.0533919
+------------------------------------------
+Start request: 1720088185.8987362
+Response type: <Response [200]>
+Response time: 1720088185.944436
+Service time:  0.0456998
+------------------------------------------
+Start request: 1720088185.9445918
+Response type: <Response [200]>
+Response time: 1720088185.9884071
+Service time:  0.0438153
+------------------------------------------
+Start request: 1720088185.988609
+Response type: <Response [200]>
+Response time: 1720088186.051798
+Service time:  0.063189
+------------------------------------------
+Start request: 1720088186.0519521
+Response type: <Response [200]>
+Response time: 1720088186.0886788
+Service time:  0.0367267
+------------------------------------------
+Start request: 1720088186.088775
+Response type: <Response [200]>
+Response time: 1720088186.124743
+Service time:  0.035968
+------------------------------------------
+Start request: 1720088186.124823
+Response type: <Response [200]>
+Response time: 1720088186.1638248
+Service time:  0.0390018
+------------------------------------------
+Start request: 1720088186.163931
+Response type: <Response [200]>
+Response time: 1720088186.2143219
+Service time:  0.0503909
+------------------------------------------
+Start request: 1720088186.2144482
+Response type: <Response [200]>
+Response time: 1720088186.262369
+Service time:  0.0479208
+------------------------------------------
+Start request: 1720088186.262518
+Response type: <Response [200]>
+Response time: 1720088186.332117
+Service time:  0.069599
+------------------------------------------
+Start request: 1720088186.332489
+Response type: <Response [200]>
+Response time: 1720088186.417624
+Service time:  0.085135
+------------------------------------------
+Start request: 1720088186.417773
+Response type: <Response [200]>
+Response time: 1720088186.467
+Service time:  0.049227
+------------------------------------------
+Start request: 1720088186.467251
+Response type: <Response [200]>
+Response time: 1720088186.506915
+Service time:  0.039664
+------------------------------------------
+Start request: 1720088186.507066
+Response type: <Response [200]>
+Response time: 1720088186.5602849
+Service time:  0.0532189
+------------------------------------------
+Start request: 1720088186.5604212
+Response type: <Response [200]>
+Response time: 1720088186.633514
+Service time:  0.0730928
+------------------------------------------
+Start request: 1720088186.6339352
+Response type: <Response [200]>
+Response time: 1720088186.690613
+Service time:  0.0566778
+------------------------------------------
+Start request: 1720088186.6907399
+Response type: <Response [200]>
+Response time: 1720088186.739583
+Service time:  0.0488431
+------------------------------------------
+Start request: 1720088186.739895
+Response type: <Response [200]>
+Response time: 1720088186.7827368
+Service time:  0.0428418
+------------------------------------------
+Start request: 1720088186.7828732
+Response type: <Response [200]>
+Response time: 1720088186.826806
+Service time:  0.0439328
+------------------------------------------
+Start request: 1720088186.826905
+Response type: <Response [200]>
+Response time: 1720088186.873717
+Service time:  0.046812
+------------------------------------------
+Start request: 1720088186.874125
+Response type: <Response [200]>
+Response time: 1720088186.944076
+Service time:  0.069951
+------------------------------------------
+Start request: 1720088186.944312
+Response type: <Response [200]>
+Response time: 1720088187.031583
+Service time:  0.087271
+------------------------------------------
+Start request: 1720088187.031708
+Response type: <Response [200]>
+Response time: 1720088187.1067479
+Service time:  0.0750399
+------------------------------------------
+Start request: 1720088187.1068559
+Response type: <Response [200]>
+Response time: 1720088187.160554
+Service time:  0.0536981
+------------------------------------------
+Start request: 1720088187.1606889
+Response type: <Response [200]>
+Response time: 1720088187.228193
+Service time:  0.0675041
+------------------------------------------
+Start request: 1720088187.228332
+Response type: <Response [200]>
+Response time: 1720088187.299906
+Service time:  0.071574
+------------------------------------------
+Start request: 1720088187.3000488
+Response type: <Response [200]>
+Response time: 1720088187.362613
+Service time:  0.0625642
+------------------------------------------
+Start request: 1720088187.362745
+Response type: <Response [200]>
+Response time: 1720088187.4286761
+Service time:  0.0659311
+------------------------------------------
+Start request: 1720088187.428852
+Response type: <Response [200]>
+Response time: 1720088187.48771
+Service time:  0.058858
+------------------------------------------
+Start request: 1720088187.487933
+Response type: <Response [200]>
+Response time: 1720088187.543649
+Service time:  0.055716
+------------------------------------------
+Start request: 1720088187.5437472
+Response type: <Response [200]>
+Response time: 1720088187.610359
+Service time:  0.0666118
+------------------------------------------
+Start request: 1720088187.610719
+Response type: <Response [200]>
+Response time: 1720088187.719167
+Service time:  0.108448
+------------------------------------------
+Start request: 1720088187.7195032
+Response type: <Response [200]>
+Response time: 1720088187.774059
+Service time:  0.0545558
+------------------------------------------
+Start request: 1720088187.774199
+Response type: <Response [200]>
+Response time: 1720088187.822492
+Service time:  0.048293
+------------------------------------------
+Start request: 1720088187.82262
+Response type: <Response [200]>
+Response time: 1720088187.865964
+Service time:  0.043344
+------------------------------------------
+Start request: 1720088187.8661609
+Response type: <Response [200]>
+Response time: 1720088187.92698
+Service time:  0.0608191
+------------------------------------------
+Start request: 1720088187.927249
+Response type: <Response [200]>
+Response time: 1720088188.0070431
+Service time:  0.0797941
+------------------------------------------
+Start request: 1720088188.007267
+Response type: <Response [200]>
+Response time: 1720088188.0559459
+Service time:  0.0486789
+------------------------------------------
+Start request: 1720088188.056027
+Response type: <Response [200]>
+Response time: 1720088188.094499
+Service time:  0.038472
+------------------------------------------
+Start request: 1720088188.094634
+Response type: <Response [200]>
+Response time: 1720088188.133389
+Service time:  0.038755
+------------------------------------------
+Start request: 1720088188.1337311
+Response type: <Response [200]>
+Response time: 1720088188.189899
+Service time:  0.0561679
+------------------------------------------
+Start request: 1720088188.19001
+Response type: <Response [200]>
+Response time: 1720088188.26287
+Service time:  0.07286
+------------------------------------------
+Start request: 1720088188.263071
+Response type: <Response [200]>
+Response time: 1720088188.341303
+Service time:  0.078232
+------------------------------------------
+Start request: 1720088188.341598
+Response type: <Response [200]>
+Response time: 1720088188.395079
+Service time:  0.053481
+------------------------------------------
+Start request: 1720088188.3951879
+Response type: <Response [200]>
+Response time: 1720088188.449119
+Service time:  0.0539311
+------------------------------------------
+Start request: 1720088188.4492512
+Response type: <Response [200]>
+Response time: 1720088188.492952
+Service time:  0.0437008
+------------------------------------------
+Start request: 1720088188.493175
+Response type: <Response [200]>
+Response time: 1720088188.557159
+Service time:  0.063984
+------------------------------------------
+Start request: 1720088188.557284
+Response type: <Response [200]>
+Response time: 1720088188.615486
+Service time:  0.058202
+------------------------------------------
+Start request: 1720088188.6156569
+Response type: <Response [200]>
+Response time: 1720088188.669699
+Service time:  0.0540421
+------------------------------------------
+Start request: 1720088188.669816
+Response type: <Response [200]>
+Response time: 1720088188.750041
+Service time:  0.080225
+------------------------------------------
+Start request: 1720088188.7509482
+Response type: <Response [200]>
+Response time: 1720088188.806735
+Service time:  0.0557868
+------------------------------------------
+Start request: 1720088188.806856
+Response type: <Response [200]>
+Response time: 1720088188.858121
+Service time:  0.051265
+------------------------------------------
+Start request: 1720088188.85823
+Response type: <Response [200]>
+Response time: 1720088188.9130082
+Service time:  0.0547782
+------------------------------------------
+Start request: 1720088188.913255
+Response type: <Response [200]>
+Response time: 1720088188.963437
+Service time:  0.050182
+------------------------------------------
+Start request: 1720088188.963624
+Response type: <Response [200]>
+Response time: 1720088189.014265
+Service time:  0.050641
+------------------------------------------
+Start request: 1720088189.014378
+Response type: <Response [200]>
+Response time: 1720088189.059886
+Service time:  0.045508
+------------------------------------------
+Start request: 1720088189.0599911
+Response type: <Response [200]>
+Response time: 1720088189.099181
+Service time:  0.0391899
+------------------------------------------
+Start request: 1720088189.099838
+Response type: <Response [200]>
+Response time: 1720088189.146208
+Service time:  0.046370
+------------------------------------------
+Start request: 1720088189.1466072
+Response type: <Response [200]>
+Response time: 1720088189.190583
+Service time:  0.0439758
+------------------------------------------
+Start request: 1720088189.190799
+Response type: <Response [200]>
+Response time: 1720088189.2378721
+Service time:  0.0470731
+------------------------------------------
+Start request: 1720088189.2379851
+Response type: <Response [200]>
+Response time: 1720088189.280324
+Service time:  0.0423389
+------------------------------------------
+Start request: 1720088189.2804658
+Response type: <Response [200]>
+Response time: 1720088189.320917
+Service time:  0.0404512
+------------------------------------------
+Start request: 1720088189.3211992
+Response type: <Response [200]>
+Response time: 1720088189.391505
+Service time:  0.0703058
+------------------------------------------
+Start request: 1720088189.391853
+Response type: <Response [200]>
+Response time: 1720088189.4583511
+Service time:  0.0664981
+------------------------------------------
+Start request: 1720088189.458539
+Response type: <Response [200]>
+Response time: 1720088189.5434072
+Service time:  0.0848682
+------------------------------------------
+Start request: 1720088189.543627
+Response type: <Response [200]>
+Response time: 1720088189.61687
+Service time:  0.073243
+------------------------------------------
+Start request: 1720088189.617053
+Response type: <Response [200]>
+Response time: 1720088189.6726882
+Service time:  0.0556352
+------------------------------------------
+Start request: 1720088189.67293
+Response type: <Response [200]>
+Response time: 1720088189.741361
+Service time:  0.068431
+------------------------------------------
+Start request: 1720088189.741465
+Response type: <Response [200]>
+Response time: 1720088189.799308
+Service time:  0.057843
+------------------------------------------
+Start request: 1720088189.799495
+Response type: <Response [200]>
+Response time: 1720088189.865165
+Service time:  0.065670
+------------------------------------------
+Start request: 1720088189.865324
+Response type: <Response [200]>
+Response time: 1720088189.9237602
+Service time:  0.0584362
+------------------------------------------
+Start request: 1720088189.924055
+Response type: <Response [200]>
+Response time: 1720088189.981705
+Service time:  0.057650
+------------------------------------------
+Start request: 1720088189.9819698
+Response type: <Response [200]>
+Response time: 1720088190.1294148
+Service time:  0.1474450
+------------------------------------------
+Start request: 1720088190.129766
+Response type: <Response [200]>
+Response time: 1720088190.232329
+Service time:  0.102563
+------------------------------------------
+Start request: 1720088190.232529
+Response type: <Response [200]>
+Response time: 1720088190.296862
+Service time:  0.064333
+------------------------------------------
+Start request: 1720088190.296979
+Response type: <Response [200]>
+Response time: 1720088190.3526468
+Service time:  0.0556678
+------------------------------------------
+Start request: 1720088190.352782
+Response type: <Response [200]>
+Response time: 1720088190.42316
+Service time:  0.070378
+------------------------------------------
+Start request: 1720088190.423278
+Response type: <Response [200]>
+Response time: 1720088190.472358
+Service time:  0.049080
+------------------------------------------
+Start request: 1720088190.472556
+Response type: <Response [200]>
+Response time: 1720088190.516629
+Service time:  0.044073
+------------------------------------------
+Start request: 1720088190.516778
+Response type: <Response [200]>
+Response time: 1720088190.560979
+Service time:  0.044201
+------------------------------------------
+Start request: 1720088190.561198
+Response type: <Response [200]>
+Response time: 1720088190.605942
+Service time:  0.044744
+------------------------------------------
+Start request: 1720088190.606107
+Response type: <Response [200]>
+Response time: 1720088190.74502
+Service time:  0.138913
+------------------------------------------
+Start request: 1720088190.745295
+Response type: <Response [200]>
+Response time: 1720088190.8411798
+Service time:  0.0958848
+------------------------------------------
+Start request: 1720088190.841386
+Response type: <Response [200]>
+Response time: 1720088190.916776
+Service time:  0.075390
+------------------------------------------
+Start request: 1720088190.917166
+Response type: <Response [200]>
+Response time: 1720088190.963687
+Service time:  0.046521
+------------------------------------------
+Start request: 1720088190.963784
+Response type: <Response [200]>
+Response time: 1720088191.005634
+Service time:  0.041850
+------------------------------------------
+Start request: 1720088191.0057652
+Response type: <Response [200]>
+Response time: 1720088191.050467
+Service time:  0.0447018
+------------------------------------------
+Start request: 1720088191.050705
+Response type: <Response [200]>
+Response time: 1720088191.091964
+Service time:  0.041259
+------------------------------------------
+Start request: 1720088191.092064
+Response type: <Response [200]>
+Response time: 1720088191.135461
+Service time:  0.043397
+------------------------------------------
+Start request: 1720088191.1356642
+Response type: <Response [200]>
+Response time: 1720088191.177471
+Service time:  0.0418068
+------------------------------------------
+Start request: 1720088191.177809
+Response type: <Response [200]>
+Response time: 1720088191.221612
+Service time:  0.043803
+------------------------------------------
+Start request: 1720088191.2218099
+Response type: <Response [200]>
+Response time: 1720088191.2626739
+Service time:  0.0408640
+------------------------------------------
+Start request: 1720088191.262801
+Response type: <Response [200]>
+Response time: 1720088191.306139
+Service time:  0.043338
+------------------------------------------
+Start request: 1720088191.3062348
+Response type: <Response [200]>
+Response time: 1720088191.361653
+Service time:  0.0554182
+------------------------------------------
+Start request: 1720088191.361971
+Response type: <Response [200]>
+Response time: 1720088191.421684
+Service time:  0.059713
+------------------------------------------
+Start request: 1720088191.4219022
+Response type: <Response [200]>
+Response time: 1720088191.466217
+Service time:  0.0443148
+------------------------------------------
+Start request: 1720088191.466441
+Response type: <Response [200]>
+Response time: 1720088191.516834
+Service time:  0.050393
+------------------------------------------
+Start request: 1720088191.517084
+Response type: <Response [200]>
+Response time: 1720088191.5731661
+Service time:  0.0560821
+------------------------------------------
+Start request: 1720088191.5732758
+Response type: <Response [200]>
+Response time: 1720088191.626963
+Service time:  0.0536872
+------------------------------------------
+Start request: 1720088191.627102
+Response type: <Response [200]>
+Response time: 1720088191.675593
+Service time:  0.048491
+------------------------------------------
+Start request: 1720088191.675773
+Response type: <Response [200]>
+Response time: 1720088191.715601
+Service time:  0.039828
+------------------------------------------
+Start request: 1720088191.7158148
+Response type: <Response [200]>
+Response time: 1720088191.758445
+Service time:  0.0426302
+------------------------------------------
+Start request: 1720088191.7585568
+Response type: <Response [200]>
+Response time: 1720088191.802899
+Service time:  0.0443422
+------------------------------------------
+Start request: 1720088191.803061
+Response type: <Response [200]>
+Response time: 1720088191.866542
+Service time:  0.063481
+------------------------------------------
+Start request: 1720088191.866674
+Response type: <Response [200]>
+Response time: 1720088191.934753
+Service time:  0.068079
+------------------------------------------
+Start request: 1720088191.934988
+Response type: <Response [200]>
+Response time: 1720088192.01371
+Service time:  0.078722
+------------------------------------------
+Start request: 1720088192.013957
+Response type: <Response [200]>
+Response time: 1720088192.10328
+Service time:  0.089323
+------------------------------------------
+Start request: 1720088192.1034062
+Response type: <Response [200]>
+Response time: 1720088192.195584
+Service time:  0.0921778
+------------------------------------------
+Start request: 1720088192.195727
+Response type: <Response [200]>
+Response time: 1720088192.310734
+Service time:  0.115007
+------------------------------------------
+Start request: 1720088192.310909
+Response type: <Response [200]>
+Response time: 1720088192.391634
+Service time:  0.080725
+------------------------------------------
+Start request: 1720088192.391775
+Response type: <Response [200]>
+Response time: 1720088192.4641228
+Service time:  0.0723478
+------------------------------------------
+Start request: 1720088192.464312
+Response type: <Response [200]>
+Response time: 1720088192.5373461
+Service time:  0.0730341
+------------------------------------------
+Start request: 1720088192.53759
+Response type: <Response [200]>
+Response time: 1720088192.591595
+Service time:  0.054005
+------------------------------------------
+Start request: 1720088192.591706
+Response type: <Response [200]>
+Response time: 1720088192.6266398
+Service time:  0.0349338
+------------------------------------------
+Start request: 1720088192.6267378
+Response type: <Response [200]>
+Response time: 1720088192.662983
+Service time:  0.0362452
+------------------------------------------
+Start request: 1720088192.663096
+Response type: <Response [200]>
+Response time: 1720088192.708232
+Service time:  0.045136
+------------------------------------------
+Start request: 1720088192.708435
+Response type: <Response [200]>
+Response time: 1720088192.746167
+Service time:  0.037732
+------------------------------------------
+Start request: 1720088192.746284
+Response type: <Response [200]>
+Response time: 1720088192.79175
+Service time:  0.045466
+------------------------------------------
+Start request: 1720088192.7918599
+Response type: <Response [200]>
+Response time: 1720088192.827848
+Service time:  0.0359881
+------------------------------------------
+Start request: 1720088192.827929
+Response type: <Response [200]>
+Response time: 1720088192.869022
+Service time:  0.041093
+------------------------------------------
+Start request: 1720088192.8693519
+Response type: <Response [200]>
+Response time: 1720088192.910569
+Service time:  0.0412171
+------------------------------------------
+Start request: 1720088192.910688
+Response type: <Response [200]>
+Response time: 1720088192.942485
+Service time:  0.031797
+------------------------------------------
+Start request: 1720088192.942606
+Response type: <Response [200]>
+Response time: 1720088192.974965
+Service time:  0.032359
+------------------------------------------
+Start request: 1720088192.975156
+Response type: <Response [200]>
+Response time: 1720088193.013294
+Service time:  0.038138
+------------------------------------------
+Start request: 1720088193.013439
+Response type: <Response [200]>
+Response time: 1720088193.047464
+Service time:  0.034025
+------------------------------------------
+Start request: 1720088193.047619
+Response type: <Response [200]>
+Response time: 1720088193.0863008
+Service time:  0.0386818
+------------------------------------------
+Start request: 1720088193.0864298
+Response type: <Response [200]>
+Response time: 1720088193.125862
+Service time:  0.0394322
+------------------------------------------
+Start request: 1720088193.125965
+Response type: <Response [200]>
+Response time: 1720088193.161956
+Service time:  0.035991
+------------------------------------------
+Start request: 1720088193.1620622
+Response type: <Response [200]>
+Response time: 1720088193.2029061
+Service time:  0.0408439
+------------------------------------------
+Start request: 1720088193.2031271
+Response type: <Response [200]>
+Response time: 1720088193.239397
+Service time:  0.0362699
+------------------------------------------
+Start request: 1720088193.239491
+Response type: <Response [200]>
+Response time: 1720088193.276413
+Service time:  0.036922
+------------------------------------------
+Start request: 1720088193.276582
+Response type: <Response [200]>
+Response time: 1720088193.310262
+Service time:  0.033680
+------------------------------------------
+Start request: 1720088193.3103511
+Response type: <Response [200]>
+Response time: 1720088193.3512352
+Service time:  0.0408841
+------------------------------------------
+Start request: 1720088193.3513842
+Response type: <Response [200]>
+Response time: 1720088193.398936
+Service time:  0.0475518
+------------------------------------------
+Start request: 1720088193.399036
+Response type: <Response [200]>
+Response time: 1720088193.433145
+Service time:  0.034109
+------------------------------------------
+Start request: 1720088193.433256
+Response type: <Response [200]>
+Response time: 1720088193.472518
+Service time:  0.039262
+------------------------------------------
+Start request: 1720088193.472749
+Response type: <Response [200]>
+Response time: 1720088193.512183
+Service time:  0.039434
+------------------------------------------
+Start request: 1720088193.512335
+Response type: <Response [200]>
+Response time: 1720088193.562252
+Service time:  0.049917
+------------------------------------------
+Start request: 1720088193.562464
+Response type: <Response [200]>
+Response time: 1720088193.6054132
+Service time:  0.0429492
+------------------------------------------
+Start request: 1720088193.605547
+Response type: <Response [200]>
+Response time: 1720088193.64225
+Service time:  0.036703
+------------------------------------------
+Start request: 1720088193.6423502
+Response type: <Response [200]>
+Response time: 1720088193.682139
+Service time:  0.0397888
+------------------------------------------
+Start request: 1720088193.682304
+Response type: <Response [200]>
+Response time: 1720088193.7282639
+Service time:  0.0459599
+------------------------------------------
+Start request: 1720088193.728359
+Response type: <Response [200]>
+Response time: 1720088193.765918
+Service time:  0.037559
+------------------------------------------
+Start request: 1720088193.766094
+Response type: <Response [200]>
+Response time: 1720088193.811682
+Service time:  0.045588
+------------------------------------------
+Start request: 1720088193.811795
+Response type: <Response [200]>
+Response time: 1720088193.8583932
+Service time:  0.0465982
+------------------------------------------
+Start request: 1720088193.858496
+Response type: <Response [200]>
+Response time: 1720088193.916998
+Service time:  0.058502
+------------------------------------------
+Start request: 1720088193.917141
+Response type: <Response [200]>
+Response time: 1720088193.963188
+Service time:  0.046047
+------------------------------------------
+Start request: 1720088193.963778
+Response type: <Response [200]>
+Response time: 1720088194.014563
+Service time:  0.050785
+------------------------------------------
+Start request: 1720088194.0152981
+Response type: <Response [200]>
+Response time: 1720088194.066022
+Service time:  0.0507239
+------------------------------------------
+Start request: 1720088194.066124
+Response type: <Response [200]>
+Response time: 1720088194.104526
+Service time:  0.038402
+------------------------------------------
+Start request: 1720088194.104782
+Response type: <Response [200]>
+Response time: 1720088194.1474519
+Service time:  0.0426699
+------------------------------------------
+Start request: 1720088194.147577
+Response type: <Response [200]>
+Response time: 1720088194.186086
+Service time:  0.038509
+------------------------------------------
+Start request: 1720088194.186312
+Response type: <Response [200]>
+Response time: 1720088194.22398
+Service time:  0.037668
+------------------------------------------
+Start request: 1720088194.2240598
+Response type: <Response [200]>
+Response time: 1720088194.26009
+Service time:  0.0360302
+------------------------------------------
+Start request: 1720088194.260177
+Response type: <Response [200]>
+Response time: 1720088194.2934458
+Service time:  0.0332688
+------------------------------------------
+Start request: 1720088194.293536
+Response type: <Response [200]>
+Response time: 1720088194.330066
+Service time:  0.036530
+------------------------------------------
+Start request: 1720088194.3301508
+Response type: <Response [200]>
+Response time: 1720088194.372245
+Service time:  0.0420942
+------------------------------------------
+Start request: 1720088194.372596
+Response type: <Response [200]>
+Response time: 1720088194.413526
+Service time:  0.040930
+------------------------------------------
+Start request: 1720088194.41364
+Response type: <Response [200]>
+Response time: 1720088194.45242
+Service time:  0.03878
+------------------------------------------
+Start request: 1720088194.452529
+Response type: <Response [200]>
+Response time: 1720088194.4861388
+Service time:  0.0336098
+------------------------------------------
+Start request: 1720088194.486336
+Response type: <Response [200]>
+Response time: 1720088194.522495
+Service time:  0.036159
+------------------------------------------
+Start request: 1720088194.5226722
+Response type: <Response [200]>
+Response time: 1720088194.560617
+Service time:  0.0379448
+------------------------------------------
+Start request: 1720088194.560779
+Response type: <Response [200]>
+Response time: 1720088194.5965629
+Service time:  0.0357839
+------------------------------------------
+Start request: 1720088194.5967438
+Response type: <Response [200]>
+Response time: 1720088194.6369028
+Service time:  0.0401590
+------------------------------------------
+Start request: 1720088194.6370492
+Response type: <Response [200]>
+Response time: 1720088194.677224
+Service time:  0.0401748
+------------------------------------------
+Start request: 1720088194.677349
+Response type: <Response [200]>
+Response time: 1720088194.7188501
+Service time:  0.0415011
+------------------------------------------
+Start request: 1720088194.719004
+Response type: <Response [200]>
+Response time: 1720088194.755391
+Service time:  0.036387
+------------------------------------------
+Start request: 1720088194.755502
+Response type: <Response [200]>
+Response time: 1720088194.79969
+Service time:  0.044188
+------------------------------------------
+Start request: 1720088194.799814
+Response type: <Response [200]>
+Response time: 1720088194.841532
+Service time:  0.041718
+------------------------------------------
+Start request: 1720088194.8418791
+Response type: <Response [200]>
+Response time: 1720088194.8837152
+Service time:  0.0418361
+------------------------------------------
+Start request: 1720088194.8838882
+Response type: <Response [200]>
+Response time: 1720088194.932014
+Service time:  0.0481258
+------------------------------------------
+Start request: 1720088194.932203
+Response type: <Response [200]>
+Response time: 1720088194.9771461
+Service time:  0.0449431
+------------------------------------------
+Start request: 1720088194.977238
+Response type: <Response [200]>
+Response time: 1720088195.018059
+Service time:  0.040821
+------------------------------------------
+Start request: 1720088195.018225
+Response type: <Response [200]>
+Response time: 1720088195.0584462
+Service time:  0.0402212
+------------------------------------------
+Start request: 1720088195.0585961
+Response type: <Response [200]>
+Response time: 1720088195.0969658
+Service time:  0.0383697
+------------------------------------------
+Start request: 1720088195.097131
+Response type: <Response [200]>
+Response time: 1720088195.166871
+Service time:  0.069740
+------------------------------------------
+Start request: 1720088195.1670241
+Response type: <Response [200]>
+Response time: 1720088195.20859
+Service time:  0.0415659
+------------------------------------------
+Start request: 1720088195.208759
+Response type: <Response [200]>
+Response time: 1720088195.249183
+Service time:  0.040424
+------------------------------------------
+Start request: 1720088195.249346
+Response type: <Response [200]>
+Response time: 1720088195.289161
+Service time:  0.039815
+------------------------------------------
+Start request: 1720088195.289353
+Response type: <Response [200]>
+Response time: 1720088195.3307772
+Service time:  0.0414242
+------------------------------------------
+Start request: 1720088195.3309069
+Response type: <Response [200]>
+Response time: 1720088195.3720052
+Service time:  0.0410983
+------------------------------------------
+Start request: 1720088195.372431
+Response type: <Response [200]>
+Response time: 1720088195.4167979
+Service time:  0.0443669
+------------------------------------------
+Start request: 1720088195.4169862
+Response type: <Response [200]>
+Response time: 1720088195.453342
+Service time:  0.0363558
+------------------------------------------
+Start request: 1720088195.453527
+Response type: <Response [200]>
+Response time: 1720088195.5017102
+Service time:  0.0481832
+------------------------------------------
+Start request: 1720088195.50189
+Response type: <Response [200]>
+Response time: 1720088195.546438
+Service time:  0.044548
+------------------------------------------
+Start request: 1720088195.546604
+Response type: <Response [200]>
+Response time: 1720088195.5928571
+Service time:  0.0462531
+------------------------------------------
+Start request: 1720088195.593036
+Response type: <Response [200]>
+Response time: 1720088195.641578
+Service time:  0.048542
+------------------------------------------
+Start request: 1720088195.641827
+Response type: <Response [200]>
+Response time: 1720088195.693703
+Service time:  0.051876
+------------------------------------------
+Start request: 1720088195.693908
+Response type: <Response [200]>
+Response time: 1720088195.740354
+Service time:  0.046446
+------------------------------------------
+Start request: 1720088195.740652
+Response type: <Response [200]>
+Response time: 1720088195.784864
+Service time:  0.044212
+------------------------------------------
+Start request: 1720088195.784988
+Response type: <Response [200]>
+Response time: 1720088195.8309162
+Service time:  0.0459282
+------------------------------------------
+Start request: 1720088195.831039
+Response type: <Response [200]>
+Response time: 1720088195.872708
+Service time:  0.041669
+------------------------------------------
+Start request: 1720088195.872868
+Response type: <Response [200]>
+Response time: 1720088195.9171772
+Service time:  0.0443092
+------------------------------------------
+Start request: 1720088195.917362
+Response type: <Response [200]>
+Response time: 1720088195.9563708
+Service time:  0.0390088
+------------------------------------------
+Start request: 1720088195.9565089
+Response type: <Response [200]>
+Response time: 1720088196.007326
+Service time:  0.0508171
+------------------------------------------
+Start request: 1720088196.007655
+Response type: <Response [200]>
+Response time: 1720088196.080215
+Service time:  0.072560
+------------------------------------------
+Start request: 1720088196.080344
+Response type: <Response [200]>
+Response time: 1720088196.135862
+Service time:  0.055518
+------------------------------------------
+Start request: 1720088196.136118
+Response type: <Response [200]>
+Response time: 1720088196.191453
+Service time:  0.055335
+------------------------------------------
+Start request: 1720088196.191721
+Response type: <Response [200]>
+Response time: 1720088196.245125
+Service time:  0.053404
+------------------------------------------
+Start request: 1720088196.2453609
+Response type: <Response [200]>
+Response time: 1720088196.294776
+Service time:  0.0494151
+------------------------------------------
+Start request: 1720088196.294992
+Response type: <Response [200]>
+Response time: 1720088196.3404748
+Service time:  0.0454828
+------------------------------------------
+Start request: 1720088196.340617
+Response type: <Response [200]>
+Response time: 1720088196.3876312
+Service time:  0.0470142
+------------------------------------------
+Start request: 1720088196.387867
+Response type: <Response [200]>
+Response time: 1720088196.430238
+Service time:  0.042371
+------------------------------------------
+Start request: 1720088196.430401
+Response type: <Response [200]>
+Response time: 1720088196.4783401
+Service time:  0.0479391
+------------------------------------------
+Start request: 1720088196.478474
+Response type: <Response [200]>
+Response time: 1720088196.528749
+Service time:  0.050275
+------------------------------------------
+Start request: 1720088196.5288901
+Response type: <Response [200]>
+Response time: 1720088196.572832
+Service time:  0.0439419
+------------------------------------------
+Start request: 1720088196.5729501
+Response type: <Response [200]>
+Response time: 1720088196.616211
+Service time:  0.0432609
+------------------------------------------
+Start request: 1720088196.616409
+Response type: <Response [200]>
+Response time: 1720088196.654169
+Service time:  0.037760
+------------------------------------------
+Start request: 1720088196.654259
+Response type: <Response [200]>
+Response time: 1720088196.693076
+Service time:  0.038817
+------------------------------------------
+Start request: 1720088196.693259
+Response type: <Response [200]>
+Response time: 1720088196.730013
+Service time:  0.036754
+------------------------------------------
+Start request: 1720088196.730112
+Response type: <Response [200]>
+Response time: 1720088196.774129
+Service time:  0.044017
+------------------------------------------
+Start request: 1720088196.774215
+Response type: <Response [200]>
+Response time: 1720088196.831198
+Service time:  0.056983
+------------------------------------------
+Start request: 1720088196.831537
+Response type: <Response [200]>
+Response time: 1720088196.902774
+Service time:  0.071237
+------------------------------------------
+Start request: 1720088196.903049
+Response type: <Response [200]>
+Response time: 1720088196.971286
+Service time:  0.068237
+------------------------------------------
+Start request: 1720088196.971798
+Response type: <Response [200]>
+Response time: 1720088197.046703
+Service time:  0.074905
+------------------------------------------
+Start request: 1720088197.047051
+Response type: <Response [200]>
+Response time: 1720088197.138527
+Service time:  0.091476
+------------------------------------------
+Start request: 1720088197.1392431
+Response type: <Response [200]>
+Response time: 1720088197.223747
+Service time:  0.0845039
+------------------------------------------
+Start request: 1720088197.223922
+Response type: <Response [200]>
+Response time: 1720088197.277571
+Service time:  0.053649
+------------------------------------------
+Start request: 1720088197.277772
+Response type: <Response [200]>
+Response time: 1720088197.327065
+Service time:  0.049293
+------------------------------------------
+Start request: 1720088197.3272939
+Response type: <Response [200]>
+Response time: 1720088197.3636281
+Service time:  0.0363342
+------------------------------------------
+Start request: 1720088197.363744
+Response type: <Response [200]>
+Response time: 1720088197.408424
+Service time:  0.044680
+------------------------------------------
+Start request: 1720088197.4085991
+Response type: <Response [200]>
+Response time: 1720088197.451744
+Service time:  0.0431449
+------------------------------------------
+Start request: 1720088197.451881
+Response type: <Response [200]>
+Response time: 1720088197.488841
+Service time:  0.036960
+------------------------------------------
+Start request: 1720088197.488996
+Response type: <Response [200]>
+Response time: 1720088197.5330281
+Service time:  0.0440321
+------------------------------------------
+Start request: 1720088197.533182
+Response type: <Response [200]>
+Response time: 1720088197.5745
+Service time:  0.041318
+------------------------------------------
+Start request: 1720088197.5749388
+Response type: <Response [200]>
+Response time: 1720088197.6257
+Service time:  0.0507612
+------------------------------------------
+Start request: 1720088197.625828
+Response type: <Response [200]>
+Response time: 1720088197.662476
+Service time:  0.036648
+------------------------------------------
+Start request: 1720088197.662621
+Response type: <Response [200]>
+Response time: 1720088197.703938
+Service time:  0.041317
+------------------------------------------
+Start request: 1720088197.704117
+Response type: <Response [200]>
+Response time: 1720088197.752398
+Service time:  0.048281
+------------------------------------------
+Start request: 1720088197.75255
+Response type: <Response [200]>
+Response time: 1720088197.811411
+Service time:  0.058861
+------------------------------------------
+Start request: 1720088197.812243
+Response type: <Response [200]>
+Response time: 1720088197.863055
+Service time:  0.050812
+------------------------------------------
+Start request: 1720088197.86329
+Response type: <Response [200]>
+Response time: 1720088197.922216
+Service time:  0.058926
+------------------------------------------
+Start request: 1720088197.922526
+Response type: <Response [200]>
+Response time: 1720088197.976987
+Service time:  0.054461
+------------------------------------------
+Start request: 1720088197.9772701
+Response type: <Response [200]>
+Response time: 1720088198.023045
+Service time:  0.0457749
+------------------------------------------
+Start request: 1720088198.023145
+Response type: <Response [200]>
+Response time: 1720088198.0744472
+Service time:  0.0513022
+------------------------------------------
+Start request: 1720088198.074589
+Response type: <Response [200]>
+Response time: 1720088198.12556
+Service time:  0.050971
+------------------------------------------
+Start request: 1720088198.125688
+Response type: <Response [200]>
+Response time: 1720088198.179989
+Service time:  0.054301
+------------------------------------------
+Start request: 1720088198.1801422
+Response type: <Response [200]>
+Response time: 1720088198.228757
+Service time:  0.0486148
+------------------------------------------
+Start request: 1720088198.229035
+Response type: <Response [200]>
+Response time: 1720088198.280799
+Service time:  0.051764
+------------------------------------------
+Start request: 1720088198.280965
+Response type: <Response [200]>
+Response time: 1720088198.325341
+Service time:  0.044376
+------------------------------------------
+Start request: 1720088198.325482
+Response type: <Response [200]>
+Response time: 1720088198.377151
+Service time:  0.051669
+------------------------------------------
+Start request: 1720088198.377265
+Response type: <Response [200]>
+Response time: 1720088198.417981
+Service time:  0.040716
+------------------------------------------
+Start request: 1720088198.4183218
+Response type: <Response [200]>
+Response time: 1720088198.457775
+Service time:  0.0394532
+------------------------------------------
+Start request: 1720088198.4578612
+Response type: <Response [200]>
+Response time: 1720088198.512106
+Service time:  0.0542448
+------------------------------------------
+Start request: 1720088198.512258
+Response type: <Response [200]>
+Response time: 1720088198.772931
+Service time:  0.260673
+------------------------------------------
+Start request: 1720088198.773024
+Response type: <Response [200]>
+Response time: 1720088198.815605
+Service time:  0.042581
+------------------------------------------
+Start request: 1720088198.815937
+Response type: <Response [200]>
+Response time: 1720088198.862464
+Service time:  0.046527
+------------------------------------------
+Start request: 1720088198.8625898
+Response type: <Response [200]>
+Response time: 1720088198.9283981
+Service time:  0.0658083
+------------------------------------------
+Start request: 1720088198.928499
+Response type: <Response [200]>
+Response time: 1720088198.9780989
+Service time:  0.0495999
+------------------------------------------
+Start request: 1720088198.978366
+Response type: <Response [200]>
+Response time: 1720088199.029249
+Service time:  0.050883
+------------------------------------------
+Start request: 1720088199.0294468
+Response type: <Response [200]>
+Response time: 1720088199.068504
+Service time:  0.0390572
+------------------------------------------
+Start request: 1720088199.06867
+Response type: <Response [200]>
+Response time: 1720088199.114469
+Service time:  0.045799
+------------------------------------------
+Start request: 1720088199.114586
+Response type: <Response [200]>
+Response time: 1720088199.154835
+Service time:  0.040249
+------------------------------------------
+Start request: 1720088199.155039
+Response type: <Response [200]>
+Response time: 1720088199.1897888
+Service time:  0.0347498
+------------------------------------------
+Start request: 1720088199.189931
+Response type: <Response [200]>
+Response time: 1720088199.234524
+Service time:  0.044593
+------------------------------------------
+Start request: 1720088199.2346392
+Response type: <Response [200]>
+Response time: 1720088199.285526
+Service time:  0.0508868
+------------------------------------------
+Start request: 1720088199.285954
+Response type: <Response [200]>
+Response time: 1720088199.340428
+Service time:  0.054474
+------------------------------------------
+Start request: 1720088199.340847
+Response type: <Response [200]>
+Response time: 1720088199.393961
+Service time:  0.053114
+------------------------------------------
+Start request: 1720088199.3941052
+Response type: <Response [200]>
+Response time: 1720088199.443439
+Service time:  0.0493338
+------------------------------------------
+Start request: 1720088199.443559
+Response type: <Response [200]>
+Response time: 1720088199.4928799
+Service time:  0.0493209
+------------------------------------------
+Start request: 1720088199.4931352
+Response type: <Response [200]>
+Response time: 1720088199.542836
+Service time:  0.0497008
+------------------------------------------
+Start request: 1720088199.542988
+Response type: <Response [200]>
+Response time: 1720088199.587563
+Service time:  0.044575
+------------------------------------------
+Start request: 1720088199.587884
+Response type: <Response [200]>
+Response time: 1720088199.634732
+Service time:  0.046848
+------------------------------------------
+Start request: 1720088199.635075
+Response type: <Response [200]>
+Response time: 1720088199.69967
+Service time:  0.064595
+------------------------------------------
+Start request: 1720088199.6998332
+Response type: <Response [200]>
+Response time: 1720088199.758695
+Service time:  0.0588618
+------------------------------------------
+Start request: 1720088199.758858
+Response type: <Response [200]>
+Response time: 1720088199.820429
+Service time:  0.061571
+------------------------------------------
+Start request: 1720088199.820543
+Response type: <Response [200]>
+Response time: 1720088199.8576581
+Service time:  0.0371151
+------------------------------------------
+Start request: 1720088199.85788
+Response type: <Response [200]>
+Response time: 1720088199.899153
+Service time:  0.041273
+------------------------------------------
+Start request: 1720088199.899285
+Response type: <Response [200]>
+Response time: 1720088199.943371
+Service time:  0.044086
+------------------------------------------
+Start request: 1720088199.9435258
+Response type: <Response [200]>
+Response time: 1720088199.995234
+Service time:  0.0517082
+------------------------------------------
+Start request: 1720088199.995384
+Response type: <Response [200]>
+Response time: 1720088200.075839
+Service time:  0.080455
+------------------------------------------
+Start request: 1720088200.075965
+Response type: <Response [200]>
+Response time: 1720088200.201726
+Service time:  0.125761
+------------------------------------------
+Start request: 1720088200.201886
+Response type: <Response [200]>
+Response time: 1720088200.2573628
+Service time:  0.0554768
+------------------------------------------
+Start request: 1720088200.257461
+Response type: <Response [200]>
+Response time: 1720088200.2982888
+Service time:  0.0408278
+------------------------------------------
+Start request: 1720088200.298434
+Response type: <Response [200]>
+Response time: 1720088200.4385002
+Service time:  0.1400662
+------------------------------------------
+Start request: 1720088200.4386601
+Response type: <Response [200]>
+Response time: 1720088200.5123022
+Service time:  0.0736421
+------------------------------------------
+Start request: 1720088200.5126011
+Response type: <Response [200]>
+Response time: 1720088200.562654
+Service time:  0.0500529
+------------------------------------------
+Start request: 1720088200.562847
+Response type: <Response [200]>
+Response time: 1720088200.606907
+Service time:  0.044060
+------------------------------------------
+Start request: 1720088200.607169
+Response type: <Response [200]>
+Response time: 1720088200.660651
+Service time:  0.053482
+------------------------------------------
+Start request: 1720088200.6608891
+Response type: <Response [200]>
+Response time: 1720088200.706149
+Service time:  0.0452599
+------------------------------------------
+Start request: 1720088200.706862
+Response type: <Response [200]>
+Response time: 1720088200.750423
+Service time:  0.043561
+------------------------------------------
+Start request: 1720088200.7505548
+Response type: <Response [200]>
+Response time: 1720088200.793903
+Service time:  0.0433482
+------------------------------------------
+Start request: 1720088200.79408
+Response type: <Response [200]>
+Response time: 1720088200.8603551
+Service time:  0.0662751
+------------------------------------------
+Start request: 1720088200.8605819
+Response type: <Response [200]>
+Response time: 1720088200.939013
+Service time:  0.0784311
+------------------------------------------
+Start request: 1720088200.9392152
+Response type: <Response [200]>
+Response time: 1720088200.9822888
+Service time:  0.0430736
+------------------------------------------
+Start request: 1720088200.982396
+Response type: <Response [200]>
+Response time: 1720088201.023791
+Service time:  0.041395
+------------------------------------------
+Start request: 1720088201.02389
+Response type: <Response [200]>
+Response time: 1720088201.061384
+Service time:  0.037494
+------------------------------------------
+Start request: 1720088201.061501
+Response type: <Response [200]>
+Response time: 1720088201.103178
+Service time:  0.041677
+------------------------------------------
+Start request: 1720088201.1034188
+Response type: <Response [200]>
+Response time: 1720088201.147864
+Service time:  0.0444452
+------------------------------------------
+Start request: 1720088201.1480162
+Response type: <Response [200]>
+Response time: 1720088201.197233
+Service time:  0.0492168
+------------------------------------------
+Start request: 1720088201.197421
+Response type: <Response [200]>
+Response time: 1720088201.24365
+Service time:  0.046229
+------------------------------------------
+Start request: 1720088201.243938
+Response type: <Response [200]>
+Response time: 1720088201.3106291
+Service time:  0.0666911
+------------------------------------------
+Start request: 1720088201.3109162
+Response type: <Response [200]>
+Response time: 1720088201.3885498
+Service time:  0.0776336
+------------------------------------------
+Start request: 1720088201.388789
+Response type: <Response [200]>
+Response time: 1720088201.44499
+Service time:  0.056201
+------------------------------------------
+Start request: 1720088201.445125
+Response type: <Response [200]>
+Response time: 1720088201.486725
+Service time:  0.041600
+------------------------------------------
+Start request: 1720088201.4869509
+Response type: <Response [200]>
+Response time: 1720088201.540735
+Service time:  0.0537841
+------------------------------------------
+Start request: 1720088201.541079
+Response type: <Response [200]>
+Response time: 1720088201.58255
+Service time:  0.041471
+------------------------------------------
+Start request: 1720088201.582668
+Response type: <Response [200]>
+Response time: 1720088201.6232882
+Service time:  0.0406202
+------------------------------------------
+Start request: 1720088201.6234088
+Response type: <Response [200]>
+Response time: 1720088201.66894
+Service time:  0.0455312
+------------------------------------------
+Start request: 1720088201.669132
+Response type: <Response [200]>
+Response time: 1720088201.7081332
+Service time:  0.0390012
+------------------------------------------
+Start request: 1720088201.7084138
+Response type: <Response [200]>
+Response time: 1720088201.7489028
+Service time:  0.0404890
+------------------------------------------
+Start request: 1720088201.749055
+Response type: <Response [200]>
+Response time: 1720088201.782974
+Service time:  0.033919
+------------------------------------------
+Start request: 1720088201.7832232
+Response type: <Response [200]>
+Response time: 1720088201.826192
+Service time:  0.0429688
+------------------------------------------
+Start request: 1720088201.8262951
+Response type: <Response [200]>
+Response time: 1720088201.879819
+Service time:  0.0535239
+------------------------------------------
+Start request: 1720088201.880049
+Response type: <Response [200]>
+Response time: 1720088201.924709
+Service time:  0.044660
+------------------------------------------
+Start request: 1720088201.9248698
+Response type: <Response [200]>
+Response time: 1720088201.962327
+Service time:  0.0374572
+------------------------------------------
+Start request: 1720088201.9624362
+Response type: <Response [200]>
+Response time: 1720088202.01283
+Service time:  0.0503938
+------------------------------------------
+Start request: 1720088202.012959
+Response type: <Response [200]>
+Response time: 1720088202.077007
+Service time:  0.064048
+------------------------------------------
+Start request: 1720088202.077203
+Response type: <Response [200]>
+Response time: 1720088202.130948
+Service time:  0.053745
+------------------------------------------
+Start request: 1720088202.1312609
+Response type: <Response [200]>
+Response time: 1720088202.182435
+Service time:  0.0511741
+------------------------------------------
+Start request: 1720088202.18255
+Response type: <Response [200]>
+Response time: 1720088202.227851
+Service time:  0.045301
+------------------------------------------
+Start request: 1720088202.2279968
+Response type: <Response [200]>
+Response time: 1720088202.275295
+Service time:  0.0472982
+------------------------------------------
+Start request: 1720088202.275439
+Response type: <Response [200]>
+Response time: 1720088202.319767
+Service time:  0.044328
+------------------------------------------
+Start request: 1720088202.320029
+Response type: <Response [200]>
+Response time: 1720088202.421702
+Service time:  0.101673
+------------------------------------------
+Start request: 1720088202.421907
+Response type: <Response [200]>
+Response time: 1720088202.521232
+Service time:  0.099325
+------------------------------------------
+Start request: 1720088202.521363
+Response type: <Response [200]>
+Response time: 1720088202.58021
+Service time:  0.058847
+------------------------------------------
+Start request: 1720088202.5803258
+Response type: <Response [200]>
+Response time: 1720088202.61889
+Service time:  0.0385642
+------------------------------------------
+Start request: 1720088202.6194
+Response type: <Response [200]>
+Response time: 1720088202.660585
+Service time:  0.041185
+------------------------------------------
+Start request: 1720088202.660819
+Response type: <Response [200]>
+Response time: 1720088202.701011
+Service time:  0.040192
+------------------------------------------
+Start request: 1720088202.7012239
+Response type: <Response [200]>
+Response time: 1720088202.7435
+Service time:  0.0422761
+------------------------------------------
+Start request: 1720088202.7436218
+Response type: <Response [200]>
+Response time: 1720088202.780752
+Service time:  0.0371302
+------------------------------------------
+Start request: 1720088202.780844
+Response type: <Response [200]>
+Response time: 1720088202.832549
+Service time:  0.051705
+------------------------------------------
+Start request: 1720088202.8329039
+Response type: <Response [200]>
+Response time: 1720088203.0963142
+Service time:  0.2634103
+------------------------------------------
+Start request: 1720088203.09645
+Response type: <Response [200]>
+Response time: 1720088203.1387331
+Service time:  0.0422831
+------------------------------------------
+Start request: 1720088203.138908
+Response type: <Response [200]>
+Response time: 1720088203.181561
+Service time:  0.042653
+------------------------------------------
+Start request: 1720088203.1816802
+Response type: <Response [200]>
+Response time: 1720088203.219033
+Service time:  0.0373528
+------------------------------------------
+Start request: 1720088203.21935
+Response type: <Response [200]>
+Response time: 1720088203.256303
+Service time:  0.036953
+------------------------------------------
+Start request: 1720088203.256434
+Response type: <Response [200]>
+Response time: 1720088203.293039
+Service time:  0.036605
+------------------------------------------
+Start request: 1720088203.2932181
+Response type: <Response [200]>
+Response time: 1720088203.3306549
+Service time:  0.0374368
+------------------------------------------
+Start request: 1720088203.330775
+Response type: <Response [200]>
+Response time: 1720088203.365983
+Service time:  0.035208
+------------------------------------------
+Start request: 1720088203.3662632
+Response type: <Response [200]>
+Response time: 1720088203.406013
+Service time:  0.0397498
+------------------------------------------
+Start request: 1720088203.4062002
+Response type: <Response [200]>
+Response time: 1720088203.457162
+Service time:  0.0509618
+------------------------------------------
+Start request: 1720088203.4572842
+Response type: <Response [200]>
+Response time: 1720088203.5040388
+Service time:  0.0467546
+------------------------------------------
+Start request: 1720088203.5042381
+Response type: <Response [200]>
+Response time: 1720088203.5598028
+Service time:  0.0555647
+------------------------------------------
+Start request: 1720088203.5600588
+Response type: <Response [200]>
+Response time: 1720088203.614254
+Service time:  0.0541952
+------------------------------------------
+Start request: 1720088203.614471
+Response type: <Response [200]>
+Response time: 1720088203.658634
+Service time:  0.044163
+------------------------------------------
+Start request: 1720088203.6589282
+Response type: <Response [200]>
+Response time: 1720088203.696362
+Service time:  0.0374338
+------------------------------------------
+Start request: 1720088203.696488
+Response type: <Response [200]>
+Response time: 1720088203.740236
+Service time:  0.043748
+------------------------------------------
+Start request: 1720088203.7403672
+Response type: <Response [200]>
+Response time: 1720088203.789193
+Service time:  0.0488258
+------------------------------------------
+Start request: 1720088203.789286
+Response type: <Response [200]>
+Response time: 1720088203.8465989
+Service time:  0.0573129
+------------------------------------------
+Start request: 1720088203.846736
+Response type: <Response [200]>
+Response time: 1720088203.97397
+Service time:  0.127234
+------------------------------------------
+Start request: 1720088203.9745631
+Response type: <Response [200]>
+Response time: 1720088204.014452
+Service time:  0.0398889
+------------------------------------------
+Start request: 1720088204.014813
+Response type: <Response [200]>
+Response time: 1720088204.0533729
+Service time:  0.0385599
+------------------------------------------
+Start request: 1720088204.053478
+Response type: <Response [200]>
+Response time: 1720088204.098908
+Service time:  0.045430
+------------------------------------------
+Start request: 1720088204.099092
+Response type: <Response [200]>
+Response time: 1720088204.141056
+Service time:  0.041964
+------------------------------------------
+Start request: 1720088204.141165
+Response type: <Response [200]>
+Response time: 1720088204.1763551
+Service time:  0.0351901
+------------------------------------------
+Start request: 1720088204.176533
+Response type: <Response [200]>
+Response time: 1720088204.213814
+Service time:  0.037281
+------------------------------------------
+Start request: 1720088204.213953
+Response type: <Response [200]>
+Response time: 1720088204.255581
+Service time:  0.041628
+------------------------------------------
+Start request: 1720088204.255751
+Response type: <Response [200]>
+Response time: 1720088204.302058
+Service time:  0.046307
+------------------------------------------
+Start request: 1720088204.3022861
+Response type: <Response [200]>
+Response time: 1720088204.346095
+Service time:  0.0438089
+------------------------------------------
+Start request: 1720088204.346219
+Response type: <Response [200]>
+Response time: 1720088204.3961542
+Service time:  0.0499352
+------------------------------------------
+Start request: 1720088204.396257
+Response type: <Response [200]>
+Response time: 1720088204.43792
+Service time:  0.041663
+------------------------------------------
+Start request: 1720088204.4380312
+Response type: <Response [200]>
+Response time: 1720088204.4697092
+Service time:  0.0316780
+------------------------------------------
+Start request: 1720088204.4700348
+Response type: <Response [200]>
+Response time: 1720088204.505229
+Service time:  0.0351942
+------------------------------------------
+Start request: 1720088204.5056
+Response type: <Response [200]>
+Response time: 1720088204.5512168
+Service time:  0.0456168
+------------------------------------------
+Start request: 1720088204.551327
+Response type: <Response [200]>
+Response time: 1720088204.5904589
+Service time:  0.0391319
+------------------------------------------
+Start request: 1720088204.59065
+Response type: <Response [200]>
+Response time: 1720088204.6282392
+Service time:  0.0375892
+------------------------------------------
+Start request: 1720088204.628351
+Response type: <Response [200]>
+Response time: 1720088204.662406
+Service time:  0.034055
+------------------------------------------
+Start request: 1720088204.662507
+Response type: <Response [200]>
+Response time: 1720088204.7021482
+Service time:  0.0396412
+------------------------------------------
+Start request: 1720088204.702295
+Response type: <Response [200]>
+Response time: 1720088204.741159
+Service time:  0.038864
+------------------------------------------
+Start request: 1720088204.7412748
+Response type: <Response [200]>
+Response time: 1720088204.775512
+Service time:  0.0342372
+------------------------------------------
+Start request: 1720088204.775648
+Response type: <Response [200]>
+Response time: 1720088204.8110871
+Service time:  0.0354391
+------------------------------------------
+Start request: 1720088204.811191
+Response type: <Response [200]>
+Response time: 1720088204.846681
+Service time:  0.035490
+------------------------------------------
+Start request: 1720088204.8468218
+Response type: <Response [200]>
+Response time: 1720088204.88254
+Service time:  0.0357182
+------------------------------------------
+Start request: 1720088204.882668
+Response type: <Response [200]>
+Response time: 1720088204.9236648
+Service time:  0.0409968
+------------------------------------------
+Start request: 1720088204.923798
+Response type: <Response [200]>
+Response time: 1720088204.958397
+Service time:  0.034599
+------------------------------------------
+Start request: 1720088204.958515
+Response type: <Response [200]>
+Response time: 1720088204.993215
+Service time:  0.034700
+------------------------------------------
+Start request: 1720088204.993418
+Response type: <Response [200]>
+Response time: 1720088205.02943
+Service time:  0.036012
+------------------------------------------
+Start request: 1720088205.029663
+Response type: <Response [200]>
+Response time: 1720088205.063432
+Service time:  0.033769
+------------------------------------------
+Start request: 1720088205.063565
+Response type: <Response [200]>
+Response time: 1720088205.103988
+Service time:  0.040423
+------------------------------------------
+Start request: 1720088205.104177
+Response type: <Response [200]>
+Response time: 1720088205.1419039
+Service time:  0.0377269
+------------------------------------------
+Start request: 1720088205.142025
+Response type: <Response [200]>
+Response time: 1720088205.177291
+Service time:  0.035266
+------------------------------------------
+Start request: 1720088205.1774
+Response type: <Response [200]>
+Response time: 1720088205.2128372
+Service time:  0.0354372
+------------------------------------------
+Start request: 1720088205.212946
+Response type: <Response [200]>
+Response time: 1720088205.2517278
+Service time:  0.0387818
+------------------------------------------
+Start request: 1720088205.251909
+Response type: <Response [200]>
+Response time: 1720088205.2869382
+Service time:  0.0350292
+------------------------------------------
+Start request: 1720088205.2871869
+Response type: <Response [200]>
+Response time: 1720088205.3254862
+Service time:  0.0382993
+------------------------------------------
+Start request: 1720088205.3257458
+Response type: <Response [200]>
+Response time: 1720088205.358853
+Service time:  0.0331072
+------------------------------------------
+Start request: 1720088205.358977
+Response type: <Response [200]>
+Response time: 1720088205.395442
+Service time:  0.036465
+------------------------------------------
+Start request: 1720088205.3957188
+Response type: <Response [200]>
+Response time: 1720088205.4317398
+Service time:  0.0360210
+------------------------------------------
+Start request: 1720088205.431975
+Response type: <Response [200]>
+Response time: 1720088205.4668071
+Service time:  0.0348321
+------------------------------------------
+Start request: 1720088205.467045
+Response type: <Response [200]>
+Response time: 1720088205.635575
+Service time:  0.168530
+------------------------------------------
+Start request: 1720088205.635778
+Response type: <Response [200]>
+Response time: 1720088205.679091
+Service time:  0.043313
+------------------------------------------
+Start request: 1720088205.67924
+Response type: <Response [200]>
+Response time: 1720088205.7168908
+Service time:  0.0376508
+------------------------------------------
+Start request: 1720088205.717101
+Response type: <Response [200]>
+Response time: 1720088205.755392
+Service time:  0.038291
+------------------------------------------
+Start request: 1720088205.7554848
+Response type: <Response [200]>
+Response time: 1720088205.7921422
+Service time:  0.0366574
+------------------------------------------
+Start request: 1720088205.7922912
+Response type: <Response [200]>
+Response time: 1720088205.828233
+Service time:  0.0359418
+------------------------------------------
+Start request: 1720088205.828344
+Response type: <Response [200]>
+Response time: 1720088205.866488
+Service time:  0.038144
+------------------------------------------
+Start request: 1720088205.866669
+Response type: <Response [200]>
+Response time: 1720088205.911407
+Service time:  0.044738
+------------------------------------------
+Start request: 1720088205.911633
+Response type: <Response [200]>
+Response time: 1720088205.95177
+Service time:  0.040137
+------------------------------------------
+Start request: 1720088205.951953
+Response type: <Response [200]>
+Response time: 1720088205.989428
+Service time:  0.037475
+------------------------------------------
+Start request: 1720088205.98964
+Response type: <Response [200]>
+Response time: 1720088206.0419898
+Service time:  0.0523498
+------------------------------------------
+Start request: 1720088206.0422258
+Response type: <Response [200]>
+Response time: 1720088206.0857081
+Service time:  0.0434823
+------------------------------------------
+Start request: 1720088206.086046
+Response type: <Response [200]>
+Response time: 1720088206.1363578
+Service time:  0.0503118
+------------------------------------------
+Start request: 1720088206.136522
+Response type: <Response [200]>
+Response time: 1720088206.230442
+Service time:  0.093920
+------------------------------------------
+Start request: 1720088206.230569
+Response type: <Response [200]>
+Response time: 1720088206.28893
+Service time:  0.058361
+------------------------------------------
+Start request: 1720088206.289102
+Response type: <Response [200]>
+Response time: 1720088206.338284
+Service time:  0.049182
+------------------------------------------
+Start request: 1720088206.338454
+Response type: <Response [200]>
+Response time: 1720088206.398667
+Service time:  0.060213
+------------------------------------------
+Start request: 1720088206.398844
+Response type: <Response [200]>
+Response time: 1720088206.441317
+Service time:  0.042473
+------------------------------------------
+Start request: 1720088206.4415638
+Response type: <Response [200]>
+Response time: 1720088206.4832902
+Service time:  0.0417264
+------------------------------------------
+Start request: 1720088206.4834409
+Response type: <Response [200]>
+Response time: 1720088206.522708
+Service time:  0.0392671
+------------------------------------------
+Start request: 1720088206.52289
+Response type: <Response [200]>
+Response time: 1720088206.567181
+Service time:  0.044291
+------------------------------------------
+Start request: 1720088206.567498
+Response type: <Response [200]>
+Response time: 1720088206.615041
+Service time:  0.047543
+------------------------------------------
+Start request: 1720088206.6153128
+Response type: <Response [200]>
+Response time: 1720088206.66064
+Service time:  0.0453272
+------------------------------------------
+Start request: 1720088206.66079
+Response type: <Response [200]>
+Response time: 1720088206.702061
+Service time:  0.041271
+------------------------------------------
+Start request: 1720088206.702229
+Response type: <Response [200]>
+Response time: 1720088206.743704
+Service time:  0.041475
+------------------------------------------
+Start request: 1720088206.743828
+Response type: <Response [200]>
+Response time: 1720088206.775743
+Service time:  0.031915
+------------------------------------------
+Start request: 1720088206.775923
+Response type: <Response [200]>
+Response time: 1720088206.8079512
+Service time:  0.0320282
+------------------------------------------
+Start request: 1720088206.808064
+Response type: <Response [200]>
+Response time: 1720088206.845845
+Service time:  0.037781
+------------------------------------------
+Start request: 1720088206.845997
+Response type: <Response [200]>
+Response time: 1720088206.883779
+Service time:  0.037782
+------------------------------------------
+Start request: 1720088206.883967
+Response type: <Response [200]>
+Response time: 1720088206.929025
+Service time:  0.045058
+------------------------------------------
+Start request: 1720088206.929164
+Response type: <Response [200]>
+Response time: 1720088206.961663
+Service time:  0.032499
+------------------------------------------
+Start request: 1720088206.961802
+Response type: <Response [200]>
+Response time: 1720088207.014564
+Service time:  0.052762
+------------------------------------------
+Start request: 1720088207.01471
+Response type: <Response [200]>
+Response time: 1720088207.05399
+Service time:  0.03928
+------------------------------------------
+Start request: 1720088207.0541089
+Response type: <Response [200]>
+Response time: 1720088207.094335
+Service time:  0.0402261
+------------------------------------------
+Start request: 1720088207.0944781
+Response type: <Response [200]>
+Response time: 1720088207.1413162
+Service time:  0.0468381
+------------------------------------------
+Start request: 1720088207.1415732
+Response type: <Response [200]>
+Response time: 1720088207.185884
+Service time:  0.0443108
+------------------------------------------
+Start request: 1720088207.186094
+Response type: <Response [200]>
+Response time: 1720088207.230408
+Service time:  0.044314
+------------------------------------------
+Start request: 1720088207.2305222
+Response type: <Response [200]>
+Response time: 1720088207.270043
+Service time:  0.0395208
+------------------------------------------
+Start request: 1720088207.270232
+Response type: <Response [200]>
+Response time: 1720088207.311192
+Service time:  0.040960
+------------------------------------------
+Start request: 1720088207.311497
+Response type: <Response [200]>
+Response time: 1720088207.3463528
+Service time:  0.0348558
+------------------------------------------
+Start request: 1720088207.346493
+Response type: <Response [200]>
+Response time: 1720088207.3855722
+Service time:  0.0390792
+------------------------------------------
+Start request: 1720088207.385749
+Response type: <Response [200]>
+Response time: 1720088207.4221098
+Service time:  0.0363608
+------------------------------------------
+Start request: 1720088207.422223
+Response type: <Response [200]>
+Response time: 1720088207.459286
+Service time:  0.037063
+------------------------------------------
+Start request: 1720088207.4594188
+Response type: <Response [200]>
+Response time: 1720088207.493102
+Service time:  0.0336832
+------------------------------------------
+Start request: 1720088207.493255
+Response type: <Response [200]>
+Response time: 1720088207.529848
+Service time:  0.036593
+------------------------------------------
+Start request: 1720088207.5300622
+Response type: <Response [200]>
+Response time: 1720088207.565805
+Service time:  0.0357428
+------------------------------------------
+Start request: 1720088207.5660968
+Response type: <Response [200]>
+Response time: 1720088207.6051872
+Service time:  0.0390904
+------------------------------------------
+Start request: 1720088207.605379
+Response type: <Response [200]>
+Response time: 1720088207.639709
+Service time:  0.034330
+------------------------------------------
+Start request: 1720088207.639903
+Response type: <Response [200]>
+Response time: 1720088207.6815202
+Service time:  0.0416172
+------------------------------------------
+Start request: 1720088207.681803
+Response type: <Response [200]>
+Response time: 1720088207.724957
+Service time:  0.043154
+------------------------------------------
+Start request: 1720088207.7251031
+Response type: <Response [200]>
+Response time: 1720088207.7602282
+Service time:  0.0351251
+------------------------------------------
+Start request: 1720088207.760423
+Response type: <Response [200]>
+Response time: 1720088207.80432
+Service time:  0.043897
+------------------------------------------
+Start request: 1720088207.804566
+Response type: <Response [200]>
+Response time: 1720088207.842541
+Service time:  0.037975
+------------------------------------------
+Start request: 1720088207.842718
+Response type: <Response [200]>
+Response time: 1720088207.8787358
+Service time:  0.0360178
+------------------------------------------
+Start request: 1720088207.878863
+Response type: <Response [200]>
+Response time: 1720088207.913388
+Service time:  0.034525
+------------------------------------------
+Start request: 1720088207.91359
+Response type: <Response [200]>
+Response time: 1720088207.95048
+Service time:  0.03689
+------------------------------------------
+Start request: 1720088207.950637
+Response type: <Response [200]>
+Response time: 1720088207.9840472
+Service time:  0.0334102
+------------------------------------------
+Start request: 1720088207.984212
+Response type: <Response [200]>
+Response time: 1720088208.0255349
+Service time:  0.0413229
+------------------------------------------
+Start request: 1720088208.025714
+Response type: <Response [200]>
+Response time: 1720088208.0597582
+Service time:  0.0340442
+------------------------------------------
+Start request: 1720088208.059913
+Response type: <Response [200]>
+Response time: 1720088208.095531
+Service time:  0.035618
+------------------------------------------
+Start request: 1720088208.095742
+Response type: <Response [200]>
+Response time: 1720088208.141411
+Service time:  0.045669
+------------------------------------------
+Start request: 1720088208.1416872
+Response type: <Response [200]>
+Response time: 1720088208.1865332
+Service time:  0.0448460
+------------------------------------------
+Start request: 1720088208.187381
+Response type: <Response [200]>
+Response time: 1720088208.230294
+Service time:  0.042913
+------------------------------------------
+Start request: 1720088208.2304
+Response type: <Response [200]>
+Response time: 1720088208.264865
+Service time:  0.034465
+------------------------------------------
+Start request: 1720088208.26513
+Response type: <Response [200]>
+Response time: 1720088208.309027
+Service time:  0.043897
+------------------------------------------
+Start request: 1720088208.3094678
+Response type: <Response [200]>
+Response time: 1720088208.345508
+Service time:  0.0360402
+------------------------------------------
+Start request: 1720088208.34562
+Response type: <Response [200]>
+Response time: 1720088208.39786
+Service time:  0.05224
+------------------------------------------
+Start request: 1720088208.398031
+Response type: <Response [200]>
+Response time: 1720088208.438004
+Service time:  0.039973
+------------------------------------------
+Start request: 1720088208.43831
+Response type: <Response [200]>
+Response time: 1720088208.476607
+Service time:  0.038297
+------------------------------------------
+Start request: 1720088208.476786
+Response type: <Response [200]>
+Response time: 1720088208.512449
+Service time:  0.035663
+------------------------------------------
+Start request: 1720088208.512809
+Response type: <Response [200]>
+Response time: 1720088208.566957
+Service time:  0.054148
+------------------------------------------
+Start request: 1720088208.5672278
+Response type: <Response [200]>
+Response time: 1720088208.6214242
+Service time:  0.0541964
+------------------------------------------
+Start request: 1720088208.6215549
+Response type: <Response [200]>
+Response time: 1720088208.6567192
+Service time:  0.0351643
+------------------------------------------
+Start request: 1720088208.6569118
+Response type: <Response [200]>
+Response time: 1720088208.8281431
+Service time:  0.1712313
+------------------------------------------
+Start request: 1720088208.828326
+Response type: <Response [200]>
+Response time: 1720088208.888948
+Service time:  0.060622
+------------------------------------------
+Start request: 1720088208.8891048
+Response type: <Response [200]>
+Response time: 1720088208.941061
+Service time:  0.0519562
+------------------------------------------
+Start request: 1720088208.9414558
+Response type: <Response [200]>
+Response time: 1720088208.99178
+Service time:  0.0503242
+------------------------------------------
+Start request: 1720088208.9921348
+Response type: <Response [200]>
+Response time: 1720088209.039665
+Service time:  0.0475302
+------------------------------------------
+Start request: 1720088209.039875
+Response type: <Response [200]>
+Response time: 1720088209.074307
+Service time:  0.034432
+------------------------------------------
+Start request: 1720088209.074433
+Response type: <Response [200]>
+Response time: 1720088209.113794
+Service time:  0.039361
+------------------------------------------
+Start request: 1720088209.113899
+Response type: <Response [200]>
+Response time: 1720088209.152433
+Service time:  0.038534
+------------------------------------------
+Start request: 1720088209.152566
+Response type: <Response [200]>
+Response time: 1720088209.191096
+Service time:  0.038530
+------------------------------------------
+Start request: 1720088209.191215
+Response type: <Response [200]>
+Response time: 1720088209.229127
+Service time:  0.037912
+------------------------------------------
+Start request: 1720088209.229239
+Response type: <Response [200]>
+Response time: 1720088209.2632551
+Service time:  0.0340161
+------------------------------------------
+Start request: 1720088209.263401
+Response type: <Response [200]>
+Response time: 1720088209.30101
+Service time:  0.037609
+------------------------------------------
+Start request: 1720088209.301263
+Response type: <Response [200]>
+Response time: 1720088209.3382049
+Service time:  0.0369419
+------------------------------------------
+Start request: 1720088209.338412
+Response type: <Response [200]>
+Response time: 1720088209.376726
+Service time:  0.038314
+------------------------------------------
+Start request: 1720088209.376951
+Response type: <Response [200]>
+Response time: 1720088209.411513
+Service time:  0.034562
+------------------------------------------
+Start request: 1720088209.411932
+Response type: <Response [200]>
+Response time: 1720088209.451381
+Service time:  0.039449
+------------------------------------------
+Start request: 1720088209.4515681
+Response type: <Response [200]>
+Response time: 1720088209.485622
+Service time:  0.0340539
+------------------------------------------
+Start request: 1720088209.485791
+Response type: <Response [200]>
+Response time: 1720088209.526669
+Service time:  0.040878
+------------------------------------------
+Start request: 1720088209.5268
+Response type: <Response [200]>
+Response time: 1720088209.5629902
+Service time:  0.0361902
+------------------------------------------
+Start request: 1720088209.563191
+Response type: <Response [200]>
+Response time: 1720088209.6020072
+Service time:  0.0388162
+------------------------------------------
+Start request: 1720088209.602412
+Response type: <Response [200]>
+Response time: 1720088209.641023
+Service time:  0.038611
+------------------------------------------
+Start request: 1720088209.641165
+Response type: <Response [200]>
+Response time: 1720088209.678879
+Service time:  0.037714
+------------------------------------------
+Start request: 1720088209.6792269
+Response type: <Response [200]>
+Response time: 1720088209.717708
+Service time:  0.0384811
+------------------------------------------
+Start request: 1720088209.7179048
+Response type: <Response [200]>
+Response time: 1720088209.763919
+Service time:  0.0460142
+------------------------------------------
+Start request: 1720088209.764082
+Response type: <Response [200]>
+Response time: 1720088209.806078
+Service time:  0.041996
+------------------------------------------
+Start request: 1720088209.806195
+Response type: <Response [200]>
+Response time: 1720088209.844386
+Service time:  0.038191
+------------------------------------------
+Start request: 1720088209.844542
+Response type: <Response [200]>
+Response time: 1720088209.882368
+Service time:  0.037826
+------------------------------------------
+Start request: 1720088209.882575
+Response type: <Response [200]>
+Response time: 1720088209.9262369
+Service time:  0.0436619
+------------------------------------------
+Start request: 1720088209.926476
+Response type: <Response [200]>
+Response time: 1720088209.9640262
+Service time:  0.0375502
+------------------------------------------
+Start request: 1720088209.964225
+Response type: <Response [200]>
+Response time: 1720088210.002769
+Service time:  0.038544
+------------------------------------------
+Start request: 1720088210.002989
+Response type: <Response [200]>
+Response time: 1720088210.04916
+Service time:  0.046171
+------------------------------------------
+Start request: 1720088210.049265
+Response type: <Response [200]>
+Response time: 1720088210.086696
+Service time:  0.037431
+------------------------------------------
+Start request: 1720088210.08688
+Response type: <Response [200]>
+Response time: 1720088210.1237671
+Service time:  0.0368871
+------------------------------------------
+Start request: 1720088210.123878
+Response type: <Response [200]>
+Response time: 1720088210.164751
+Service time:  0.040873
+------------------------------------------
+Start request: 1720088210.164953
+Response type: <Response [200]>
+Response time: 1720088210.20113
+Service time:  0.036177
+------------------------------------------
+Start request: 1720088210.2013319
+Response type: <Response [200]>
+Response time: 1720088210.2414641
+Service time:  0.0401322
+------------------------------------------
+Start request: 1720088210.2415848
+Response type: <Response [200]>
+Response time: 1720088210.2888472
+Service time:  0.0472624
+------------------------------------------
+Start request: 1720088210.289077
+Response type: <Response [200]>
+Response time: 1720088210.3385012
+Service time:  0.0494242
+------------------------------------------
+Start request: 1720088210.338631
+Response type: <Response [200]>
+Response time: 1720088210.3935769
+Service time:  0.0549459
+------------------------------------------
+Start request: 1720088210.393753
+Response type: <Response [200]>
+Response time: 1720088210.442235
+Service time:  0.048482
+------------------------------------------
+Start request: 1720088210.442465
+Response type: <Response [200]>
+Response time: 1720088210.479677
+Service time:  0.037212
+------------------------------------------
+Start request: 1720088210.479819
+Response type: <Response [200]>
+Response time: 1720088210.51744
+Service time:  0.037621
+------------------------------------------
+Start request: 1720088210.5177312
+Response type: <Response [200]>
+Response time: 1720088210.5563362
+Service time:  0.0386050
+------------------------------------------
+Start request: 1720088210.556451
+Response type: <Response [200]>
+Response time: 1720088210.592745
+Service time:  0.036294
+------------------------------------------
+Start request: 1720088210.592992
+Response type: <Response [200]>
+Response time: 1720088210.6302562
+Service time:  0.0372642
+------------------------------------------
+Start request: 1720088210.630372
+Response type: <Response [200]>
+Response time: 1720088210.667351
+Service time:  0.036979
+------------------------------------------
+Start request: 1720088210.667594
+Response type: <Response [200]>
+Response time: 1720088210.7098482
+Service time:  0.0422542
+------------------------------------------
+Start request: 1720088210.7099688
+Response type: <Response [200]>
+Response time: 1720088210.745737
+Service time:  0.0357682
+------------------------------------------
+Start request: 1720088210.745845
+Response type: <Response [200]>
+Response time: 1720088210.796664
+Service time:  0.050819
+------------------------------------------
+Start request: 1720088210.7968168
+Response type: <Response [200]>
+Response time: 1720088210.839914
+Service time:  0.0430972
+------------------------------------------
+Start request: 1720088210.8401558
+Response type: <Response [200]>
+Response time: 1720088210.882422
+Service time:  0.0422662
+------------------------------------------
+Start request: 1720088210.8825479
+Response type: <Response [200]>
+Response time: 1720088210.92224
+Service time:  0.0396921
+------------------------------------------
+Start request: 1720088210.922379
+Response type: <Response [200]>
+Response time: 1720088210.962373
+Service time:  0.039994
+------------------------------------------
+Start request: 1720088210.962531
+Response type: <Response [200]>
+Response time: 1720088210.99877
+Service time:  0.036239
+------------------------------------------
+Start request: 1720088210.999118
+Response type: <Response [200]>
+Response time: 1720088211.04031
+Service time:  0.041192
+------------------------------------------
+Start request: 1720088211.04045
+Response type: <Response [200]>
+Response time: 1720088211.080003
+Service time:  0.039553
+------------------------------------------
+Start request: 1720088211.080114
+Response type: <Response [200]>
+Response time: 1720088211.118922
+Service time:  0.038808
+------------------------------------------
+Start request: 1720088211.1191301
+Response type: <Response [200]>
+Response time: 1720088211.158429
+Service time:  0.0392989
+------------------------------------------
+Start request: 1720088211.1586921
+Response type: <Response [200]>
+Response time: 1720088211.1934001
+Service time:  0.0347080
+------------------------------------------
+Start request: 1720088211.193516
+Response type: <Response [200]>
+Response time: 1720088211.2379708
+Service time:  0.0444548
+------------------------------------------
+Start request: 1720088211.2381382
+Response type: <Response [200]>
+Response time: 1720088211.2790668
+Service time:  0.0409286
+------------------------------------------
+Start request: 1720088211.2791748
+Response type: <Response [200]>
+Response time: 1720088211.3141901
+Service time:  0.0350153
+------------------------------------------
+Start request: 1720088211.3143601
+Response type: <Response [200]>
+Response time: 1720088211.3539572
+Service time:  0.0395971
+------------------------------------------
+Start request: 1720088211.354099
+Response type: <Response [200]>
+Response time: 1720088211.391778
+Service time:  0.037679
+------------------------------------------
+Start request: 1720088211.391949
+Response type: <Response [200]>
+Response time: 1720088211.428143
+Service time:  0.036194
+------------------------------------------
+Start request: 1720088211.428281
+Response type: <Response [200]>
+Response time: 1720088211.46642
+Service time:  0.038139
+------------------------------------------
+Start request: 1720088211.466762
+Response type: <Response [200]>
+Response time: 1720088211.506746
+Service time:  0.039984
+------------------------------------------
+Start request: 1720088211.507272
+Response type: <Response [200]>
+Response time: 1720088211.544099
+Service time:  0.036827
+------------------------------------------
+Start request: 1720088211.54427
+Response type: <Response [200]>
+Response time: 1720088211.5805042
+Service time:  0.0362342
+------------------------------------------
+Start request: 1720088211.580656
+Response type: <Response [200]>
+Response time: 1720088211.6188369
+Service time:  0.0381809
+------------------------------------------
+Start request: 1720088211.6191092
+Response type: <Response [200]>
+Response time: 1720088211.6567528
+Service time:  0.0376436
+------------------------------------------
+Start request: 1720088211.656863
+Response type: <Response [200]>
+Response time: 1720088211.694379
+Service time:  0.037516
+------------------------------------------
+Start request: 1720088211.694583
+Response type: <Response [200]>
+Response time: 1720088211.731898
+Service time:  0.037315
+------------------------------------------
+Start request: 1720088211.732298
+Response type: <Response [200]>
+Response time: 1720088211.773727
+Service time:  0.041429
+------------------------------------------
+Start request: 1720088211.7741098
+Response type: <Response [200]>
+Response time: 1720088211.8218188
+Service time:  0.0477090
+------------------------------------------
+Start request: 1720088211.8219578
+Response type: <Response [200]>
+Response time: 1720088211.859332
+Service time:  0.0373742
+------------------------------------------
+Start request: 1720088211.859488
+Response type: <Response [200]>
+Response time: 1720088211.905962
+Service time:  0.046474
+------------------------------------------
+Start request: 1720088211.906233
+Response type: <Response [200]>
+Response time: 1720088211.947934
+Service time:  0.041701
+------------------------------------------
+Start request: 1720088211.9481258
+Response type: <Response [200]>
+Response time: 1720088211.979994
+Service time:  0.0318682
+------------------------------------------
+Start request: 1720088211.980156
+Response type: <Response [200]>
+Response time: 1720088212.023446
+Service time:  0.043290
+------------------------------------------
+Start request: 1720088212.023582
+Response type: <Response [200]>
+Response time: 1720088212.0723069
+Service time:  0.0487249
+------------------------------------------
+Start request: 1720088212.072423
+Response type: <Response [200]>
+Response time: 1720088212.121537
+Service time:  0.049114
+------------------------------------------
+Start request: 1720088212.121757
+Response type: <Response [200]>
+Response time: 1720088212.1636322
+Service time:  0.0418752
+------------------------------------------
+Start request: 1720088212.163782
+Response type: <Response [200]>
+Response time: 1720088212.2140758
+Service time:  0.0502938
+------------------------------------------
+Start request: 1720088212.214197
+Response type: <Response [200]>
+Response time: 1720088212.2541661
+Service time:  0.0399691
+------------------------------------------
+Start request: 1720088212.2542799
+Response type: <Response [200]>
+Response time: 1720088212.2929978
+Service time:  0.0387179
+------------------------------------------
+Start request: 1720088212.2932448
+Response type: <Response [200]>
+Response time: 1720088212.3294451
+Service time:  0.0362003
+------------------------------------------
+Start request: 1720088212.329597
+Response type: <Response [200]>
+Response time: 1720088212.372098
+Service time:  0.042501
+------------------------------------------
+Start request: 1720088212.372493
+Response type: <Response [200]>
+Response time: 1720088212.413111
+Service time:  0.040618
+------------------------------------------
+Start request: 1720088212.4132721
+Response type: <Response [200]>
+Response time: 1720088212.4494479
+Service time:  0.0361758
+------------------------------------------
+Start request: 1720088212.449739
+Response type: <Response [200]>
+Response time: 1720088212.48871
+Service time:  0.038971
+------------------------------------------
+Start request: 1720088212.488825
+Response type: <Response [200]>
+Response time: 1720088212.523881
+Service time:  0.035056
+------------------------------------------
+Start request: 1720088212.5240178
+Response type: <Response [200]>
+Response time: 1720088212.5623019
+Service time:  0.0382841
+------------------------------------------
+Start request: 1720088212.562437
+Response type: <Response [200]>
+Response time: 1720088212.5986612
+Service time:  0.0362242
+------------------------------------------
+Start request: 1720088212.5989919
+Response type: <Response [200]>
+Response time: 1720088212.638277
+Service time:  0.0392851
+------------------------------------------
+Start request: 1720088212.638481
+Response type: <Response [200]>
+Response time: 1720088212.678765
+Service time:  0.040284
+------------------------------------------
+Start request: 1720088212.678894
+Response type: <Response [200]>
+Response time: 1720088212.716453
+Service time:  0.037559
+------------------------------------------
+Start request: 1720088212.7166169
+Response type: <Response [200]>
+Response time: 1720088212.754741
+Service time:  0.0381241
+------------------------------------------
+Start request: 1720088212.7549691
+Response type: <Response [200]>
+Response time: 1720088212.79529
+Service time:  0.0403209
+------------------------------------------
+Start request: 1720088212.795506
+Response type: <Response [200]>
+Response time: 1720088212.840956
+Service time:  0.045450
+------------------------------------------
+Start request: 1720088212.841413
+Response type: <Response [200]>
+Response time: 1720088212.8789911
+Service time:  0.0375781
+------------------------------------------
+Start request: 1720088212.879155
+Response type: <Response [200]>
+Response time: 1720088212.92248
+Service time:  0.043325
+------------------------------------------
+Start request: 1720088212.922642
+Response type: <Response [200]>
+Response time: 1720088212.958529
+Service time:  0.035887
+------------------------------------------
+Start request: 1720088212.95876
+Response type: <Response [200]>
+Response time: 1720088212.995451
+Service time:  0.036691
+------------------------------------------
+Start request: 1720088212.9955819
+Response type: <Response [200]>
+Response time: 1720088213.048733
+Service time:  0.0531511
+------------------------------------------
+Start request: 1720088213.048873
+Response type: <Response [200]>
+Response time: 1720088213.0873091
+Service time:  0.0384361
+------------------------------------------
+Start request: 1720088213.0875552
+Response type: <Response [200]>
+Response time: 1720088213.124202
+Service time:  0.0366468
+------------------------------------------
+Start request: 1720088213.124367
+Response type: <Response [200]>
+Response time: 1720088213.165041
+Service time:  0.040674
+------------------------------------------
+Start request: 1720088213.1651871
+Response type: <Response [200]>
+Response time: 1720088213.287203
+Service time:  0.1220159
+------------------------------------------
+Start request: 1720088213.287349
+Response type: <Response [200]>
+Response time: 1720088213.350909
+Service time:  0.063560
+------------------------------------------
+Start request: 1720088213.351331
+Response type: <Response [200]>
+Response time: 1720088213.399499
+Service time:  0.048168
+------------------------------------------
+Start request: 1720088213.3996642
+Response type: <Response [200]>
+Response time: 1720088213.437752
+Service time:  0.0380878
+------------------------------------------
+Start request: 1720088213.438022
+Response type: <Response [200]>
+Response time: 1720088213.47724
+Service time:  0.039218
+------------------------------------------
+Start request: 1720088213.477516
+Response type: <Response [200]>
+Response time: 1720088213.5117598
+Service time:  0.0342438
+------------------------------------------
+Start request: 1720088213.512012
+Response type: <Response [200]>
+Response time: 1720088213.564082
+Service time:  0.052070
+------------------------------------------
+Start request: 1720088213.564429
+Response type: <Response [200]>
+Response time: 1720088213.613775
+Service time:  0.049346
+------------------------------------------
+Start request: 1720088213.6138911
+Response type: <Response [200]>
+Response time: 1720088213.650271
+Service time:  0.0363799
+------------------------------------------
+Start request: 1720088213.65046
+Response type: <Response [200]>
+Response time: 1720088213.69906
+Service time:  0.04860
+------------------------------------------
+Start request: 1720088213.699896
+Response type: <Response [200]>
+Response time: 1720088213.743903
+Service time:  0.044007
+------------------------------------------
+Start request: 1720088213.74404
+Response type: <Response [200]>
+Response time: 1720088213.779158
+Service time:  0.035118
+------------------------------------------
+Start request: 1720088213.779277
+Response type: <Response [200]>
+Response time: 1720088213.828608
+Service time:  0.049331
+------------------------------------------
+Start request: 1720088213.828748
+Response type: <Response [200]>
+Response time: 1720088213.872993
+Service time:  0.044245
+------------------------------------------
+Start request: 1720088213.873139
+Response type: <Response [200]>
+Response time: 1720088213.9123788
+Service time:  0.0392398
+------------------------------------------
+Start request: 1720088213.912478
+Response type: <Response [200]>
+Response time: 1720088213.9474409
+Service time:  0.0349629
+------------------------------------------
+Start request: 1720088213.947574
+Response type: <Response [200]>
+Response time: 1720088213.9854279
+Service time:  0.0378539
+------------------------------------------
+Start request: 1720088213.985603
+Response type: <Response [200]>
+Response time: 1720088214.022687
+Service time:  0.037084
+------------------------------------------
+Start request: 1720088214.022812
+Response type: <Response [200]>
+Response time: 1720088214.057238
+Service time:  0.034426
+------------------------------------------
+Start request: 1720088214.057346
+Response type: <Response [200]>
+Response time: 1720088214.092848
+Service time:  0.035502
+------------------------------------------
+Start request: 1720088214.0929978
+Response type: <Response [200]>
+Response time: 1720088214.124865
+Service time:  0.0318672
+------------------------------------------
+Start request: 1720088214.1250129
+Response type: <Response [200]>
+Response time: 1720088214.162171
+Service time:  0.0371581
+------------------------------------------
+Start request: 1720088214.1623008
+Response type: <Response [200]>
+Response time: 1720088214.197628
+Service time:  0.0353272
+------------------------------------------
+Start request: 1720088214.197767
+Response type: <Response [200]>
+Response time: 1720088214.2356448
+Service time:  0.0378778
+------------------------------------------
+Start request: 1720088214.235946
+Response type: <Response [200]>
+Response time: 1720088214.275115
+Service time:  0.039169
+------------------------------------------
+Start request: 1720088214.275357
+Response type: <Response [200]>
+Response time: 1720088214.310291
+Service time:  0.034934
+------------------------------------------
+Start request: 1720088214.310415
+Response type: <Response [200]>
+Response time: 1720088214.3481102
+Service time:  0.0376952
+------------------------------------------
+Start request: 1720088214.348272
+Response type: <Response [200]>
+Response time: 1720088214.38708
+Service time:  0.038808
+------------------------------------------
+Start request: 1720088214.3872871
+Response type: <Response [200]>
+Response time: 1720088214.42536
+Service time:  0.0380729
+------------------------------------------
+Start request: 1720088214.425828
+Response type: <Response [200]>
+Response time: 1720088214.4608698
+Service time:  0.0350418
+------------------------------------------
+Start request: 1720088214.461049
+Response type: <Response [200]>
+Response time: 1720088214.50417
+Service time:  0.043121
+------------------------------------------
+Start request: 1720088214.504307
+Response type: <Response [200]>
+Response time: 1720088214.5407438
+Service time:  0.0364368
+------------------------------------------
+Start request: 1720088214.541122
+Response type: <Response [200]>
+Response time: 1720088214.5784261
+Service time:  0.0373041
+------------------------------------------
+Start request: 1720088214.5785558
+Response type: <Response [200]>
+Response time: 1720088214.612812
+Service time:  0.0342562
+------------------------------------------
+Start request: 1720088214.6129248
+Response type: <Response [200]>
+Response time: 1720088214.646503
+Service time:  0.0335782
+------------------------------------------
+Start request: 1720088214.646639
+Response type: <Response [200]>
+Response time: 1720088214.682095
+Service time:  0.035456
+------------------------------------------
+Start request: 1720088214.682493
+Response type: <Response [200]>
+Response time: 1720088214.718266
+Service time:  0.035773
+------------------------------------------
+Start request: 1720088214.718702
+Response type: <Response [200]>
+Response time: 1720088214.757621
+Service time:  0.038919
+------------------------------------------
+Start request: 1720088214.757746
+Response type: <Response [200]>
+Response time: 1720088214.7922199
+Service time:  0.0344739
+------------------------------------------
+Start request: 1720088214.792373
+Response type: <Response [200]>
+Response time: 1720088214.8409998
+Service time:  0.0486268
+------------------------------------------
+Start request: 1720088214.841154
+Response type: <Response [200]>
+Response time: 1720088214.882933
+Service time:  0.041779
+------------------------------------------
+Start request: 1720088214.883121
+Response type: <Response [200]>
+Response time: 1720088214.9302962
+Service time:  0.0471752
+------------------------------------------
+Start request: 1720088214.930444
+Response type: <Response [200]>
+Response time: 1720088214.966581
+Service time:  0.036137
+------------------------------------------
+Start request: 1720088214.966711
+Response type: <Response [200]>
+Response time: 1720088215.009931
+Service time:  0.043220
+------------------------------------------
+Start request: 1720088215.0102558
+Response type: <Response [200]>
+Response time: 1720088215.047373
+Service time:  0.0371172
+------------------------------------------
+Start request: 1720088215.047688
+Response type: <Response [200]>
+Response time: 1720088215.085118
+Service time:  0.037430
+------------------------------------------
+Start request: 1720088215.085263
+Response type: <Response [200]>
+Response time: 1720088215.122457
+Service time:  0.037194
+------------------------------------------
+Start request: 1720088215.122595
+Response type: <Response [200]>
+Response time: 1720088215.159789
+Service time:  0.037194
+------------------------------------------
+Start request: 1720088215.1599739
+Response type: <Response [200]>
+Response time: 1720088215.202531
+Service time:  0.0425571
+------------------------------------------
+Start request: 1720088215.202676
+Response type: <Response [200]>
+Response time: 1720088215.264451
+Service time:  0.061775
+------------------------------------------
+Start request: 1720088215.264569
+Response type: <Response [200]>
+Response time: 1720088215.311807
+Service time:  0.047238
+------------------------------------------
+Start request: 1720088215.3119948
+Response type: <Response [200]>
+Response time: 1720088215.349525
+Service time:  0.0375302
+------------------------------------------
+Start request: 1720088215.349683
+Response type: <Response [200]>
+Response time: 1720088215.3860302
+Service time:  0.0363472
+------------------------------------------
+Start request: 1720088215.386247
+Response type: <Response [200]>
+Response time: 1720088215.424431
+Service time:  0.038184
+------------------------------------------
+Start request: 1720088215.4252129
+Response type: <Response [200]>
+Response time: 1720088215.4612548
+Service time:  0.0360419
+------------------------------------------
+Start request: 1720088215.461539
+Response type: <Response [200]>
+Response time: 1720088215.498967
+Service time:  0.037428
+------------------------------------------
+Start request: 1720088215.499151
+Response type: <Response [200]>
+Response time: 1720088215.534293
+Service time:  0.035142
+------------------------------------------
+Start request: 1720088215.534713
+Response type: <Response [200]>
+Response time: 1720088215.5749152
+Service time:  0.0402022
+------------------------------------------
+Start request: 1720088215.5750751
+Response type: <Response [200]>
+Response time: 1720088215.610077
+Service time:  0.0350019
+------------------------------------------
+Start request: 1720088215.61033
+Response type: <Response [200]>
+Response time: 1720088215.6463602
+Service time:  0.0360302
+------------------------------------------
+Start request: 1720088215.646546
+Response type: <Response [200]>
+Response time: 1720088215.6870568
+Service time:  0.0405108
+------------------------------------------
+Start request: 1720088215.687288
+Response type: <Response [200]>
+Response time: 1720088215.7238138
+Service time:  0.0365258
+------------------------------------------
+Start request: 1720088215.7239912
+Response type: <Response [200]>
+Response time: 1720088215.761764
+Service time:  0.0377728
+------------------------------------------
+Start request: 1720088215.761976
+Response type: <Response [200]>
+Response time: 1720088215.7983592
+Service time:  0.0363832
+------------------------------------------
+Start request: 1720088215.798697
+Response type: <Response [200]>
+Response time: 1720088215.834605
+Service time:  0.035908
+------------------------------------------
+Start request: 1720088215.8348129
+Response type: <Response [200]>
+Response time: 1720088215.88145
+Service time:  0.0466371
+------------------------------------------
+Start request: 1720088215.881588
+Response type: <Response [200]>
+Response time: 1720088215.924286
+Service time:  0.042698
+------------------------------------------
+Start request: 1720088215.924402
+Response type: <Response [200]>
+Response time: 1720088215.9599848
+Service time:  0.0355828
+------------------------------------------
+Start request: 1720088215.96012
+Response type: <Response [200]>
+Response time: 1720088215.995083
+Service time:  0.034963
+------------------------------------------
+Start request: 1720088215.995224
+Response type: <Response [200]>
+Response time: 1720088216.037359
+Service time:  0.042135
+------------------------------------------
+Start request: 1720088216.037545
+Response type: <Response [200]>
+Response time: 1720088216.07693
+Service time:  0.039385
+------------------------------------------
+Start request: 1720088216.077046
+Response type: <Response [200]>
+Response time: 1720088216.1115048
+Service time:  0.0344588
+------------------------------------------
+Start request: 1720088216.1116438
+Response type: <Response [200]>
+Response time: 1720088216.14659
+Service time:  0.0349462
+------------------------------------------
+Start request: 1720088216.146753
+Response type: <Response [200]>
+Response time: 1720088216.187839
+Service time:  0.041086
+------------------------------------------
+Start request: 1720088216.188077
+Response type: <Response [200]>
+Response time: 1720088216.2241201
+Service time:  0.0360431
+------------------------------------------
+Start request: 1720088216.224243
+Response type: <Response [200]>
+Response time: 1720088216.263065
+Service time:  0.038822
+------------------------------------------
+Start request: 1720088216.263328
+Response type: <Response [200]>
+Response time: 1720088216.3004348
+Service time:  0.0371068
+------------------------------------------
+Start request: 1720088216.300666
+Response type: <Response [200]>
+Response time: 1720088216.3450408
+Service time:  0.0443748
+------------------------------------------
+Start request: 1720088216.345189
+Response type: <Response [200]>
+Response time: 1720088216.390389
+Service time:  0.045200
+------------------------------------------
+Start request: 1720088216.390768
+Response type: <Response [200]>
+Response time: 1720088216.439737
+Service time:  0.048969
+------------------------------------------
+Start request: 1720088216.439902
+Response type: <Response [200]>
+Response time: 1720088216.4823942
+Service time:  0.0424922
+------------------------------------------
+Start request: 1720088216.482552
+Response type: <Response [200]>
+Response time: 1720088216.52973
+Service time:  0.047178
+------------------------------------------
+Start request: 1720088216.5299342
+Response type: <Response [200]>
+Response time: 1720088216.570795
+Service time:  0.0408608
+------------------------------------------
+Start request: 1720088216.571031
+Response type: <Response [200]>
+Response time: 1720088216.608695
+Service time:  0.037664
+------------------------------------------
+Start request: 1720088216.6089752
+Response type: <Response [200]>
+Response time: 1720088216.646442
+Service time:  0.0374668
+------------------------------------------
+Start request: 1720088216.6467142
+Response type: <Response [200]>
+Response time: 1720088216.679368
+Service time:  0.0326538
+------------------------------------------
+Start request: 1720088216.679605
+Response type: <Response [200]>
+Response time: 1720088216.720345
+Service time:  0.040740
+------------------------------------------
+Start request: 1720088216.7204852
+Response type: <Response [200]>
+Response time: 1720088216.7571251
+Service time:  0.0366399
+------------------------------------------
+Start request: 1720088216.757677
+Response type: <Response [200]>
+Response time: 1720088216.796021
+Service time:  0.038344
+------------------------------------------
+Start request: 1720088216.796214
+Response type: <Response [200]>
+Response time: 1720088216.8335412
+Service time:  0.0373272
+------------------------------------------
+Start request: 1720088216.83375
+Response type: <Response [200]>
+Response time: 1720088216.882252
+Service time:  0.048502
+------------------------------------------
+Start request: 1720088216.882478
+Response type: <Response [200]>
+Response time: 1720088216.92959
+Service time:  0.047112
+------------------------------------------
+Start request: 1720088216.9298182
+Response type: <Response [200]>
+Response time: 1720088216.969482
+Service time:  0.0396638
+------------------------------------------
+Start request: 1720088216.969773
+Response type: <Response [200]>
+Response time: 1720088217.007765
+Service time:  0.037992
+------------------------------------------
+Start request: 1720088217.008072
+Response type: <Response [200]>
+Response time: 1720088217.044362
+Service time:  0.036290
+------------------------------------------
+Start request: 1720088217.04454
+Response type: <Response [200]>
+Response time: 1720088217.087557
+Service time:  0.043017
+------------------------------------------
+Start request: 1720088217.0878851
+Response type: <Response [200]>
+Response time: 1720088217.132868
+Service time:  0.0449829
+------------------------------------------
+Start request: 1720088217.133131
+Response type: <Response [200]>
+Response time: 1720088217.17682
+Service time:  0.043689
+------------------------------------------
+Start request: 1720088217.176948
+Response type: <Response [200]>
+Response time: 1720088217.2225878
+Service time:  0.0456398
+------------------------------------------
+Start request: 1720088217.2227468
+Response type: <Response [200]>
+Response time: 1720088217.2633018
+Service time:  0.0405550
+------------------------------------------
+Start request: 1720088217.2635572
+Response type: <Response [200]>
+Response time: 1720088217.298972
+Service time:  0.0354148
+------------------------------------------
+Start request: 1720088217.29953
+Response type: <Response [200]>
+Response time: 1720088217.3377411
+Service time:  0.0382111
+------------------------------------------
+Start request: 1720088217.337922
+Response type: <Response [200]>
+Response time: 1720088217.372512
+Service time:  0.034590
+------------------------------------------
+Start request: 1720088217.3728871
+Response type: <Response [200]>
+Response time: 1720088217.4111621
+Service time:  0.0382750
+------------------------------------------
+Start request: 1720088217.411385
+Response type: <Response [200]>
+Response time: 1720088217.443083
+Service time:  0.031698
+------------------------------------------
+Start request: 1720088217.443213
+Response type: <Response [200]>
+Response time: 1720088217.477518
+Service time:  0.034305
+------------------------------------------
+Start request: 1720088217.4776478
+Response type: <Response [200]>
+Response time: 1720088217.5190122
+Service time:  0.0413644
+------------------------------------------
+Start request: 1720088217.519263
+Response type: <Response [200]>
+Response time: 1720088217.554274
+Service time:  0.035011
+------------------------------------------
+Start request: 1720088217.554395
+Response type: <Response [200]>
+Response time: 1720088217.59111
+Service time:  0.036715
+------------------------------------------
+Start request: 1720088217.591295
+Response type: <Response [200]>
+Response time: 1720088217.624345
+Service time:  0.033050
+------------------------------------------
+Start request: 1720088217.6245792
+Response type: <Response [200]>
+Response time: 1720088217.6610172
+Service time:  0.0364380
+------------------------------------------
+Start request: 1720088217.661174
+Response type: <Response [200]>
+Response time: 1720088217.695606
+Service time:  0.034432
+------------------------------------------
+Start request: 1720088217.695922
+Response type: <Response [200]>
+Response time: 1720088217.7350988
+Service time:  0.0391768
+------------------------------------------
+Start request: 1720088217.735245
+Response type: <Response [200]>
+Response time: 1720088217.7730958
+Service time:  0.0378508
+------------------------------------------
+Start request: 1720088217.7733052
+Response type: <Response [200]>
+Response time: 1720088217.8107111
+Service time:  0.0374059
+------------------------------------------
+Start request: 1720088217.8109062
+Response type: <Response [200]>
+Response time: 1720088217.852086
+Service time:  0.0411798
+------------------------------------------
+Start request: 1720088217.8522618
+Response type: <Response [200]>
+Response time: 1720088217.889193
+Service time:  0.0369312
+------------------------------------------
+Start request: 1720088217.889336
+Response type: <Response [200]>
+Response time: 1720088217.937315
+Service time:  0.047979
+------------------------------------------
+Start request: 1720088217.9376068
+Response type: <Response [200]>
+Response time: 1720088217.976922
+Service time:  0.0393152
+------------------------------------------
+Start request: 1720088217.977102
+Response type: <Response [200]>
+Response time: 1720088218.016302
+Service time:  0.039200
+------------------------------------------
+Start request: 1720088218.016591
+Response type: <Response [200]>
+Response time: 1720088218.059721
+Service time:  0.043130
+------------------------------------------
+Start request: 1720088218.0599082
+Response type: <Response [200]>
+Response time: 1720088218.1180701
+Service time:  0.0581619
+------------------------------------------
+Start request: 1720088218.1183438
+Response type: <Response [200]>
+Response time: 1720088218.156173
+Service time:  0.0378292
+------------------------------------------
+Start request: 1720088218.156299
+Response type: <Response [200]>
+Response time: 1720088218.193619
+Service time:  0.037320
+------------------------------------------
+Start request: 1720088218.1937652
+Response type: <Response [200]>
+Response time: 1720088218.2292202
+Service time:  0.0354550
+------------------------------------------
+Start request: 1720088218.2293792
+Response type: <Response [200]>
+Response time: 1720088218.272609
+Service time:  0.0432298
+------------------------------------------
+Start request: 1720088218.27273
+Response type: <Response [200]>
+Response time: 1720088218.311054
+Service time:  0.038324
+------------------------------------------
+Start request: 1720088218.311209
+Response type: <Response [200]>
+Response time: 1720088218.3414478
+Service time:  0.0302388
+------------------------------------------
+Start request: 1720088218.34215
+Response type: <Response [200]>
+Response time: 1720088218.383896
+Service time:  0.041746
+------------------------------------------
+Start request: 1720088218.3840692
+Response type: <Response [200]>
+Response time: 1720088218.420633
+Service time:  0.0365638
+------------------------------------------
+Start request: 1720088218.420816
+Response type: <Response [200]>
+Response time: 1720088218.466463
+Service time:  0.045647
+------------------------------------------
+Start request: 1720088218.466621
+Response type: <Response [200]>
+Response time: 1720088218.5059452
+Service time:  0.0393242
+------------------------------------------
+Start request: 1720088218.5061498
+Response type: <Response [200]>
+Response time: 1720088218.5551429
+Service time:  0.0489931
+------------------------------------------
+Start request: 1720088218.5553432
+Response type: <Response [200]>
+Response time: 1720088218.600459
+Service time:  0.0451158
+------------------------------------------
+Start request: 1720088218.601002
+Response type: <Response [200]>
+Response time: 1720088218.641686
+Service time:  0.040684
+------------------------------------------
+Start request: 1720088218.641823
+Response type: <Response [200]>
+Response time: 1720088218.68143
+Service time:  0.039607
+------------------------------------------
+Start request: 1720088218.6816351
+Response type: <Response [200]>
+Response time: 1720088218.718839
+Service time:  0.0372039
+------------------------------------------
+Start request: 1720088218.719124
+Response type: <Response [200]>
+Response time: 1720088218.761143
+Service time:  0.042019
+------------------------------------------
+Start request: 1720088218.761489
+Response type: <Response [200]>
+Response time: 1720088218.807935
+Service time:  0.046446
+------------------------------------------
+Start request: 1720088218.808074
+Response type: <Response [200]>
+Response time: 1720088218.845829
+Service time:  0.037755
+------------------------------------------
+
+
+The sum is:		47.2806895
+With average:	0.0472806895

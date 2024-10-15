@@ -49,6 +49,7 @@ FILE INFO
 - build_start.bat/sh:   will build and start the project.
 - generalReset.bat/sh:  will remove all volumes and reset to default the database and the project
 - removeAll.bat/sh:     will remove all the volumes and postgres/data
+- 01_TESTs:             it contains all python tests
 
 
 INSTRUCTION
@@ -57,7 +58,7 @@ INSTRUCTION
 2) From terminal:
     - For windows users       ./build_start.bat
     - For linux/macos users   sh ./build_start.sh
-3) Wait postgres create and initializate the DB and nodes starts (this take about 3 minutes)
+3) Wait postgres create and initializate the DB and nodes starts
 4) Go to http://localhost/
 5) Several user are inserted into default database:
     - Doctor User:
@@ -66,3 +67,25 @@ INSTRUCTION
     - Patient User:
         . username: <pat@meditrex.it>
         . password: <123>
+
+
+FAILURE DETECTOR DASHBOARD PAGE
+- LINK: http://localhost/failure-detector?secret=mysecret
+- To disable Failure Detector change the FAILURE_DETECTOR variable inside .env file in "no"
+- To enable Failure Detector change the FAILURE_DETECTOR variable inside .env file in "yes"
+
+
+PAXOS TEST
+1) Move inside '01_TESTs' directory
+2) Run 'python3 paxos_text.py <EMAIL>' where <EMAIL> is the email for the signup test (example: 'email@email.it')
+3) Look inside Meditrex Log in Docker for PAXOS logs
+
+
+DEPENDABILITY TEST
+1) Move inside '01_TESTs' directory
+2) Run 'python3 dependability_test.py <FILE_NAME>' where <FILE_NAME> is the name of the report that will be generated (example: 'report.txt').
+3) Open report.txt to analyze the report
+
+
+For the ARRIVAL TIME AVERAGE, you need to generate two report, after this:
+- Run 'python3 arrival_time_avg.py <FILE_1> <FILE_2>' where <FILE_1> and <FILE_2> are the name of two report files.

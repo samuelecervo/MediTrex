@@ -34,7 +34,9 @@ services:
       - ARTICLE_API_KEY=${ARTICLE_API_KEY}
       - POSTGRES_PORT=${POSTGRES_PORT}
       - POSTGRES_HOST=${POSTGRES_HOST}
+      - FD_DELTA=${FD_DELTA}
       - INSTANCE=MASTER
+      - FAILURE_DETECTOR=${FAILURE_DETECTOR}
     depends_on:
       - postgres
     healthcheck:

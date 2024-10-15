@@ -76,16 +76,25 @@ a:hover{
   transition: 0.3s;
 }
 
+#overlay{
+  z-index: 900;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+  top: 0;
+	background: var(--background-color) url('../assets/img/cambioPagina.gif') no-repeat center;
+}
 
 /* NAVBAR */
 .MTnavbar {
+  position: relative;
+  z-index: 1000;
   top:0;
   left:0;
   font-family: var(--primary-font);
   width: 100%;
   height: 60px;
   display: flex;
-  z-index: 999;
   background-color: var(--primary-blue);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -182,13 +191,4 @@ a:hover{
   height: 70px;
   width: 70px;
   padding: 10px;
-}
-
-#overlay{
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	background: var(--background-color) url('../assets/img/cambioPagina.gif') no-repeat center;
-	z-index: 999;
-  top: 60px;
 }

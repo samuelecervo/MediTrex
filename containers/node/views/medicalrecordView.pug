@@ -21,7 +21,10 @@ block content
         p#mrGender=patient.gender
       .groupBox
         p.groupHeader GP Name:
-        p#mrGP=gpName
+        if gpName == ''
+          p#mrGP="The patient hasn't requested a GP yet."
+        else
+          p#mrGP=gpName
       .groupBox
         p.groupHeader Email:
         p#mrEmail=patient.email

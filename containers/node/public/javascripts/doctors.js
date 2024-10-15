@@ -87,8 +87,9 @@ function checkInTreatment() {
                 var mainBtn = $(`#card${pair.doctor} > .solu_description > .buttons > .contactBtn`);
                 mainBtn.prop('disabled', true);
                 mainBtn.css("background", "grey");
-                mainBtn.text("Request already sent");
+                mainBtn.text("Request sent");
                 if (pair.pending == false) {
+                    mainBtn.hide();
                     if (pair.gp == 0) {
                         var newButton = $("<button></button>");
                         newButton.addClass("read_more_btn GPBtn");

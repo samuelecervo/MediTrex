@@ -19,6 +19,7 @@ services:
 
   node:
     build: "./containers/node"
+    container_name: "node_master"
     restart: always
     networks:
       - app

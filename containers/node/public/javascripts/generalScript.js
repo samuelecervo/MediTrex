@@ -1,6 +1,6 @@
 // TRANSITION BETWEEN PAGES
-
 $(document).ready(function () {
+    $('body').css('overflow', 'hidden');
     var preloader = $('#overlay');
 	setTimeout(() => {
         preloader.css({
@@ -10,5 +10,6 @@ $(document).ready(function () {
     }, 800);
     setTimeout(() => {
         preloader.css('display', 'none');
+        $('body').css('overflow', 'auto');
     }, 1000);
 });

@@ -71,7 +71,11 @@ function setMedicalRecord() {
             data.forEach(function (mrData) {
                 $('#mrName').text(mrData.name + ' ' + mrData.surname);
                 $('#mrGender').text(mrData.gender);
-                $('#mrGP').text(mrData.gp);
+                if (mrData.gp == 0) {
+                    $('#mrGP').text("You haven't requested a GP yet.");
+                } else {
+                    $('#mrGP').text(mrData.gp);
+                }
                 $('#mrEmail').text(mrData.email);
 
                 $("#smoke" + mrData.smoke).prop("checked", true);

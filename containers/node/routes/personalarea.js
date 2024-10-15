@@ -161,7 +161,9 @@ router.post('/profile/updateAvatar', async function (req, res, next) {
   }
 
   const uploadedFile = req.files.imgFile;
-  var path = '/uploads/' + uploadedFile.name;
+  uploadedFile.name += "_"+req.session.user.userid;
+  hashedName = md5(uploadedFile.name);
+  var path = '/uploads/' + hashedName;
 
   try {
     await uploadedFile.mv('public' + path);

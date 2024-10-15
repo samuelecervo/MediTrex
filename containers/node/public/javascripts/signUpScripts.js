@@ -23,8 +23,6 @@ $(document).ready(function () {
 	$("#patientSignUp").on("submit", function (event) {
 		var password = $(this).find("#formSignUpPassword").val();
 		var confirmPassword = $(this).find("#formSignUpConfPassword").val();
-		//console.log("P: " + password);
-		//console.log("C: " +confirmPassword);
 		if (password!==confirmPassword) {
 			alert("Passwords don't match!");
 			event.preventDefault();

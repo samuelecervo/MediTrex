@@ -120,7 +120,12 @@ async function setMedicationsList(currentDate) {
 
                     if (medication.time) {
                         var newHour = medication.time.split(":")[0]*1;
-                        if (i > 1) newHour+=24/i;
+                        if (forCounter > 1) {
+                            newHour+=(24*i/forCounter);
+                            console.log("NEW HOUR:" + newHour);
+                            newHour = newHour%24;
+                            console.log("NEW HOUR:" + newHour + " - FINE");
+                        }
                         var frequencyLabel = newHour + ":" + medication.time.split(":")[1];
                         newCell = $('<td class="col-4"></td>').text(frequencyLabel);
                     } else newCell = $('<td class="col-4"></td>').text('As needed');

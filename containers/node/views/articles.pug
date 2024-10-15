@@ -18,14 +18,3 @@ block content
           .articleDesc=article.content
         .articleFooter
             button.btn.btn-primary.mb-2.butt.signButton.readMoreButton(type='button' data-link=article.url) Read more...
-  
-  #articleModal.modal.modal-lg(role='dialog')
-    .modal-dialog
-        .modal-content
-            .modal-header
-                h2 See full article
-                button.btn-close(type='button' data-bs-dismiss='modal' aria-label="Close")
-            .modal-body.articleModal-body
-              iframe#articlePage(width='660', height='371', src="")
-            .modal-footer
-                button.btn.btn-primary(type='button' data-bs-dismiss='modal') Close

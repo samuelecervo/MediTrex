@@ -1,0 +1,777 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0048)http://softwarecost.org/tools/COCOMO/?authuser=1 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="Author" content="Ray Madachy">
+  <meta name="description" content="COCOMO II">
+  <meta name="keywords" content="COCOMO tool, COCOMO Suite tool, COCOMO, COCOMO II - Constructive Cost Model, COCOMO Suite of Constructive Cost Models, Expert COSYSMO - Systems Engineering Cost Model Risk Advisor, ODC COQUALMO - Orthogonal Defect Classification Constructive Quality Model, COSYSMO, COSYSMO and COCOMO Cost Models with Monte Carlo Risk Analysis, software cost estimation, systems cost estimation, cost estimation, Ray Madachy, Raymond Madachy">
+  
+<style type="text/css">
+.style1 {color: #00FFCC}
+.style2 {color: #FF0000}
+.style3 {color: #669900}
+</style>
+
+<title>COCOMO II - Constructive Cost Model</title>
+<style> <!--
+BODY, P, SPAN, DIV, TABLE, TD, TH, UL, OL, LI {
+  font-family: Arial, Helvetica;
+  font-size: 12px;
+  color: black;
+}
+--> </style>
+</head>
+<body marginwidth="10" marginheight="10" topmargin="10" leftmargin="10">
+
+
+<form name="f1" method="post">
+
+<input type="hidden" name="startCOCOMO" value="1">
+
+<table style="width: 100%; text-align: left;" border="0" cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="width: 101px; vertical-align: top;"><img alt="" src="./MEDITREX COCOMO II - Constructive Cost Model_files/blank.png"><br>
+
+      </td>
+      <td style="text-align: center; vertical-align: top;">
+
+      <h3>COCOMO II - Constructive Cost Model</h3>
+
+      </td>
+      <td style="width: 160px; vertical-align: top; background-color: rgb(240, 240, 240);">
+
+      <table style="text-align: left; width: 100%;" border="1" bordercolor="silver" cellpadding="2" cellspacing="0">
+	<tbody>
+	<tr>
+	<td style="vertical-align: top;">
+
+
+
+
+Monte Carlo Risk
+<select name="MonteCarlo" onchange="f1.submit()">
+<option value="MonteCarlo_On">On
+</option><option value="MonteCarlo_Off" selected="">Off
+</option></select><br>
+
+Auto Calculate
+<select name="AutoCalculate" onchange="f1.submit()">
+<option value="On">On
+</option><option value="Off" selected="">Off
+</option></select>
+
+     </td>
+</tr>
+</tbody>
+</table>
+
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+<br>
+
+
+
+<b>Software Size</b>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sizing Method <select name="size_type" onchange="f1.submit()">
+
+<option value="SLOC">Source Lines of Code</option>
+
+<option value="Function Points" selected="">Function Points</option>
+
+</select>
+
+<br><table style="width: 100%; text-align: left;
+border=" 1"="" cellpadding="1" cellspacing="0"><tbody><tr><td style="width: 101px; vertical-align: top;"><table border="0">
+
+  <tbody><tr><td align="right">Unadjusted Function Points</td>
+
+  <td> <input type="text" name="function_points" size="8" maxlength="8" value="110">  </td>
+
+  <td align="right">Language</td>
+
+  <td><select name="language">
+
+  <option>Basic
+
+  </option><option>C
+  
+          </option><option>Database - Default
+
+  </option><option>Java
+    </option><option>PERL
+    
+        </option><option selected="">3rd Generation Language
+
+
+
+
+
+  </option></select></td>
+
+</tr></tbody></table>
+
+<br></td><td style="text-align: left; vertical-align: top;"></td>
+</tr></tbody></table><b>&nbsp;Software Scale Drivers </b>
+
+
+
+<table border="0"><tbody><tr valign="top">
+
+<td>
+
+  <table border="0"><tbody><tr>
+
+  <td align="left">Precedentedness</td>
+
+  <td><select name="prec">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+  </option></select></td>
+
+  </tr><tr>
+
+  <td align="left">Development Flexibility</td>
+
+  <td><select name="flex">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+  </option></select></td>
+
+  </tr>
+
+<tr>
+
+  <td><br>
+  <b>Software Cost Drivers</b></td>
+
+  </tr>
+
+  <tr>
+
+  <td><b>Product</b></td>
+
+  </tr>
+
+<tr>
+
+<td align="left">Required Software Reliability</td>
+
+<td>
+
+<select name="rely">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">Data Base Size</td>
+
+<td>
+
+<select name="data">
+
+  <option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">Product Complexity</td>
+
+<td>
+
+<select name="cplx">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">Developed for Reusability</td>
+
+<td>
+
+<select name="ruse">
+
+  <option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+</option></select>
+
+</td>
+
+</tr><tr>
+
+<td align="left">Documentation Match to Lifecycle Needs</td>
+
+<td>
+
+<select name="docu">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+  <td>&nbsp;</td>
+
+  </tr>
+
+  <tr>
+
+  <td>&nbsp;</td>
+
+  </tr>
+
+
+
+     </tbody></table>
+
+</td>
+
+<td>
+
+  <table border="0"><tbody><tr>
+
+    <td align="left">Architecture / Risk Resolution</td>
+
+  <td><select name="resl">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+  </option></select></td>  </tr>
+
+    <tr><td align="left">Team Cohesion</td>
+
+   <td><select name="team">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+  </option></select></td>
+
+  </tr>
+
+<tr>
+
+  <td><b>&nbsp;</b></td>
+
+  </tr>
+
+<tr>
+
+</tr><tr>
+
+  <td><br><b>Personnel</b></td>
+
+  </tr>
+
+<tr>
+
+<td align="left">Analyst Capability</td>
+
+<td>
+
+<select name="acap">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">Programmer Capability</td>
+
+<td>
+
+<select name="pcap">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">Personnel Continuity</td>
+
+<td>
+
+<select name="pcon">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">Application Experience</td>
+
+<td>
+
+<select name="apex">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal">Nominal
+
+  </option><option value="High" selected="">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">Platform Experience</td>
+
+<td>
+
+<select name="pexp">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal">Nominal
+
+  </option><option value="High" selected="">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">Language and Toolset Experience</td>
+
+<td>
+
+<select name="ltex">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal">Nominal
+
+  </option><option value="High" selected="">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+  </tr>
+
+
+
+    </tbody></table>
+
+</td>
+
+<td>
+
+  <table border="0"><tbody><tr>
+
+    <td align="left">Process Maturity</td>
+
+   <td><select name="pmat">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+  </option></select></td>  </tr>
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+  </tr>
+
+  <tr>
+
+  </tr><tr>
+
+  <td><b>&nbsp;</b></td>
+
+  </tr>
+
+<tr>
+
+</tr><tr>
+
+    <td><br><b>Platform</b></td>
+
+  </tr>
+
+<tr>
+
+<td align="left">Time Constraint</td>
+
+<td>
+
+<select name="time">
+
+  <option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+</option></select>
+
+</td>
+
+</tr>
+
+
+
+<tr>
+
+<td align="left">Storage Constraint</td>
+
+<td>
+
+<select name="stor">
+
+  <option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+</option></select>
+
+</td>
+
+</tr>
+
+
+
+<tr>
+
+<td align="left">Platform Volatility</td>
+
+<td>
+
+<select name="pvol">
+
+  <option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+   <tr>
+
+    <td><br><b>Project</b></td>
+
+  </tr>
+
+<tr>
+
+<td align="left">Use of Software Tools</td>
+
+<td>
+
+<select name="tool">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+</option></select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="left">Multisite Development</td>
+
+<td>
+
+<select name="site">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal">Nominal
+
+  </option><option value="High" selected="">High
+
+  </option><option value="Very_High">Very High
+
+  </option><option value="Extra_High">Extra High
+
+</option></select></td>
+
+</tr>
+
+<tr><td align="left">Required Development Schedule</td>
+
+<td>
+
+<select name="sced">
+
+  <option value="Very_Low">Very Low
+
+  </option><option value="Low">Low
+
+  </option><option value="Nominal" selected="">Nominal
+
+  </option><option value="High">High
+
+  </option><option value="Very_High">Very High
+
+</option></select></td>
+
+</tr>
+
+      </tbody></table>
+
+</td></tr>
+
+</tbody></table>
+ 
+<b>Maintenance</b> <select name="software_maintenance" onchange="f1.submit()">
+<option value="Off" selected="">Off</option>
+<option value="On">On</option>
+</select>
+
+
+
+<br><br><b>Software Labor Rates</b><br>
+Cost per Person-Month (Dollars)<input type="text" name="software_labor_cost_per_PM" size="8" maxlength="8" align="right" value=""> <br><input type="submit" name="submit2" value="Calculate"><hr><b>Results</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</form>
+<br><table style="text-align: left;" border="0" cellpadding="1" cellspacing="1">
+
+<tbody>
+<tr>
+
+<td style="vertical-align: top; text-align: left;"><b>Software Development (Elaboration and Construction)</b><br><br>Effort = 21.8 Person-months<br>Schedule = 9.8 Months<br>Cost = $0<br><br>Total Equivalent Size = 8800&nbsp;SLOC <br>Effort Adjustment Factor (EAF) = 0.68<br><br><b>Acquisition Phase Distribution</b><br><span class="style2">
+</span><table border="1" cellpadding="1" cellspacing="0" cols="3" width="200 pixels"><tbody><tr><td>Phase</td><td>Effort (Person-months)</td><td>Schedule (Months)</td><td>Average Staff</td> <td>Cost (Dollars)</td></tr>
+<tr>
+
+<td><font color="red">Inception</font></td><td align="CENTER">1.3</td><td align="CENTER">1.2</td><td align="CENTER">1.1</td> <td>$0</td></tr>
+
+<tr><td><font color="800000">Elaboration</font></td><td align="CENTER">5.2</td><td align="CENTER">3.7</td><td align="CENTER">1.4</td> <td>$0</td></tr>
+
+<tr><td><font color="$construction_color">Construction</font></td><td align="CENTER">16.6</td><td align="CENTER">6.1</td><td align="CENTER">2.7</td> <td>$0</td></tr>
+
+
+<tr><td><div class="style2"><font color="green">Transition</font>
+</div></td><td align="CENTER">2.6</td><td align="CENTER">1.2</td><td align="CENTER">2.1</td> <td>$0</td></tr></tbody></table><br></td>
+
+<td style="vertical-align: top; text-align: center;"><b>Staffing Profile</b><br><img src="./MEDITREX COCOMO II - Constructive Cost Model_files/chart">
+
+
+
+</td>
+</tr>
+</tbody>
+</table><b>Software Effort Distribution for RUP/MBASE (Person-Months)</b><br>
+<table border="1" cellpadding="1" cellspacing="0" cols="5" width="200 pixels"><tbody><tr><td>Phase/Activity</td><td>Inception</td><td>Elaboration</td><td>Construction</td><td>Transition</td></tr>
+<tr><td>Management</td><td align="CENTER"><font color="#000000"><font color="#000000">0.2</font></font></td><td align="CENTER"><font color="#000000">0.6</font></td><td align="CENTER">1.7</td><td align="CENTER"><font color="##000000">0.4</font></td></tr>
+<tr><td>Environment/CM</td><td align="CENTER"><font color="#000000"><font color="#000000">0.1</font></font></td><td align="CENTER"><font color="#000000">0.4</font></td><td align="CENTER">0.8</td><td align="CENTER"><font color="##000000">0.1</font></td></tr>
+<tr><td>Requirements</td><td align="CENTER"><font color="#000000"><font color="#000000">0.5</font></font></td><td align="CENTER"><font color="#000000">0.9</font></td><td align="CENTER"><font color="#000000">1.3</font></td><td align="CENTER"><font color="##000000">0.1</font></td></tr>
+<tr><td>Design</td><td align="CENTER"><font color="##000000">        0.2</font></td><td align="CENTER"><font color="##000000">1.9</font></td><td align="CENTER"><font color="##000000">2.6</font></td><td align="CENTER"><font color="##000000">0.1</font></td></tr>
+<tr><td>Implementation</td><td align="CENTER"><font color="##000000">0.1</font></td><td align="CENTER"><font color="##000000">0.7</font></td><td align="CENTER">5.6</td><td align="CENTER"><font color="##000000">0.5</font></td></tr>
+<tr><td>Assessment</td><td align="CENTER"><font color="#000000">0.1</font></td><td align="CENTER"><font color="#000000">0.5</font></td><td align="CENTER">4.0</td><td align="CENTER"><font color="##000000">0.6</font></td></tr>
+<tr><td>Deployment</td><td align="CENTER"><font color="#000000">0.0</font></td><td align="CENTER"><font color="#000000">0.2</font></td><td align="CENTER"><font color="#000000">0.5</font></td><td align="CENTER"><font color="##000000">0.8</font></td></tr></tbody></table>
+
+
+<p></p>Your output file is at <a href="http://softwarecost.org/tools/COCOMO/data/COCOMO_October_14_2024_11_35_33_575251.txt">http://softwarecost.org/tools/COCOMO/data/COCOMO_October_14_2024_11_35_33_575251.txt</a> <br>
+<br>
+Created by Ray Madachy at the Naval Postgraduate School.  For more information contact him at rjmadach@nps.edu.
+
+
+<div id="aecbfghaadadfehaaaajajadifhhjaed" style="color-scheme: initial; forced-color-adjust: initial; mask: initial; math-depth: initial; position: relative; position-anchor: initial; text-size-adjust: initial; appearance: initial; color: initial; font: initial; font-palette: initial; font-synthesis: initial; inset-area: initial; position-area: initial; text-orientation: initial; text-rendering: initial; text-spacing-trim: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; anchor-name: initial; animation-composition: initial; animation: initial; app-region: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; empty-cells: initial; field-sizing: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; interpolate-size: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask-type: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overlay: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position-try: initial; position-visibility: initial; quotes: initial; r: initial; resize: initial; rotate: initial; ruby-align: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll-timeline: initial; scrollbar-color: initial; scrollbar-gutter: initial; scrollbar-width: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; white-space: initial; timeline-scope: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-timeline: initial; view-transition-class: initial; view-transition-name: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;"></div></body></html>

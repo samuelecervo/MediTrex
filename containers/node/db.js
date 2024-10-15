@@ -330,7 +330,7 @@ class functions {
 
   static getPatientsList(doctorId) {
     return new Promise((resolve, reject) => {
-      client.query("SELECT u.* FROM InTreatment i JOIN Users u ON i.patient=u.userId WHERE i.doctor= $1", [doctorId], (err, res) => {
+      client.query("SELECT u.* FROM InTreatment i JOIN Users u ON i.patient=u.userId WHERE i.doctor= $1 AND pending=false", [doctorId], (err, res) => {
         if (err) {
           console.log("DB: Error in getPatientsList: " + err);
           return reject(err);
@@ -629,20 +629,6 @@ class functions {
       client.query("DELETE FROM Messages WHERE (sender = $1 AND recipient = $2) OR (sender = $2 AND recipient = $1)", [user1, user2], (err, res) => {
         if (err) {
           console.log("DB: Error in deleteConversation: " + err);
-          return reject(err);
-        }
-        resolve(res);
-      });
-    });
-
-
-  }
-
-  static getPatientsList(docId) {
-    return new Promise((resolve, reject) => {
-      client.query("SELECT * FROM intreatment i, Users u WHERE i.doctor=$1 AND u.userid = i.patient order by pending", [docId], (err, res) => {
-        if (err) {
-          console.log("DB: Error in getDoctorList: " + err);
           return reject(err);
         }
         resolve(res);

@@ -287,6 +287,7 @@ async function setMedicationsList(currentDate) {
         const patients = await response.json();
 
         const patientRows = await Promise.all(patients.map(async (patient) => {
+            console.log(JSON.stringify(patient));
             const newRow = $('<tr></tr>');
 
             let newCell = $('<td class="col-3"></td>').text(patient.name + ' ' + patient.surname);

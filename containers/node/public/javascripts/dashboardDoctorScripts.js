@@ -182,6 +182,7 @@ function openPrescriptionModal(id, patient) {
         })
         .then(data => {
             if (data) {
+                data = data[0];
                 $('#formMedication').val(data.medication);
                 $('#formStartingDate').val(new Date(data.fromdate).toISOString().substring(0, 10));
                 $('#formEndingDate').val(new Date(data.todate).toISOString().substring(0, 10));

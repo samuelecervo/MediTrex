@@ -87,7 +87,6 @@ CREATE TABLE IF NOT EXISTS Symptoms (
 CREATE TABLE IF NOT EXISTS MedicalRecord (
   medicalRecordId SERIAL PRIMARY KEY,
   patient INT NOT NULL,
-  gp INT DEFAULT 0,
   FOREIGN KEY (patient) REFERENCES Users(userId),
   medicalHistory VARCHAR(100) DEFAULT '',
   allergies VARCHAR(100) DEFAULT '',
@@ -137,8 +136,8 @@ INSERT INTO Appointments (patient, doctor, date, time, visited) VALUES
 (1, 2, '2024-06-25', '14:00:00', true);
 
 INSERT INTO Prescriptions (medication, patient, doctor, fromdate, todate, frequency, time) VALUES
-('Paracetamol', 5, 6, '2024-06-18', '2024-07-15', 2, '9:00:00'),
-('Augumentin', 4, 6, '2024-06-18', '2024-07-15', 2, '10:00:00'),
+('Paracetamol', 5, 6, '2024-11-05', '2024-11-08', 2, '9:00:00'),
+('Augumentin', 5, 6, '2024-11-03', '2024-11-09', 1, '10:00:00'),
 ('Brufen', 2, 1, '2024-06-18', '2024-07-14', 1, '09:30:00');
 
 INSERT INTO InTreatment (patient, doctor, pending, gp) VALUES

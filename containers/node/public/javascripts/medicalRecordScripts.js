@@ -68,13 +68,14 @@ function setMedicalRecord() {
             return response.json();
         })
         .then(data => {
+            console.log(data);
             data.forEach(function (mrData) {
                 $('#mrName').text(mrData.name + ' ' + mrData.surname);
                 $('#mrGender').text(mrData.gender);
-                if (mrData.gp == 0) {
+                if (mrData.doctorname == null) {
                     $('#mrGP').text("You haven't requested a GP yet.");
                 } else {
-                    $('#mrGP').text(mrData.gp);
+                    $('#mrGP').text("Dr. " + mrData.doctorname + " " + mrData.doctorsurname);
                 }
                 $('#mrEmail').text(mrData.email);
 

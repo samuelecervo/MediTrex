@@ -500,7 +500,7 @@ class functions {
 
   static getMedicalRecord(userId) {
     return new Promise((resolve, reject) => {
-      client.query("SELECT m.*, u.*, s.description AS symptoms FROM MedicalRecord m JOIN Users u ON m.patient=u.userId LEFT JOIN Symptoms s ON m.patient=s.patient AND s.date=CURRENT_DATE WHERE m.patient = $1", [userId], (err, res) => {
+      client.query("SELECT m.*, u.*, u2.name as doctorName, u2.surname as doctorSurname, s.description AS symptoms FROM MedicalRecord m JOIN Users u ON m.patient=u.userId LEFT JOIN Symptoms s ON m.patient=s.patient AND s.date=CURRENT_DATE LEFT JOIN intreatment i ON i.patient = u.userId LEFT JOIN users u2 ON u2.userId = i.doctor AND i.gp = 2 WHERE m.patient = $1", [userId], (err, res) => {
         if (err) {
           console.log("DB: Error in getMedicalRecord: " + err);
           return reject(err);
